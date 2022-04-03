@@ -1,0 +1,46 @@
+/* Golos */
+
+@font-face {
+    font-family: "Golos";
+    src: url("/fonts/Golos-Text_Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Golos";
+    src: url("/fonts/Golos-Text_Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Golos";
+    src: url("/fonts/Golos-Text_DemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Golos";
+    src: url("/fonts/Golos-Text_Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Golos";
+    src: url("/fonts/Golos-Text_Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
+
+/* 100 – Thin || Hairline
+200 – Extra Light || Ultra Light || Thin
+300 – Light
+400 – Normal || Regular
+500 – Medium
+600 – Semi Bold || Demi Bold
+700 – Bold
+800 – Extra Bold || Ultra Bold || Heavy
+900 – Black || Heavy */
