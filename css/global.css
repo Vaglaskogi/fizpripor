@@ -1,5 +1,6 @@
 body {
   font-family: "Golos";
+  height: 2000px;
 }
 
 h1, h2, h3, p, a, li, ul {
@@ -32,7 +33,7 @@ button {
 }
 
 .container {
-  width: 1080px;
+  width: 1180px;
   margin: 0 auto;
 }
 

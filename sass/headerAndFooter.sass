@@ -10,6 +10,8 @@ $time: 0.3s all
     height: 99px
     display: flex
     align-items: center
+    position: sticky
+    top: 0px
     padding: 0px 32px
     border-bottom: 1px solid $lightGray
     &__main
@@ -23,7 +25,7 @@ $time: 0.3s all
             justify-content: space-between
             &-element
                 font-weight: 500
-                padding: 40px 0px
+                padding: 39px 0px
             &-ahref
                 padding: 6px 3px
                 transition: $time
@@ -35,13 +37,39 @@ $time: 0.3s all
             &-arrow
                 margin: 0px 0px 1px 6px
                 pointer-events: none
+    &__contacts
+        width: 390px
+        display: flex
+        justify-content: space-between
+        align-items: center
         &-number
             font-weight: 700
             color: $main
             transition: $time
+            &:hover
+                color: $text
             &:active
                 color: $text
+        &-button
+            width: 200px
+            height: 50px
+            background-color: $main
+            color: white
+            font-weight: 500
+            font-size: 18px
+            transition: $time
+            &:hover
+               background-color: white
+               border: 1px solid $main
+               color: $main 
+               transition: $time
     &__links
         width: 113px
         display: flex
         justify-content: space-between
+        &-svg
+            fill: $main
+            transition: $time
+            &:hover
+                fill: $text
+                transition: $time
