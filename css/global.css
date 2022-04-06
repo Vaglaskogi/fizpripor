@@ -37,6 +37,11 @@ button {
   margin: 0 auto;
 }
 
+.containerSmall {
+  width: 980px;
+  margin: 0 auto;
+}
+
 .activePage {
   border-bottom: 3px solid #2E6C77;
 }

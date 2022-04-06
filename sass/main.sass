@@ -1,0 +1,40 @@
+// variables 
+$main: #2E6C77 
+$text: #181818
+$lightGray: #cdcdcd
+$darkGray: #878787
+$time: 0.3s all
+
+//main
+
+.main
+    display: flex
+    margin: 120px auto
+    &__block
+        &-h1
+            width: 999px
+            line-height: 77px
+            &-span
+                color: $main
+        &-p
+            width: 550px
+            font-weight: 400
+            font-size: 18px
+            line-height: 22px
+            color: $darkGray
+            margin: 30px 0px 60px
+        &-button
+            width: 300px
+            height: 70px
+            background: $main
+            font-weight: 500
+            font-size: 20px
+            line-height: 24px
+            color: white
+            transition: $time
+            &:hover
+                background-color: white
+                border: 1px solid $main
+                color: $main 
+                transition: $time
+        

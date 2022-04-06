@@ -2,7 +2,7 @@
 $main: #2E6C77 
 $text: #181818
 $lightGray: #cdcdcd
-$darkGray: #a7a7a7
+$darkGray: #878787
 $time: 0.3s all
 
 // header
@@ -14,6 +14,7 @@ $time: 0.3s all
     top: 0px
     padding: 0px 32px
     border-bottom: 1px solid $lightGray
+    background-color: white
     &__main
         display: flex
         justify-content: space-between
@@ -46,10 +47,6 @@ $time: 0.3s all
             font-weight: 700
             color: $main
             transition: $time
-            &:hover
-                color: $text
-            &:active
-                color: $text
         &-button
             width: 200px
             height: 50px
