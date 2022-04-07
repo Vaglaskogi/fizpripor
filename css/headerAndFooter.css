@@ -1,4 +1,5 @@
 .header {
+  z-index: 100;
   height: 99px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,6 +26,8 @@
       -ms-flex-align: center;
           align-items: center;
   line-height: 22px;
+  width: 1180px;
+  padding-right: 97px;
 }
 
 .header__main__menu {
@@ -110,16 +113,4 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.header__links-svg {
-  fill: #2E6C77;
-  -webkit-transition: 0.3s all;
-  transition: 0.3s all;
-}
-
-.header__links-svg:hover {
-  fill: #181818;
-  -webkit-transition: 0.3s all;
-  transition: 0.3s all;
 }

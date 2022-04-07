@@ -2,7 +2,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 120px auto;
+  margin: 130px auto;
 }
 
 .main__block-h1 {
@@ -41,4 +41,17 @@
   color: #2E6C77;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
+}
+
+.video-p {
+  position: absolute;
+  color: white;
+  margin: 32px 0px 0px 30px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.about {
+  margin: 120px auto;
 }

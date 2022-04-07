@@ -1,6 +1,11 @@
+@charset "UTF-8";
 body {
   font-family: "Golos";
   height: 2000px;
+  background-image: url("../images/Большое лого.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
 }
 
 h1, h2, h3, p, a, li, ul {
@@ -30,6 +35,11 @@ p, a, li, ul {
 button {
   cursor: pointer;
   border: none;
+}
+
+.containerBig {
+  width: 1378px;
+  margin: 0 auto;
 }
 
 .container {
