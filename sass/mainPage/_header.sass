@@ -1,0 +1,60 @@
+.header
+  position: fixed
+  left: 0
+  right: 0
+  z-index: 100
+  padding: 15px 40px 15px 40px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  border-bottom: 1px solid #cdcdcd
+  background-color: #fff
+  &-container
+    width: 1130px
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &-menu
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 610px
+    &__arr
+      margin-left: 10px
+    &__list
+      list-style-type: none
+    &__link
+      text-decoration: none
+      font-style: normal
+      font-weight: 500
+      font-size: 18px
+      line-height: 22px
+      color: #181818
+      &:hover
+        color: $accent
+      &-active
+        padding-bottom: 38px
+        border-bottom: 3px solid $accent
+
+  &-links
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 303px
+    &__number
+      font-style: normal
+      font-weight: 600
+      font-size: 18px
+      line-height: 22px
+      text-decoration: none
+      color: $accent
+      &:hover
+        color: #878787
+    &__social
+      display: flex
+      align-items: center
+      justify-content: space-between
+      width: 110px
+  &-button
+    padding: 14px 22px

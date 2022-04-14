@@ -1,0 +1,45 @@
+.slider
+
+  &-button
+    width: 20px
+    height: 34px
+    z-index: 99
+    top: 50%
+    -o-transform: translateY(-50%)
+    cursor: pointer
+    background-image: url(..img/slider-arr.svg)
+    &__next
+      transform: rotate(180deg)
+    &__block
+      display: flex
+      justify-content: space-between
+      margin-top: -342px
+.swiper
+  margin-top: 60px
+  width: 1190px
+  height: 651px
+
+.photo
+  padding-bottom: 130px
+  &-subtitle
+    font-style: normal
+    font-weight: 600
+    font-size: 48px
+    line-height: 58px
+    color: $text
+    padding-bottom: 15px
+    border-bottom: 3px solid $accent
+    width: 1185px
+    margin-left: 55px
+
+  &-block
+    display: flex
+    justify-content: space-between
+  &-left
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  &-button
+    padding: 19px 39px
+    margin-top: 382px
+    margin-left: 55px
