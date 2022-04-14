@@ -499,7 +499,7 @@ button:hover {
 }
 
 .main {
-  padding-top: 130px;
+  padding-top: 230px;
   padding-bottom: 130px;
   margin-left: -100px;
 }
@@ -1119,7 +1119,7 @@ button:hover {
   margin-left: 50px;
   margin-bottom: 10px;
   text-align: right;
-  margin-right: 470px;
+  right: 0;
 }
 
 .contacts-address__img {
@@ -1145,6 +1145,7 @@ button:hover {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+  margin-right: -40px;
 }
 
 .contacts-address__text {
