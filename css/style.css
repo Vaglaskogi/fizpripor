@@ -1038,32 +1038,14 @@ h2 {
   margin-left: 55px;
 }
 
-.photo-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.photo-left {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.photo-block__img {
+  width: 100%;
 }
 
 .photo-button {
   padding: 19px 39px;
   margin-top: 382px;
-  margin-left: 50px;
+  margin-left: 55px;
 }
 
 .contacts-flex {
