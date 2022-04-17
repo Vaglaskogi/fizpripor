@@ -375,6 +375,10 @@ button:hover {
   color: #2E6C77;
 }
 
+h2 {
+  font-weight: 800;
+}
+
 /* Golos */
 @font-face {
   font-family: "Golos";
@@ -604,7 +608,7 @@ button:hover {
 
 .about-title {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 100px;
   line-height: 120px;
   letter-spacing: 0.2em;
@@ -810,7 +814,7 @@ button:hover {
 
 .products-title {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 128px;
   line-height: 154px;
   letter-spacing: 0.2em;
@@ -912,7 +916,7 @@ button:hover {
 
 .media-subtitle {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 48px;
   line-height: 58px;
   color: #181818;
@@ -1094,7 +1098,7 @@ button:hover {
 
 .contacts-title {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 128px;
   line-height: 154px;
   letter-spacing: 0.2em;
