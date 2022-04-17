@@ -499,7 +499,7 @@ button:hover {
 }
 
 .main {
-  padding-top: 230px;
+  padding-top: 170px;
   padding-bottom: 130px;
   margin-left: -100px;
 }
@@ -621,7 +621,7 @@ button:hover {
   width: 660px;
   text-align: center;
   border-bottom: 3px solid #2E6C77;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   margin-bottom: 60px;
 }
 
@@ -725,7 +725,7 @@ button:hover {
   font-size: 48px;
   line-height: 58px;
   color: #181818;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   border-bottom: 3px solid #2E6C77;
 }
 
@@ -751,7 +751,7 @@ button:hover {
   line-height: 58px;
   color: #181818;
   width: 955px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   border-bottom: 3px solid #2E6C77;
 }
 
@@ -827,6 +827,7 @@ button:hover {
   width: 1070px;
   border-bottom: 3px solid #2E6C77;
   margin-left: 110px;
+  padding-bottom: 15px;
 }
 
 .products-block {
@@ -869,11 +870,26 @@ button:hover {
   line-height: 17px;
   color: #878787;
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .product-button {
   padding: 12px 28px;
-  margin-top: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #2E6C77;
+  font-family: Golos;
+  text-decoration: none;
+}
+
+.product-button:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
+  background-color: #fff;
+  color: #2E6C77;
+  outline: 1px solid #2E6C77;
 }
 
 .media {
@@ -891,6 +907,7 @@ button:hover {
   line-height: 154px;
   letter-spacing: 0.2em;
   color: #F3F3F3;
+  text-transform: uppercase;
 }
 
 .media-subtitle {
@@ -902,6 +919,7 @@ button:hover {
   width: 1070px;
   border-bottom: 3px solid #2E6C77;
   margin-bottom: 60px;
+  padding-bottom: 15px;
 }
 
 .news {
@@ -951,21 +969,22 @@ button:hover {
 
 .news-read {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #464646;
+  color: #2E6C77;
   margin-bottom: 20px;
 }
 
 .news-read:hover {
-  color: #2E6C77;
+  color: #464646;
 }
 
 .news-button {
   padding: 19px 38px;
+  margin-top: 20px;
 }
 
 .slider-button {
@@ -1040,7 +1059,7 @@ button:hover {
 .photo-button {
   padding: 19px 39px;
   margin-top: 382px;
-  margin-left: 55px;
+  margin-left: 50px;
 }
 
 .contacts-flex {
@@ -1080,6 +1099,7 @@ button:hover {
   line-height: 154px;
   letter-spacing: 0.2em;
   color: #F3F3F3;
+  text-transform: uppercase;
 }
 
 .contacts-subtitle {
@@ -1090,6 +1110,7 @@ button:hover {
   width: 1070px;
   border-bottom: 3px solid #2E6C77;
   margin-left: 110px;
+  padding-bottom: 15px;
 }
 
 .contacts-block {
@@ -1199,6 +1220,10 @@ button:hover {
   background-color: #2E6C77;
 }
 
+.footer-logo__link {
+  z-index: 99;
+}
+
 .footer-bg {
   position: absolute;
   left: 0;
@@ -1262,7 +1287,7 @@ button:hover {
 
 .footer-bottom {
   background-color: #22545C;
-  margin-top: 146px;
+  margin-top: 115px;
   padding: 22px 0 22px 0;
   z-index: 99;
 }
@@ -1298,6 +1323,14 @@ button:hover {
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
+  background-color: inherit;
+  margin-top: -6px;
+}
+
+.footer-bottom__links-text:hover {
+  color: 808080;
+  background-color: inherit;
+  outline: none;
 }
 
 .footer-bottom__copy {

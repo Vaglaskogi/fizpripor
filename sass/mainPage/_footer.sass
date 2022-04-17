@@ -3,6 +3,9 @@
 
   padding-top: 70px
   background-color: $accent
+  &-logo
+    &__link
+      z-index: 99
   &-bg
     position: absolute
     left: 0
@@ -42,7 +45,7 @@
         color: #878787
   &-bottom
     background-color: #22545C
-    margin-top: 146px
+    margin-top: 115px
     padding: 22px 0 22px 0
     z-index: 99
     &__block
@@ -60,6 +63,12 @@
         font-size: 14px
         line-height: 17px
         color: #FFFFFF
+        background-color: inherit
+        margin-top: -6px
+        &:hover
+          color: 808080
+          background-color: inherit
+          outline: none
     &__copy
       font-style: normal
       font-weight: 400
