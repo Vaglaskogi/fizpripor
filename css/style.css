@@ -502,6 +502,11 @@ h2 {
   padding: 14px 22px;
 }
 
+.header-social__img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .main {
   padding-top: 170px;
   padding-bottom: 130px;
@@ -896,6 +901,12 @@ h2 {
   outline: 1px solid #2E6C77;
 }
 
+.product-all__btn {
+  padding: 19px 46px;
+  margin-top: 60px;
+  margin-left: 110px;
+}
+
 .media {
   padding-bottom: 130px;
 }
@@ -1240,7 +1251,11 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 520px;
+  width: 636px;
+}
+
+.footer-block__content {
+  width: 232px;
 }
 
 .footer-block__list {
@@ -1319,11 +1334,91 @@ h2 {
   outline: none;
 }
 
+.footer-bottom__links-img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .footer-bottom__copy {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
+}
+
+.ktsnpl {
+  padding-top: 230px;
+}
+
+.ktsnpl-text {
+  padding-bottom: 60px;
+  border-bottom: 1px solid #CDCDCD;
+  margin-left: 110px;
+  margin-top: 60px;
+}
+
+.ktsnpl-text-nb {
+  border: none;
+}
+
+.ktsnpl-title {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 128px;
+  line-height: 154px;
+  letter-spacing: 0.2em;
+  color: #F3F3F3;
+}
+
+.ktsnpl-subtitle {
+  font-family: 'Golos';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  border-bottom: 3px solid #2E6C77;
+  padding-bottom: 25px;
+  margin-left: 110px;
+  width: 1070px;
+}
+
+.ktsnpl-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ktsnpl-block__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #181818;
+  width: 639px;
+}
+
+.ktsnpl-block__img {
+  margin-right: 110px;
+}
+
+.ktsnpl-block__list {
+  margin-left: 25px;
+  width: 630px;
+}
+
+.ktsnpl-block__item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #181818;
 }
 /*# sourceMappingURL=style.css.map */
