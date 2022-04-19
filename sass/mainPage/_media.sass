@@ -4,7 +4,7 @@
     margin-left: 110px
   &-title
     font-style: normal
-    font-weight: 600
+    font-weight: 700
     font-size: 128px
     line-height: 154px
     letter-spacing: 0.2em
@@ -12,24 +12,25 @@
     text-transform: uppercase
   &-subtitle
     font-style: normal
-    font-weight: 800
+    font-weight: 600
     font-size: 48px
     line-height: 58px
     color: $text
     width: 1070px
     border-bottom: 3px solid $accent
-    margin-bottom: 60px
+    margin-bottom: 40px
     padding-bottom: 15px
 .news
   display: flex
   width: 1070px
-  height: 280px
+  height: 302px
   margin-bottom: 40px
-
   justify-content: space-between
+
   &-left
     border-bottom: 1px solid #D6D6D6
     width: 630px
+
   &-date
     font-style: normal
     font-weight: 400
@@ -56,13 +57,18 @@
   &-read
     font-style: normal
     font-weight: 700
-    font-size: 16px
+    font-size: 18px
     line-height: 19px
     text-decoration-line: underline
-    color: $accent
+    color: $text
     margin-bottom: 20px
+    transition: .3s
     &:hover
-      color: #464646
+      color: $accent
+      transition: .3s
   &-button
     padding: 19px 38px
     margin-top: 20px
+
+.news-block > .news:last-child .news-left
+  border-bottom: 0px solid #000

@@ -2,7 +2,7 @@
   padding-bottom: 130px
   &-title
     font-style: normal
-    font-weight: 800
+    font-weight: 700
     font-size: 128px
     line-height: 154px
     letter-spacing: 0.2em
@@ -14,14 +14,30 @@
     font-size: 48px
     line-height: 58px
     color: $text
-    width: 1070px
-    border-bottom: 3px solid $accent
-    margin-left: 110px
-    padding-bottom: 15px
+
+    &__block
+      display: flex
+      justify-content: space-between
+      align-items: end
+      border-bottom: 3px solid $accent
+      width: 1070px
+      padding-bottom: 15px
+      margin-left: 110px
+    &__link
+      font-style: normal
+      font-weight: 600
+      font-size: 20px
+      line-height: 24px
+      color: $text
+      text-decoration: none
+      transition: 0.2s
+      &:hover
+        color: $accent
+        transition: 0.2s
   &-block
     display: flex
     justify-content: space-between
-    margin-top: 60px
+    margin-top: 40px
     padding-left: 110px
     padding-right: 110px
 

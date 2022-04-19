@@ -361,11 +361,15 @@ button {
   color: #fff;
   background-color: #2E6C77;
   font-family: Golos;
+  font-weight: 500;
+  font-size: 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 button:hover {
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: .3s;
+  transition: .3s;
   background-color: #fff;
   color: #2E6C77;
   outline: 1px solid #2E6C77;
@@ -382,7 +386,7 @@ h2 {
 /* Golos */
 @font-face {
   font-family: "Golos";
-  src: url("/fonts/Golos-Text_Regular.ttf") format("truetype");
+  src: url("./fonts/Golos-Text_Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
@@ -455,7 +459,7 @@ h2 {
 }
 
 .header-menu__link-active {
-  padding-bottom: 38px;
+  padding-bottom: 40px;
   border-bottom: 3px solid #2E6C77;
 }
 
@@ -481,10 +485,6 @@ h2 {
   color: #2E6C77;
 }
 
-.header-links__number:hover {
-  color: #878787;
-}
-
 .header-links__social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -502,9 +502,16 @@ h2 {
   padding: 14px 22px;
 }
 
+.header-social__img {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
 .header-social__img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .main {
@@ -613,7 +620,7 @@ h2 {
 
 .about-title {
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 100px;
   line-height: 120px;
   letter-spacing: 0.2em;
@@ -631,7 +638,7 @@ h2 {
   text-align: center;
   border-bottom: 3px solid #2E6C77;
   padding-bottom: 15px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .about-left {
@@ -799,13 +806,15 @@ h2 {
   color: #FFFFFF;
   height: 51px;
   width: 51px;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .advantage-text {
   width: 1066px;
   margin-left: 59px;
   padding-top: 60px;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -819,7 +828,7 @@ h2 {
 
 .products-title {
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 128px;
   line-height: 154px;
   letter-spacing: 0.2em;
@@ -833,10 +842,39 @@ h2 {
   font-size: 48px;
   line-height: 58px;
   color: #181818;
-  width: 1070px;
+}
+
+.products-subtitle__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
   border-bottom: 3px solid #2E6C77;
-  margin-left: 110px;
+  width: 1070px;
   padding-bottom: 15px;
+  margin-left: 110px;
+}
+
+.products-subtitle__link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #181818;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.products-subtitle__link:hover {
+  color: #2E6C77;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .products-block {
@@ -846,7 +884,7 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 60px;
+  margin-top: 40px;
   padding-left: 110px;
   padding-right: 110px;
 }
@@ -917,7 +955,7 @@ h2 {
 
 .media-title {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 128px;
   line-height: 154px;
   letter-spacing: 0.2em;
@@ -927,13 +965,13 @@ h2 {
 
 .media-subtitle {
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 48px;
   line-height: 58px;
   color: #181818;
   width: 1070px;
   border-bottom: 3px solid #2E6C77;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   padding-bottom: 15px;
 }
 
@@ -942,7 +980,7 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   width: 1070px;
-  height: 280px;
+  height: 302px;
   margin-bottom: 40px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -985,21 +1023,29 @@ h2 {
 .news-read {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 19px;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
-  color: #2E6C77;
+  color: #181818;
   margin-bottom: 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .news-read:hover {
-  color: #464646;
+  color: #2E6C77;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .news-button {
   padding: 19px 38px;
   margin-top: 20px;
+}
+
+.news-block > .news:last-child .news-left {
+  border-bottom: 0px solid #000;
 }
 
 .slider-button {
@@ -1028,7 +1074,7 @@ h2 {
 }
 
 .swiper {
-  margin-top: 60px;
+  margin-top: 40px;
   width: 1190px;
   height: 651px;
 }
@@ -1067,6 +1113,9 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 1122px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
 }
 
 .contacts-flex__off {
@@ -1091,7 +1140,7 @@ h2 {
 
 .contacts-title {
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 128px;
   line-height: 154px;
   letter-spacing: 0.2em;
@@ -1190,6 +1239,10 @@ h2 {
   background-color: inherit;
 }
 
+.contacts-link-ob {
+  margin-left: 55px;
+}
+
 .contacts-link:hover {
   outline: none;
   color: #878787;
@@ -1280,15 +1333,19 @@ h2 {
   font-size: 16px;
   line-height: 19px;
   color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .footer-block__link:hover {
-  color: #878787;
+  color: #cccccc;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .footer-bottom {
   background-color: #22545C;
-  margin-top: 115px;
+  margin-top: 108px;
   padding: 22px 0 22px 0;
   z-index: 99;
 }
@@ -1326,17 +1383,28 @@ h2 {
   color: #FFFFFF;
   background-color: inherit;
   margin-top: -6px;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .footer-bottom__links-text:hover {
-  color: 808080;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #cccccc;
   background-color: inherit;
   outline: none;
+}
+
+.footer-bottom__links-img {
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .footer-bottom__links-img:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .footer-bottom__copy {
