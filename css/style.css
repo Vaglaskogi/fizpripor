@@ -445,9 +445,13 @@ h2 {
   font-size: 18px;
   line-height: 22px;
   color: #181818;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .header-menu__link:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
   color: #2E6C77;
 }
 
@@ -529,6 +533,7 @@ h2 {
 }
 
 .main-info__title {
+  width: 990px;
   font-style: normal;
   font-weight: 600;
   font-size: 64px;
@@ -542,6 +547,7 @@ h2 {
 }
 
 .main-info__text {
+  width: 550px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -944,7 +950,8 @@ h2 {
   margin-left: 110px;
 }
 
-.media {
+.media-page {
+  padding-top: 170px;
   padding-bottom: 130px;
 }
 
@@ -1004,15 +1011,22 @@ h2 {
 }
 
 .news {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 1070px;
-  height: 302px;
   margin-bottom: 40px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.news-img {
+  width: 410px;
+  height: 287px;
 }
 
 .news-left {
@@ -1035,6 +1049,11 @@ h2 {
   line-height: 38px;
   color: #181818;
   margin-top: 20px;
+  height: 114px;
+}
+
+.news-title__link {
+  text-decoration: none;
 }
 
 .news-text {
@@ -1045,8 +1064,9 @@ h2 {
   line-height: 22px;
   color: #181818;
   width: 626px;
-  margin-top: 40px;
+  margin-top: 30px;
   line-height: 150%;
+  margin-bottom: 40px;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
@@ -1193,7 +1213,7 @@ h2 {
 }
 
 .contacts-block {
-  margin-top: 60px;
+  margin-top: 40px;
   margin-left: 58px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1524,7 +1544,7 @@ h2 {
 }
 
 .contacts-page {
-  padding-top: 230px;
+  padding-top: 170px;
 }
 
 .contacts-cards {
@@ -1580,12 +1600,11 @@ h2 {
 
 .contacts-phone__block-num {
   font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 22px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
   color: #2E6C77;
+  text-decoration: none;
 }
 
 .contacts-phone__block-social {
@@ -1595,10 +1614,14 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
+  text-decoration: none;
 }
 
 .contacts-phone__block-name {
   margin-left: 10px;
   color: #2E6C77;
+  font-weight: 600;
+  font-size: 20px;
 }
+/*# sourceMappingURL=style.css.map */
