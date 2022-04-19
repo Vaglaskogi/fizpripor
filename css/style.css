@@ -383,14 +383,6 @@ h2 {
   font-weight: 800;
 }
 
-/* Golos */
-@font-face {
-  font-family: "Golos";
-  src: url("./fonts/Golos-Text_Regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 400;
-}
-
 .header {
   position: fixed;
   left: 0;
@@ -1569,4 +1561,3 @@ h2 {
   margin-left: 10px;
   color: #2E6C77;
 }
-/*# sourceMappingURL=style.css.map */
