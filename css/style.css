@@ -365,6 +365,7 @@ button {
   font-size: 20px;
   -webkit-transition: .3s;
   transition: .3s;
+  line-height: 100%;
 }
 
 button:hover {
@@ -905,14 +906,16 @@ h2 {
 .product-text {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
   color: #878787;
   margin-top: 20px;
   margin-bottom: 40px;
+  line-height: 130%;
 }
 
 .product-button {
+  font-weight: 500;
   padding: 12px 28px;
   border: none;
   outline: none;
@@ -921,11 +924,15 @@ h2 {
   background-color: #2E6C77;
   font-family: Golos;
   text-decoration: none;
+  display: block;
+  width: 144px;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .product-button:hover {
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: .3s;
+  transition: .3s;
   background-color: #fff;
   color: #2E6C77;
   outline: 1px solid #2E6C77;
@@ -961,10 +968,39 @@ h2 {
   font-size: 48px;
   line-height: 58px;
   color: #181818;
+}
+
+.media-subtitle__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 1070px;
   border-bottom: 3px solid #2E6C77;
-  margin-bottom: 40px;
   padding-bottom: 15px;
+  margin-bottom: 40px;
+}
+
+.media-subtitle__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #181818;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.media-subtitle__link:hover {
+  color: #2E6C77;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .news {
@@ -998,18 +1034,23 @@ h2 {
   font-size: 32px;
   line-height: 38px;
   color: #181818;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .news-text {
+  height: 106px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   color: #181818;
   width: 626px;
-  margin-top: 30px;
-  margin-bottom: 41px;
+  margin-top: 40px;
+  line-height: 150%;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .news-read {

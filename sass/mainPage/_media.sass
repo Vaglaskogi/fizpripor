@@ -16,10 +16,26 @@
     font-size: 48px
     line-height: 58px
     color: $text
-    width: 1070px
-    border-bottom: 3px solid $accent
-    margin-bottom: 40px
-    padding-bottom: 15px
+
+    &__block
+      display: flex
+      align-items: end
+      justify-content: space-between
+      width: 1070px
+      border-bottom: 3px solid $accent
+      padding-bottom: 15px
+      margin-bottom: 40px
+    &__link
+      text-decoration: none
+      font-style: normal
+      font-weight: 600
+      font-size: 20px
+      line-height: 24px
+      color: $text
+      transition: .3s
+      &:hover
+        color: $accent
+        transition: .3s
 .news
   display: flex
   width: 1070px
@@ -43,17 +59,24 @@
     font-size: 32px
     line-height: 38px
     color: $text
-    margin-top: 10px
+    margin-top: 20px
 
   &-text
+    height: 106px
     font-style: normal
     font-weight: 400
     font-size: 18px
     line-height: 22px
     color: $text
     width: 626px
-    margin-top: 30px
-    margin-bottom: 41px
+    margin-top: 40px
+    line-height: 150%
+
+    display: -webkit-box
+    -webkit-line-clamp: 4
+    -webkit-box-orient: vertical
+    overflow: hidden
+
   &-read
     font-style: normal
     font-weight: 700
