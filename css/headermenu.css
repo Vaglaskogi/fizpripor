@@ -3,7 +3,9 @@
 }
 
 .header-submenu {
-  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: absolute;
   background-color: white;
   left: -16%;
@@ -11,22 +13,23 @@
   visibility: hidden;
   opacity: 0;
   transition: 0.2s;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-top: 22px;
+  padding-left: 22px;
 }
 
 .header-submenu li {
   list-style: none;
   margin: 0 0 10px 0;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.header-submenu li:first-child {
-  padding-top: 15px;
+  padding-right: 22px;
+  padding-bottom: 12px;
 }
 
 .header-submenu li:last-child {
   margin: 0;
-  padding-bottom: 15px;
+  padding-bottom: 22px;
+  border-bottom: none;
 }
 
 .header-submenu li > a {
