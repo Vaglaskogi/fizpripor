@@ -1,14 +1,21 @@
+.header-menu__link-active {
+  padding-bottom: 40px !important;
+}
+.header-menu__link {
+  padding: 14px 0;
+}
 .header-menu__list {
   position: relative;
 }
 
 .header-submenu {
+  margin-top: 14px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: absolute;
   background-color: white;
-  left: -16%;
+  left: -17%;
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
@@ -16,14 +23,23 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   padding-top: 22px;
-  padding-left: 22px;
+  box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
+  border-radius: 4px;
+  border: 0.5px solid #d2d2d2;
+}
+
+.header-submenu__line {
+  width: 80%;
+  height: 1px;
+  background-color: #d2d2d2;
 }
 
 .header-submenu li {
   list-style: none;
-  margin: 0 0 10px 0;
   padding-right: 22px;
-  padding-bottom: 12px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 22px;
 }
 
 .header-submenu li:last-child {
@@ -31,9 +47,13 @@
   padding-bottom: 22px;
   border-bottom: none;
 }
+.header-submenu li:first-child {
+  padding-top: 0;
+}
 
 .header-submenu li > a {
   text-decoration: none;
+  text-align: left;
   color: black;
 }
 
@@ -42,6 +62,9 @@
 }
 
 .header-subsubmenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: white;
   position: absolute;
   left: 100%;
@@ -50,10 +73,15 @@
   visibility: hidden;
   opacity: 0;
   transition: 0.2s;
+  padding-top: 25px;
+  box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
+  border-radius: 4px;
+  border: 0.5px solid #d2d2d2;
 }
 
 .header-submenu__list {
   display: flex;
+  width: max-content;
 }
 
 body._pc .header-menu > li:hover .header-submenu {
