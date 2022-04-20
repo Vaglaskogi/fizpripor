@@ -84,6 +84,10 @@
   width: max-content;
 }
 
+.header-submenu__list-fix {
+  width: 100% !important;
+}
+
 body._pc .header-menu > li:hover .header-submenu {
   visibility: visible;
   opacity: 1;
