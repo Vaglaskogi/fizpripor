@@ -378,6 +378,7 @@ button:hover {
 
 .accent {
   color: #2E6C77;
+  font-weight: 500;
 }
 
 h2 {
@@ -449,6 +450,11 @@ h2 {
   transition: .3s;
 }
 
+.header-menu__link-active {
+  padding-bottom: 39px;
+  border-bottom: 3px solid #2E6C77;
+}
+
 .header-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -501,6 +507,7 @@ h2 {
 }
 
 .main {
+  height: 100vh;
   padding-top: 170px;
   padding-bottom: 130px;
   margin-left: -100px;
@@ -637,7 +644,7 @@ h2 {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 130%;
+  line-height: 150%;
   color: #878787;
   width: 190px;
 }
@@ -646,8 +653,8 @@ h2 {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 130%;
-  width: 440px;
+  line-height: 150%;
+  width: 453px;
   color: #181818;
   margin-bottom: 60px;
 }
@@ -686,6 +693,7 @@ h2 {
   font-size: 64px;
   line-height: 77px;
   color: #fff;
+  margin-bottom: 35px;
 }
 
 .about-advantage__text {
@@ -738,9 +746,9 @@ h2 {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 130%;
+  line-height: 150%;
   color: #181818;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .advantages {
@@ -1122,7 +1130,7 @@ h2 {
 }
 
 .photo {
-  padding-bottom: 130px;
+  margin-bottom: 382px;
 }
 
 .photo-subtitle {
@@ -1131,10 +1139,6 @@ h2 {
   font-size: 48px;
   line-height: 58px;
   color: #181818;
-  padding-bottom: 15px;
-  border-bottom: 3px solid #2E6C77;
-  width: 1185px;
-  margin-left: 55px;
 }
 
 .photo-block__img {
@@ -1142,9 +1146,32 @@ h2 {
 }
 
 .photo-button {
-  padding: 19px 39px;
-  margin-top: 382px;
   margin-left: 55px;
+}
+
+.photo-title__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #2E6C77;
+  width: 1185px;
+  margin-left: 55px;
+  margin-top: 100px;
+}
+
+.photo-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #181818;
 }
 
 .contacts-flex {
@@ -1510,7 +1537,7 @@ h2 {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 130%;
+  line-height: 150%;
   color: #181818;
   width: 639px;
 }
@@ -1528,7 +1555,7 @@ h2 {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 130%;
+  line-height: 150%;
   color: #181818;
 }
 
@@ -1612,5 +1639,55 @@ h2 {
   color: #2E6C77;
   font-weight: 600;
   font-size: 20px;
+}
+
+.socrespons {
+  padding-top: 230px;
+}
+
+.socrespons-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 128px;
+  line-height: 154px;
+  letter-spacing: 0.2em;
+  color: #F3F3F3;
+  text-transform: uppercase;
+}
+
+.socrespons-subtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  color: #181818;
+  padding-bottom: 20px;
+  width: 1070px;
+  border-bottom: 3px solid #2E6C77;
+  margin-left: 110px;
+}
+
+.socrespons-block {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+  margin-left: 110px;
+  width: 1070px;
+}
+
+.socrespons-block__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #181818;
+  width: 550px;
 }
 /*# sourceMappingURL=style.css.map */

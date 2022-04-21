@@ -1,43 +1,4 @@
-<!DOCTYPE html>
-<html lang="ru">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="css/style.css" />
-      <link rel="stylesheet" href="/css/styleForMapSwiper.css" />
-      <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-      <link rel="stylesheet" href="/css/fonts.css" />
-      <title>Официальный сайт Московского завода ФИЗПРИБОР</title>
-   </head>
-   <body>
-      <header class="header">
-         <a href="index.html" class="header-logo__link"><img src="img/Logo.svg" alt="" class="header-logo" /></a>
-         <div class="header-container">
-            <ul class="header-menu">
-               <li class="header-menu__list"><a href="#" class="header-menu__link header-menu__link-active">Главная</a></li>
-               <li class="header-menu__list">
-                  <a href="#" class="header-menu__link">Компания <img src="img/arr.svg" alt="" class="header-menu__arr" /></a>
-               </li>
-               <li class="header-menu__list">
-                  <a href="#" class="header-menu__link">Продукция<img src="img/arr.svg" alt="" class="header-menu__arr" /></a>
-               </li>
-               <li class="header-menu__list">
-                  <a href="#" class="header-menu__link">Медиа<img src="img/arr.svg" alt="" class="header-menu__arr" /></a>
-               </li>
-               <li class="header-menu__list"><a href="#" class="header-menu__link">Контакты</a></li>
-            </ul>
-            <div class="header-links">
-               <a href="tel:+74952286019" class="header-links__number">+7 (495) 228 60-19</a>
-               <div class="header-links__social">
-                  <a href="#" class="header-social__link"><img src="img/Rutub.svg" alt="" class="header-social__img" /></a>
-                  <a href="#" class="header-social__link"><img src="img/vk.svg" alt="" class="header-social__img" /></a>
-                  <a href="#" class="header-social__link"><img src="img/yt.svg" alt="" class="header-social__img" /></a>
-               </div>
-            </div>
-         </div>
-         <button class="header-button">Связаться с нами</button>
-      </header>
+<?php include ('header.php'); ?>
       <section class="ktsnpl">
          <div class="container">
             <h2 class="ktsnpl-title">КТС НПЛ</h2>
@@ -62,7 +23,7 @@
                      команд управления в КТС НПЛ реализованы полностью на непрограммируемых средствах «<b>жёсткой</b>» логике.
                   </p>
                </div>
-               <img src="img/product.png" alt="" class="ktsnpl-block__img" />
+               <img src="img/ktsnpl.jpg" alt="" class="ktsnpl-block__img" />
             </div>
 
             <div class="ktsnpl-block">
@@ -149,65 +110,4 @@
             <button class="contacts-button">Связаться с нами</button>
          </div>
       </section>
-      <footer class="footer">
-         <div class="container">
-            <div class="footer-top">
-               <img class="footer-bg" src="img/Большое лого (1).svg" alt="" />
-               <a href="" class="footer-logo__link"> <img src="img/Footer-logo.svg" alt="" class="footer-logo" /></a>
-
-               <div class="footer-block">
-                  <ul class="footer-block__content">
-                     <li class="footer-block__list-title">Компания</li>
-                     <li class="footer-block__list"><a href="#" class="footer-block__link">Лицензии и сертификаты</a></li>
-                     <li class="footer-block__list"><a href="#" class="footer-block__link">Реализованные проекты</a></li>
-                     <li class="footer-block__list"><a href="#" class="footer-block__link">Системы менеджмента</a></li>
-                     <li class="footer-block__list">
-                        <a href="#" class="footer-block__link">Социальная ответственность</a>
-                     </li>
-                  </ul>
-                  <ul class="footer-block__content">
-                     <li class="footer-block__list-title">Продукция</li>
-                     <li class="footer-block__list">
-                        <a href="#" class="footer-block__link">Непрограммируемые средства автоматизации</a>
-                     </li>
-                     <li class="footer-block__list">
-                        <a href="#" class="footer-block__link"
-                           >Программируемые <br />
-                           средства автоматизации</a
-                        >
-                     </li>
-                     <li class="footer-block__list"><a href="#" class="footer-block__link">Малая автоматизация</a></li>
-                  </ul>
-                  <ul class="footer-block__content" style="width: 67px">
-                     <li class="footer-block__list-title">Медиа</li>
-                     <li class="footer-block__list"><a href="#" class="footer-block__link">Новости</a></li>
-                     <li class="footer-block__list"><a href="#" class="footer-block__link">Фото</a></li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="footer-bottom">
-            <div class="container">
-               <div class="footer-bottom__block">
-                  <p class="footer-bottom__copy">© 2022 Московский завод «ФИЗПРИБОР»</p>
-                  <div class="footer-bottom__links">
-                     <button class="footer-bottom__links-text">Связаться с нами</button>
-                     <a href="#" class="footer-bottom__links-link"
-                        ><img src="img/YTW.svg" alt="" class="footer-bottom__links-img"
-                     /></a>
-                     <a href="#" class="footer-bottom__links-link">
-                        <img src="img/RTW.svg" alt="" class="footer-bottom__links-img"
-                     /></a>
-                     <a href="#" class="footer-bottom__links-link"
-                        ><img src="img/VKW.svg" alt="" class="footer-bottom__links-img"
-                     /></a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <script src="/js/scriptForSwipeCard.js"></script>
-      <script src="js/swiper-bundle.min.js"></script>
-      <script src="js/main.js"></script>
-   </body>
-</html>
+      <?php include ('footer.php'); ?>

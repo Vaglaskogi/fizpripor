@@ -1,99 +1,5 @@
-<!DOCTYPE html>
-<html lang="ru">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/headermenu.css">
-        <link rel="stylesheet" href="/css/styleForMapSwiper.css" />
-        <link rel="stylesheet" href="css/swiper-bundle.min.css" />
- 
-        <title>Официальный сайт Московского завода ФИЗПРИБОР</title>
-    </head>
-    <body>
-        <header class="header">
-            <a href="#" class="header-logo__link"><img src="img/Logo.svg" alt="" class="header-logo" /></a>
-            <div class="header-container">
-              <ul class="header-menu">
-                <li class="header-menu__list"><a href="#" class="header-menu__link header-menu__link-active">Главная</a></li>
-                <li class="header-menu__list">
-                  <a href="#" class="header-menu__link">Компания <img src="img/arr.svg" alt="" class="header-menu__arr" /></a>
-                  <ul class="header-submenu">
-                    <li class="header-submenu__list"><a href="#" class="header-submenu__link">Лицензии и сертификаты</a></li>
-                    <div class="header-submenu__line"></div>
-                    <li class="header-submenu__list"><a href="#" class="header-submenu__link">Реализованные проекты</a></li>
-                    <div class="header-submenu__line"></div>
-                    <li class="header-submenu__list"><a href="#" class="header-submenu__link">Системы менеджмента</a></li>
-                    <div class="header-submenu__line"></div>
-                    <li class="header-submenu__list"><a href="#" class="header-submenu__link">Социальная ответственность</a></li>
-                  </ul>
-                </li>
-                <li class="header-menu__list">
-                  <a href="#" class="header-menu__link">Продукция<img src="img/arr.svg" alt="" class="header-menu__arr" /></a>
-                  <ul class="header-submenu">
-                    <li class="header-submenu__list">
-                      <a href="#" class="header-submenu__link"
-                        >Непрограммируемые <br />
-                        средства автоматизации</a
-                      >
-                      <ul class="header-subsubmenu">
-                        <li class="header-submenu__list"><a href="#" class="header-submenu__link">КСТ НПЛ</a></li>
-                        <div class="header-submenu__line"></div>
-                        <li class="header-submenu__list"><a href="#" class="header-submenu__link">УКТС</a></li>
-                        <div class="header-submenu__line"></div>
-                        <li class="header-submenu__list"><a href="#" class="header-submenu__link">УДУ</a></li>
-                      </ul>
-                    </li>
-                    <div class="header-submenu__line"></div>
-                    <li class="header-submenu__list">
-                      <a href="#" class="header-submenu__link"
-                        >Программируемые <br />
-                        средства автоматизации</a
-                      >
-                      <ul class="header-subsubmenu">
-                        <li class="header-submenu__list"><a href="#" class="header-submenu__link">ПРОДУКЦИЯ</a></li>
-                        <div class="header-submenu__line"></div>
-                        <li class="header-submenu__list"><a href="#" class="header-submenu__link">ПРОДУКЦИЯ</a></li>
-                        <div class="header-submenu__line"></div>
-                        <li class="header-submenu__list"><a href="#" class="header-submenu__link">ПРОДУКЦИЯ</a></li>
-                      </ul>
-                    </li>
-                    <div class="header-submenu__line"></div>
-                    <li class="header-submenu__list header-submenu__list-fix">
-                      <a href="#" class="header-submenu__link">Малая автоматизация</a>
-                      <ul class="header-subsubmenu">
-                        <li class="header-submenu__list"><a href="#" class="header-submenu__link">ПРОДУКЦИЯ</a></li>
-                        <div class="header-submenu__line"></div>
-                        <li class="header-submenu__list"><a href="#" class="header-submenu__link">ПРОДУКЦИЯ</a></li>
-                        <div class="header-submenu__line"></div>
-                        <li class="header-submenu__list"><a href="#" class="header-submenu__link">ПРОДУКЦИЯ</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li class="header-menu__list">
-                  <a href="#" class="header-menu__link">Медиа<img src="img/arr.svg" alt="" class="header-menu__arr" /></a>
-                  <ul class="header-submenu">
-                    <li class="header-submenu__list"><a href="#" class="header-submenu__link">Новости</a></li>
-                    <div class="header-submenu__line"></div>
-                    <li class="header-submenu__list"><a href="#" class="header-submenu__link">Фотографии</a></li>
-                  </ul>
-                </li>
-                <li class="header-menu__list"><a href="#" class="header-menu__link">Контакты</a></li>
-              </ul>
-              <div class="header-links">
-                <a href="tel:+74952286019" class="header-links__number">+7 (495) 228 60-19</a>
-                <div class="header-links__social">
-                  <a href="#" class="header-social__link"><img src="img/Rutub.svg" alt="" class="header-social__img" /></a>
-                  <a href="#" class="header-social__link"><img src="img/vk.svg" alt="" class="header-social__img" /></a>
-                  <a href="#" class="header-social__link"><img src="img/yt.svg" alt="" class="header-social__img" /></a>
-                </div>
-              </div>
-            </div>
-            <button class="header-button">Связаться с нами</button>
-          </header>
+<?php include ('header.php'); ?>
+
         <section class="main">
             <div class="main-container">
                 <img src="img/arr-line.svg" alt="" class="main-arr" />
@@ -138,9 +44,9 @@
                             </div>
                             <div class="about-block__right">
                                 <p class="about-right__text">
-                                    Завод <span class="accent">«ФИЗПРИБОР»</span> специализируется на разработке и производстве
-                                    высококачественных технических средств для построения автоматизированных систем контроля
-                                    управления технологическими и производственными процессами высокой степени надёжности для
+                                    Завод <span class="accent">«ФИЗПРИБОР»</span> специализируется <br> на разработке и производстве
+                                    высококачественных технических средств <br> для построения автоматизированных систем контроля
+                                    управления технологическими и производственными процессами <br> высокой степени надёжности для
                                     атомных электростанций и предприятий гражданской промышленности.
                                 </p>
                                 <p class="about-right__tagline">
@@ -155,7 +61,7 @@
                 <div class="about-advantages">
                     <div class="about-advantage">
                         <p class="about-advantage__count">350</p>
-                        <p class="about-advantage__text">Сотрудников на заводе</p>
+                        <p class="about-advantage__text">Сотрудников <br> на заводе</p>
                     </div>
                     <div class="about-advantage">
                         <p class="about-advantage__count">1949</p>
@@ -163,11 +69,11 @@
                     </div>
                     <div class="about-advantage">
                         <p class="about-advantage__count">90 тыс</p>
-                        <p class="about-advantage__text">Поставлено блоков</p>
+                        <p class="about-advantage__text">Поставлено <br> блоков</p>
                     </div>
                     <div class="about-advantage">
                         <p class="about-advantage__count">2 тыс</p>
-                        <p class="about-advantage__text">Шкафов АСУ ТП</p>
+                        <p class="about-advantage__text">Шкафов <br> АСУ ТП</p>
                     </div>
                 </div>
             </div>
@@ -243,7 +149,7 @@
                 <div class="products-subtitle__block"><h3 class="products-subtitle"><span class="accent">Наша</span> продукция</h3> <a href="#" class="products-subtitle__link">Вся продукция →</a></div>
                 <div class="products-block">
                     <div class="product">
-                        <a href="ktsnpl.html" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+                        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
                         <p class="product-name">Комплекс технических средств непрограммируемой логики</p>
                         <p class="product-text">
                             Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
@@ -251,10 +157,10 @@
                             управления защищена от программных ошибок и киберугроз. Функция управления реализуется на
                             непрограммируемых средствах – «жёсткой логике».
                         </p>
-                        <a href="ktsnpl.html" class="product-button">Подробнее</a>
+                        <a href="ktsnpl.php" class="product-button">Подробнее</a>
                     </div>
                     <div class="product">
-                        <a href="ktsnpl.html" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+                        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
                         <p class="product-name">Комплекс технических средств непрограммируемой логики</p>
                         <p class="product-text">
                             Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
@@ -262,10 +168,10 @@
                             управления защищена от программных ошибок и киберугроз. Функция управления реализуется на
                             непрограммируемых средствах – «жёсткой логике».
                         </p>
-                        <a href="ktsnpl.html" class="product-button">Подробнее</a>
+                        <a href="ktsnpl.php" class="product-button">Подробнее</a>
                     </div>
                     <div class="product">
-                        <a href="ktsnpl.html" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+                        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
                         <p class="product-name">Комплекс технических средств непрограммируемой логики</p>
                         <p class="product-text">
                             Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
@@ -273,7 +179,7 @@
                             управления защищена от программных ошибок и киберугроз. Функция управления реализуется на
                             непрограммируемых средствах – «жёсткой логике».
                         </p>
-                        <a href="ktsnpl.html" class="product-button">Подробнее</a>
+                        <a href="ktsnpl.php" class="product-button">Подробнее</a>
                     </div>
                    
                 </div>
@@ -285,7 +191,7 @@
                 <div class="media-mleft">
                     <div class="media-subtitle__block">
                         <h3 class="media-subtitle"><span class="accent">Новости</span> завода</h3>
-                        <a href="#" class="media-subtitle__link">Читать все новости →</a>
+                        <a href="news.php" class="media-subtitle__link">Читать все новости →</a>
                     </div>
                     <div class="news-block">
                         <div class="news">
@@ -308,48 +214,46 @@
                         </div>
 
                         <div class="news">
-                            <div class="news-left">
-                                <p class="news-date">17.09.2021</p>
-                                <h4 class="news-title">
-                                    «<span class="accent">ФИЗПРИБОР</span>» – новый партнёр футбольного клуба «Факел»
-                                </h4>
-                                <p class="news-text">
-                                    ООО «Московский завод “ФИЗПРИБОР”» является разработчиком и изготовителем
-                                    аппаратно-программных средств для автоматизированных систем управления ООО «Московский завод “ФИЗПРИБОР”» является разработчиком и изготовителем
-                                    аппаратно-программных средств для автоматизированных систем управления ООО «Московский завод “ФИЗПРИБОР”» является разработчиком и изготовителем
-                                    аппаратно-программных средств для автоматизированных систем управления
-                                </p>
-                                
-                            </div>
-                            <div class="news-right">
-                                <img src="img/news.png" alt="" class="news-img" />
-                            </div>
+                        <div class="news-left">
+                            <p class="news-date">16.01.2020</p>
+                            <a href="http://xn----8sbancyabljpnebm2aiit6frfsd.xn--p1ai/na-ploshhadke-zavoda-fizpribor-v-gorodskom-okruge-podolsk-obsudili-razvitie-neftegazovogo-mashinostroeniya/amp/" class="news-title__link"><h4 class="news-title">
+                               На площадке завода <span class="accent">«ФИЗПРИБОР»</span> обсудили развитие нефтегазового машиностроения
+                          </h4></a>
+                            <p class="news-text">
+                              Выездное совещание по вопросу организации закупки конкурентоспособной российской продукции, необходимой для реализации программ в области топливно-энергетического комплекса и электроэнергетики состоялось на производственной площадке Московского завода «ФИЗПРИБОР», расположенного в Городском округе Подольск, во вторник, 14 января. Об этом сообщили в Управлении по инвестиционной деятельности, поддержке производства и предпринимательства администрации муниципалитета.
+                            </p>
+                            
                         </div>
-                        <div class="news">
-                            <div class="news-left">
-                                <p class="news-date">17.09.2021</p>
-                                <h4 class="news-title">
-                                    «<span class="accent">ФИЗПРИБОР</span>» – новый партнёр футбольного клуба «Факел»
-                                </h4>
-                                <p class="news-text">
-                                    ООО «Московский завод “ФИЗПРИБОР”» является разработчиком и изготовителем
-                                    аппаратно-программных средств для автоматизированных систем управления ООО «Московский завод “ФИЗПРИБОР”» является разработчиком и изготовителем
-                                    аппаратно-программных средств для автоматизированных систем управления ООО «Московский завод “ФИЗПРИБОР”» является разработчиком и изготовителем
-                                    аппаратно-программных средств для автоматизированных систем управления
-                                </p>
-                                
-                            </div>
-                            <div class="news-right">
-                                <img src="img/news.png" alt="" class="news-img" />
-                            </div>
+                        <div class="news-right">
+                            <a href="http://xn----8sbancyabljpnebm2aiit6frfsd.xn--p1ai/na-ploshhadke-zavoda-fizpribor-v-gorodskom-okruge-podolsk-obsudili-razvitie-neftegazovogo-mashinostroeniya/amp/" class="news-img__link"><img src="img/news-2.png" alt="" class="news-img" /></a>
                         </div>
+                    </div>
+
+                    <div class="news">
+                      <div class="news-left">
+                          <p class="news-date">14.01.2020</p>
+                          <a href="https://minpromtorg.gov.ru/press-centre/news/#!na_ploshhadke_zavoda_fizpribor_obsudili_razvitie_neftegazovogo_mashinostroeniya" class="news-title__link"><h4 class="news-title">
+                            На площадке завода <span class="accent">«ФИЗПРИБОР»</span> обсудили развитие нефтегазового машиностроения
+                        </h4></a>
+                          <p class="news-text">
+                            Заместитель Министра промышленности и торговли Российской Федерации Михаил Иванов принял участие в выездном совещании на производственной площадке ООО «Московский завод «ФИЗПРИБОР». В целях развития указанного механизма и обеспечения информационного взаимодействия, Минпромторг России совместно с Минэнерго России ведет работу по организации наполнения Государственной информационной системы промышленности постоянно актуализированной информацией.
+                          </p>
+                          
+                      </div>
+                      <div class="news-right">
+                          <a href="https://minpromtorg.gov.ru/press-centre/news/#!na_ploshhadke_zavoda_fizpribor_obsudili_razvitie_neftegazovogo_mashinostroeniya" class="news-img__link"><img src="img/news-3.png" alt="" class="news-img" /></a>
+                      </div>
+                  </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="photo">
             <div class="container">
-                <h3 class="photo-subtitle"><span class="accent">Фото </span>завода</h3>
+                <div class="photo-title__block">
+                    <h3 class="photo-subtitle"><span class="accent">Фото </span>завода</h3>
+                    <a href="photo.php" class="photo-link">Посмотреть все фото →</a>
+                </div>
 
                 <div class="photo-slider">
                     <div class="swiper">
@@ -414,7 +318,6 @@
                         </div>
                     </div>
                 </div>
-                <button class="photo-button">Посмотреть все фото</button>
             </div>
         </section>
         <section class="contacts">
@@ -481,62 +384,4 @@
                 </div>
             </div>
         </section>
-        <footer class="footer">
-            <div class="container">
-                <div class="footer-top">
-                    <img class="footer-bg" src="img/Большое лого (1).svg" alt="" />
-                    <a href="" class="footer-logo__link"> <img src="img/Footer-logo.svg" alt="" class="footer-logo" /></a>
-
-                    <div class="footer-block">
-                        <ul class="footer-block__content">
-                            <li class="footer-block__list-title">Компания</li>
-                            <li class="footer-block__list"><a href="#" class="footer-block__link">Лицензии и сертификаты</a></li>
-                            <li class="footer-block__list"><a href="#" class="footer-block__link">Реализованные проекты</a></li>
-                            <li class="footer-block__list"><a href="#" class="footer-block__link">Системы менеджмента</a></li>
-                            <li class="footer-block__list">
-                                <a href="#" class="footer-block__link">Социальная ответственность</a>
-                            </li>
-                        </ul>
-                        <ul class="footer-block__content">
-                            <li class="footer-block__list-title">Продукция</li>
-                            <li class="footer-block__list"><a href="#" class="footer-block__link">Непрограммируемые
-                              средства автоматизации</a></li>
-                            <li class="footer-block__list"><a href="#" class="footer-block__link">Программируемые <br>
-                              средства автоматизации</a></li>
-                            <li class="footer-block__list"><a href="#" class="footer-block__link">Малая автоматизация</a></li>
-                        </ul>
-                        <ul class="footer-block__content" style="width: 67px;">
-                            <li class="footer-block__list-title">Медиа</li>
-                            <li class="footer-block__list"><a href="#" class="footer-block__link">Новости</a></li>
-                            <li class="footer-block__list"><a href="#" class="footer-block__link">Фото</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="footer-bottom__block">
-                        <p class="footer-bottom__copy">© 2022 Московский завод «ФИЗПРИБОР»</p>
-                        <div class="footer-bottom__links">
-                            <button class="footer-bottom__links-text">Связаться с нами</button>
-                            <a href="#" class="footer-bottom__links-link"
-                                ><img src="img/YTW.svg" alt="" class="footer-bottom__links-img"
-                            /></a>
-                            <a href="#" class="footer-bottom__links-link">
-                                <img src="img/RTW.svg" alt="" class="footer-bottom__links-img"
-                            /></a>
-                            <a href="#" class="footer-bottom__links-link"
-                                ><img src="img/VKW.svg" alt="" class="footer-bottom__links-img"
-                            /></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <script src="/js/scriptForSwipeCard.js"></script>
-        <script src="js/swiper-bundle.min.js"></script>
-        <script src="js/сheckForMobile.js"></script>
-        <script src="js/main.js"></script>
-
-    </body>
-</html>
+        <?php include ('footer.php'); ?>
