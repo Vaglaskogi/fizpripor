@@ -449,17 +449,6 @@ h2 {
   transition: .3s;
 }
 
-.header-menu__link:hover {
-  -webkit-transition: .3s;
-  transition: .3s;
-  color: #2E6C77;
-}
-
-.header-menu__link-active {
-  padding-bottom: 40px;
-  border-bottom: 3px solid #2E6C77;
-}
-
 .header-links {
   display: -webkit-box;
   display: -ms-flexbox;
