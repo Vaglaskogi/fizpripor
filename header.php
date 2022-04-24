@@ -25,7 +25,7 @@
           <ul class="header-submenu">
             <li class="header-submenu__list"><a href="licenses.php" class="header-submenu__link">Лицензии и сертификаты</a></li>
             <div class="header-submenu__line"></div>
-            <li class="header-submenu__list"><a href="#" class="header-submenu__link">Реализованные проекты</a></li>
+            <li class="header-submenu__list"><a href="projects.php" class="header-submenu__link">Реализованные проекты</a></li>
             <div class="header-submenu__line"></div>
             <li class="header-submenu__list"><a href="#" class="header-submenu__link">Системы менеджмента</a></li>
             <div class="header-submenu__line"></div>
