@@ -98,3 +98,10 @@ body._pc .header-submenu > li:hover .header-subsubmenu {
   opacity: 1;
   pointer-events: all;
 }
+
+.header-submenu__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}

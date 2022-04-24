@@ -1,0 +1,74 @@
+.photopage
+  padding-top: 230px
+  &-title
+    font-style: normal
+    font-weight: 600
+    font-size: 128px
+    line-height: 154px
+    letter-spacing: 0.2em
+    color: #F3F3F3
+  &-subtitle
+    font-style: normal
+    font-weight: 600
+    font-size: 64px
+    line-height: 77px
+    margin-bottom: 30px
+    border-bottom: 3px solid $accent
+    width: 1180px
+    margin-left: 110px
+    padding-bottom: 20px
+  &-button
+    width: 1070px
+    background-color: inherit
+    color: $text
+    padding: 34px 0 34px 0px
+    background-image: url(../img/accord-arr.svg)
+    background-repeat: no-repeat
+    background-position: right
+    background-size: 14px
+    text-align: left
+    margin-left: 110px
+    &:hover
+      outline: none
+    &__active
+      background-image: url(../img/accord-arr-act.svg)
+      background-repeat: no-repeat
+      background-position: right
+
+      background-size: 14px
+  &-accordeon
+    box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15)
+
+  &-sub
+    font-style: normal
+    font-weight: 400
+    font-size: 18px
+    line-height: 130%
+    color: $text
+    padding: 30px 0 30px 0
+    border-top: 1px solid #D6D6D6
+    width: 1070px
+    margin-left: 110px
+
+  &-block
+    margin-top: 20px
+  &-photos
+    display: flex
+    justify-content: space-between
+    margin-bottom: 30px
+    &:nth-child(even)
+      flex-direction: row-reverse
+
+  &-load
+    width: 100%
+    font-style: normal
+    font-weight: 600
+    font-size: 20px
+    line-height: 24px
+    color: $accent
+    background-color: inherit
+    margin: 0 auto
+    margin-top: 20px
+    margin-bottom: 50px
+    &:hover
+      outline: none
