@@ -382,6 +382,20 @@ button:hover {
   font-weight: 500;
 }
 
+.accentBlack {
+  font-weight: 500;
+}
+
+.accent600 {
+  color: #2E6C77;
+  font-weight: 600;
+}
+
+.accent700 {
+  color: #2E6C77;
+  font-weight: 700;
+}
+
 h2 {
   font-weight: 800;
 }
@@ -450,7 +464,7 @@ h2 {
   position: fixed;
   left: 0;
   right: 0;
-  z-index: 100;
+  z-index: 2;
   padding: 15px 40px 15px 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -691,7 +705,7 @@ h2 {
   line-height: 58px;
   color: #181818;
   width: 660px;
-  text-align: center;
+  padding-left: 207px;
   border-bottom: 3px solid #2E6C77;
   padding-bottom: 15px;
   margin-bottom: 40px;
@@ -780,8 +794,6 @@ h2 {
       -ms-flex-direction: row;
           flex-direction: row;
   margin-bottom: 130px;
-  padding-left: 110px;
-  padding-right: 110px;
 }
 
 .specifics-block:nth-child(even) {
@@ -792,7 +804,6 @@ h2 {
 }
 
 .specifics-info__subtitle {
-  width: 410px;
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -803,7 +814,7 @@ h2 {
 }
 
 .specifics-info__text {
-  width: 410px;
+  width: 605px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1102,7 +1113,7 @@ h2 {
 
 .news-title {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 600 !important;
   font-size: 32px;
   line-height: 38px;
   color: #181818;
@@ -1250,6 +1261,9 @@ h2 {
 }
 
 .contacts-flex__off {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1376,7 +1390,6 @@ h2 {
 
 .contacts-link:hover {
   outline: none;
-  color: #878787;
 }
 
 .contacts-question {
@@ -1746,7 +1759,7 @@ h2 {
 
 .socrespons-block__text {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 18px;
   line-height: 150%;
   color: #181818;
@@ -1758,6 +1771,7 @@ h2 {
 }
 
 .licenses-title {
+  text-transform: uppercase;
   font-style: normal;
   font-weight: 600;
   font-size: 128px;
@@ -1771,7 +1785,7 @@ h2 {
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
-  color: #2E6C77;
+  color: #181818;
   padding-bottom: 20px;
 }
 
@@ -1791,6 +1805,9 @@ h2 {
 }
 
 .licenses-subtitle__link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
   padding: 9px 23px;
   background-color: #2E6C77;
   color: #fff;
@@ -1804,7 +1821,7 @@ h2 {
   transition: .3s;
   background-color: #fff;
   color: #2E6C77;
-  outline: 3px solid #2E6C77;
+  outline: 1px solid #2E6C77;
 }
 
 .licenses-block {
@@ -2065,4 +2082,3 @@ h2 {
 .productspage-block {
   margin-bottom: 110px;
 }
-/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 <?php include ('header.php'); ?>
-      <section class="contacts contacts-page">
+      <section class="contacts contacts-page" data-aos="fade" data-aos-duration="1500">
          <div class="container">
             <h2 class="contacts-title">Контакты</h2>
             <h3 class="contacts-subtitle"><span class="accent">Связаться</span> с нами</h3>

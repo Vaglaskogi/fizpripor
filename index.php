@@ -1,11 +1,11 @@
 <?php include('header.php'); ?>
 
-<section class="main">
+<section class="main" data-aos="fade" data-aos-duration="1500">
     <div class="main-container">
         <img src="img/arr-line.svg" alt="" class="main-arr" />
         <div class="main-info">
             <h1 class="main-info__title">
-                <span class="main-info__title-accent">«ФИЗПРИБОР» —</span><br />
+                <span class="main-info__title-accent">«ФИЗПРИБОР» </span>—<br />
                 ведущий разработчик и производитель комплексных систем автоматизации производственных процессов
             </h1>
             <p class="main-info__text">
@@ -16,17 +16,17 @@
         </div>
     </div>
 </section>
-<section class="video">
+<section class="video" data-aos="fade-up">
     <div class="video-block container">
         <iframe width="1290" height="728" src="https://www.youtube.com/embed/_Q2GOVXnYFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </section>
-<section class="about">
+<section class="about" >
     <div class="container">
-        <div class="about-mainBlock">
+        <div class="about-mainBlock" data-aos="fade-right" data-aos-duration="1500">
             <div class="about-left">
                 <h2 class="about-title">Главная</h2>
-                <h3 class="about-subtitle"><span class="accent">О</span> компании</h3>
+                <h3 class="about-subtitle"><span class="accent600">О</span> компании</h3>
                 <div class="about-block">
                     <div class="about-block__left">
                         <p class="about-left__text">
@@ -36,21 +36,21 @@
                     </div>
                     <div class="about-block__right">
                         <p class="about-right__text">
-                            Завод <span class="accent">«ФИЗПРИБОР»</span> специализируется <br> на разработке и производстве
+                            Завод «<span class="accent">ФИЗПРИБОР</span>» специализируется <br> на разработке и производстве
                             высококачественных технических средств <br> для построения автоматизированных систем контроля
                             управления технологическими и производственными процессами <br> высокой степени надёжности для
                             атомных электростанций и предприятий гражданской промышленности.
                         </p>
                         <p class="about-right__tagline">
                             ВАША БЕЗОПАСТНОСТЬ —
-                            <span class="accent">НАША ОТВЕТСТВЕННОСТЬ!</span>
+                            <span class="accent700">НАША ОТВЕТСТВЕННОСТЬ!</span>
                         </p>
                     </div>
                 </div>
             </div>
             <div class="about-right"><img src="img/aboutimg.svg" alt="" class="about-right__img" /></div>
         </div>
-        <div class="about-advantages">
+        <div class="about-advantages" data-aos="flip-up" data-aos-duration="500">
             <div class="about-advantage">
                 <p class="about-advantage__count">350</p>
                 <p class="about-advantage__text">Сотрудников <br> на заводе</p>
@@ -70,23 +70,23 @@
         </div>
     </div>
 </section>
-<section class="specifics">
+<section class="specifics" >
     <div class="container">
-        <div class="specifics-block">
+        <div class="specifics-block" data-aos="fade-left" data-aos-duration="1500">
             <div class="specifics-info">
-                <h3 class="specifics-info__subtitle"><span class="accent">Особенности</span> разработки</h3>
+                <h3 class="specifics-info__subtitle"><span class="accent600">Особенности</span> разработки</h3>
                 <p class="specifics-info__text">
-                    В ООО Московский завод ФИЗПРИБОР применяются современные и безопасные методы разработки программного обеспечения и систем автоматизации. Комплектующие и сырье используется лучшего качества, что подтверждается входным контролем на предприятии. Персонал предприятия при выполнении разработки руководствуется стандартами предприятия, в которых собраны лучшие практики и и требования ГОСТ и других нормативных документов.
-                    Использование лучшего программного обеспечения, богатый опыт разработки ответственных систем автоматизации, высококлассный инженерно-технический персонал, позволяют создавать надежные и качественные системы.
+                    В <span class="accentBlack">ООО Московский завод «</span><span class="accent">ФИЗПРИБОР</span><span class="accentBlack">»</span> применяются современные и безопасные методы разработки программного обеспечения и систем автоматизации. <br><br> Комплектующие и сырье используется <span class="accentBlack">лучшего</span> качества, что подтверждается входным контролем на предприятии. <br><br>  Персонал предприятия при выполнении разработки руководствуется стандартами предприятия, в которых собраны <span class="accentBlack">лучшие</span> практики и требования ГОСТ и других нормативных документов.
+                    <br><br>Использование <span class="accentBlack">лучшего</span> программного обеспечения, богатый опыт разработки ответственных систем автоматизации, высококлассный инженерно-технический персонал, позволяют создавать надежные и качественные системы.
                 </p>
             </div>
             <div class="specifics-img">
                 <img src="img/specificsimg.png" alt="" class="" />
             </div>
         </div>
-        <div class="specifics-block">
+        <div class="specifics-block" data-aos="fade-right" data-aos-duration="1500">
             <div class="specifics-info">
-                <h3 class="specifics-info__subtitle"><span class="accent">Особенности</span> производства</h3>
+                <h3 class="specifics-info__subtitle"><span class="accent600">Особенности</span> производства</h3>
                 <p class="specifics-info__text">
                     Московский завод «ФИЗПРИБОР» обладает всеми ресурсами, необходимыми для производства радиоэлектронной аппаратуры:
                     автоматизированные линии SMT монтажа;
@@ -103,9 +103,9 @@
         </div>
     </div>
 </section>
-<section class="advantages">
+<section class="advantages" data-aos="fade-left" data-aos-duration="1500">
     <div class="container">
-        <h3 class="advantages-subtitle"><span class="accent">Наши</span> преимущества</h3>
+        <h3 class="advantages-subtitle"><span class="accent600">Наши</span> преимущества</h3>
         <div class="advatages-block">
             <div class="advantage">
                 <div class="advantage-num">01</div>
@@ -132,11 +132,11 @@
         </div>
     </div>
 </section>
-<section class="products">
+<section class="products" data-aos="fade-right" data-aos-duration="1500">
     <div class="container">
-        <h2 class="products-title">Продукция</h2>
+        <h2 class="products-title" >Продукция</h2>
         <div class="products-subtitle__block">
-            <h3 class="products-subtitle"><span class="accent">Наша</span> продукция</h3> <a href="productspage.php" class="products-subtitle__link">Вся продукция →</a>
+            <h3 class="products-subtitle"><span class="accent600">Наша</span> продукция</h3> <a href="productspage.php" class="products-subtitle__link">Вся продукция →</a>
         </div>
         <div class="products-block">
             <div class="product">
@@ -176,40 +176,36 @@
         </div>
     </div>
 </section>
-<section class="media">
+<section class="media" data-aos="fade-right" data-aos-duration="1500">
     <div class="container">
         <h2 class="media-title">Медиа</h2>
         <div class="media-mleft">
             <div class="media-subtitle__block">
-                <h3 class="media-subtitle"><span class="accent">Новости</span> завода</h3>
+                <h3 class="media-subtitle"><span class="accent600">Новости</span> завода</h3>
                 <a href="news.php" class="media-subtitle__link">Читать все новости →</a>
             </div>
             <div class="news-block">
                 <div class="news">
                     <div class="news-left">
-                        <p class="news-date">17.09.2021</p>
-                        <h4 class="news-title">
-                            «<span class="accent">ФИЗПРИБОР</span>» – новый партнёр футбольного клуба «Факел»
-                        </h4>
+                        <p class="news-date">30.07.2019</p>
+                        <a href="https://www.atomic-energy.ru/news/2019/07/30/96533" class="news-title__link"><h4 class="news-title">
+                          «Корус консалтинг» и <span class="accent600">«ФИЗПРИБОР»</span> представили АСУ ТП для критической инфраструктуры
+                      </h4></a>
                         <p class="news-text">
-                            ООО «Московский завод “ФИЗПРИБОР”» является разработчиком и изготовителем
-                            аппаратно-программных средств для автоматизированных систем управления ООО «Московский завод “ФИЗПРИБОР”» является разработчиком и изготовителем
-                            аппаратно-программных средств для автоматизированных систем управления ООО «Московский завод “ФИЗПРИБОР”» является разработчиком и изготовителем
-                            аппаратно-программных средств для автоматизированных систем управления
+                          Московский завод «Физприбор» и ГК «Корус консалтинг» заключили партнёрское соглашение. Благодаря сотрудничеству компании планируют вывести на рынок сверхнадёжные платформы для построения автоматизированных систем управления технологическими и производственными процессами (АСУ ТП, АСУ ПП) на объектах критической инфраструктуры (добыча, генерация, транспорт, умные города и др.).
                         </p>
-
+                        
                     </div>
                     <div class="news-right">
-                        <img src="img/news.png" alt="" class="news-img" />
+                        <a href="https://www.atomic-energy.ru/news/2019/07/30/96533" class="news-img__link"><img src="img/news-4.png" alt="" class="news-img" /></a>
                     </div>
                 </div>
-
                 <div class="news">
                     <div class="news-left">
                         <p class="news-date">16.01.2020</p>
                         <a href="http://xn----8sbancyabljpnebm2aiit6frfsd.xn--p1ai/na-ploshhadke-zavoda-fizpribor-v-gorodskom-okruge-podolsk-obsudili-razvitie-neftegazovogo-mashinostroeniya/amp/" class="news-title__link">
                             <h4 class="news-title">
-                                На площадке завода <span class="accent">«ФИЗПРИБОР»</span> обсудили развитие нефтегазового машиностроения
+                                На площадке завода <span class="accent600">«ФИЗПРИБОР»</span> обсудили развитие нефтегазового машиностроения
                             </h4>
                         </a>
                         <p class="news-text">
@@ -227,7 +223,7 @@
                         <p class="news-date">14.01.2020</p>
                         <a href="https://minpromtorg.gov.ru/press-centre/news/#!na_ploshhadke_zavoda_fizpribor_obsudili_razvitie_neftegazovogo_mashinostroeniya" class="news-title__link">
                             <h4 class="news-title">
-                                На площадке завода <span class="accent">«ФИЗПРИБОР»</span> обсудили развитие нефтегазового машиностроения
+                                На площадке завода <span class="accent600">«ФИЗПРИБОР»</span> обсудили развитие нефтегазового машиностроения
                             </h4>
                         </a>
                         <p class="news-text">
@@ -243,10 +239,10 @@
         </div>
     </div>
 </section>
-<section class="photo">
+<section class="photo" data-aos="fade-up" data-aos-duration="1500">
     <div class="container">
         <div class="photo-title__block">
-            <h3 class="photo-subtitle"><span class="accent">Фото </span>завода</h3>
+            <h3 class="photo-subtitle"><span class="accent600">Фото </span>завода</h3>
             <a href="photo.php" class="photo-link">Посмотреть все фото →</a>
         </div>
 
@@ -309,10 +305,10 @@
         </div>
     </div>
 </section>
-<section class="contacts">
+<section class="contacts" data-aos="fade-right" data-aos-duration="1500">
     <div class="container">
         <h2 class="contacts-title">Контакты</h2>
-        <h3 class="contacts-subtitle"><span class="accent">Где мы</span> находимся?</h3>
+        <h3 class="contacts-subtitle"><span class="accent600">Где мы</span> находимся?</h3>
         <div id="slideBlock" class="maps-block">
             <div class="contacts-block">
                 <div class="contacts-address">

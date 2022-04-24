@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<section class="photopage">
+<section class="photopage" data-aos="fade" data-aos-duration="1500">
   <div class="container">
     <h2 class="photopage-title">МЕДИА</h2>
     <h3 class="photopage-subtitle"><span class="accent">Фото</span> завода</h3>

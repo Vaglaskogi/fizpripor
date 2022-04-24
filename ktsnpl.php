@@ -1,5 +1,5 @@
 <?php include ('header.php'); ?>
-      <section class="ktsnpl">
+      <section class="ktsnpl" data-aos="fade" data-aos-duration="1500">
          <div class="container">
             <h2 class="ktsnpl-title">КТС НПЛ</h2>
             <h3 class="ktsnpl-subtitle">Комплекс технических средств <span class="accent">непрограммируемой логики</span></h3>

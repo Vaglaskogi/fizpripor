@@ -9,6 +9,7 @@
 }
 
 .header-submenu {
+  z-index: 3;
   margin-top: 14px;
   display: flex;
   flex-direction: column;
@@ -48,6 +49,7 @@
 }
 
 .header-submenu li > a {
+  transition: 0.3s;
   line-height: 100%;
   text-decoration: none;
   text-align: left;
@@ -58,9 +60,11 @@
 
 .header-submenu li > a:hover {
   color: #2e6c77;
+  transition: 0.3s;
 }
 
 .header-subsubmenu {
+  z-index: 3;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -80,7 +84,13 @@
 
 .header-submenu__list {
   display: flex;
+  align-items: center;
   width: max-content;
+}
+
+.header-submenu__list:hover {
+  color: #2e6c77;
+  fill: #2e6c77;
 }
 
 .header-submenu__list-fix {
@@ -103,5 +113,13 @@ body._pc .header-submenu > li:hover .header-subsubmenu {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
 
+.header__svg {
+  margin-left: 12px;
+  fill: #181818;
+}
+.header__svg2 {
+  margin-left: 34px;
+  fill: #181818;
 }
