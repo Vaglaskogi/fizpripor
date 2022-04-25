@@ -1,5 +1,5 @@
 <?php include ('header.php'); ?>
-  <section class="socrespons" data-aos="fade" data-aos-duration="1500">
+  <section class="socrespons" data-aos="fade" data-aos-duration="1500" data-aos-once='true'>
     <div class="container">
       <h2 class="socrespons-title">Компания</h2>
       <h3 class="socrespons-subtitle"><span class="accent600">Социальная</span> ответственность</h3>

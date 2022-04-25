@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<section class="licenses" data-aos="fade" data-aos-duration="1500">
+<section class="licenses" data-aos="fade" data-aos-duration="1500" data-aos-once='true'>
   <div class="container">
     <h2 class="licenses-title">Компания</h2>
     <div class="licenses-subtitle__block">

@@ -35,16 +35,16 @@
                 <p class="contacts-card__title">Мы в соцсетях</p>
                 <p class="contacts-card__subtitle">Актуальная <br />информация о заводе.!</p>
                 <div class="contacts-phone__block">
-                    <a href="https://www.youtube.com/channel/UCdZOG8MA75s46iCRWPrW-ew" class="contacts-phone__block-social">
+                    <a href="https://www.youtube.com/channel/UCdZOG8MA75s46iCRWPrW-ew" target="_blank" class="contacts-phone__block-social">
                         <img src="img/yt.svg" alt="" class="contacts-phone__block-img" />
                         <p class="contacts-phone__block-name">Youtube</p>
                     </a>
-                    <a href="https://vk.com/fizpribor" class="contacts-phone__block-social">
+                    <a href="https://vk.com/fizpribor" target="_blank" class="contacts-phone__block-social">
                         <img src="img/vk.svg" alt="" class="contacts-phone__block-img" />
                         <p class="contacts-phone__block-name">Вконтакте</p>
                     </a>
 
-                    <a href="https://rutube.ru/channel/7603214/" class="contacts-phone__block-social">
+                    <a href="https://rutube.ru/channel/7603214/" target="_blank" class="contacts-phone__block-social">
                         <img src="img/Rutub.svg" alt="" class="contacts-phone__block-img" />
                         <p class="contacts-phone__block-name">RuTube</p>
                     </a>

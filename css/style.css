@@ -457,6 +457,11 @@ h2 {
   list-style-type: none;
 }
 
+.header-menu__link > img {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
 .header-menu__link {
   text-decoration: none;
   font-style: normal;
@@ -468,9 +473,52 @@ h2 {
   transition: .3s;
 }
 
+.header-menu__link:hover {
+  -webkit-filter: invert(37%) sepia(11%) saturate(2107%) hue-rotate(141deg) brightness(94%) contrast(88%);
+          filter: invert(37%) sepia(11%) saturate(2107%) hue-rotate(141deg) brightness(94%) contrast(88%);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.header-menu__link:hover > img {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
 .header-menu__link-active {
   padding-bottom: 39px;
   border-bottom: 3px solid #2E6C77;
+}
+
+.header-menu__link__alt > img {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.header-menu__link__alt {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #181818;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: default;
+}
+
+.header-menu__link__alt:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.header-menu__link__alt:hover > img {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .header-links {
@@ -705,6 +753,10 @@ h2 {
   width: 453px;
 }
 
+.about-right__img {
+  pointer-events: none;
+}
+
 .about-advantages {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -787,6 +839,10 @@ h2 {
   line-height: 150%;
   color: #181818;
   margin-top: 30px;
+}
+
+.specifics-img {
+  pointer-events: none;
 }
 
 .specifics-text__ul {
@@ -1169,7 +1225,7 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: -385px;
+  margin-top: -375px;
 }
 
 .swiper {
@@ -1179,7 +1235,7 @@ h2 {
 }
 
 .photo {
-  margin-bottom: 382px;
+  margin-bottom: 482px;
 }
 
 .photo-subtitle {
@@ -1222,6 +1278,14 @@ h2 {
   line-height: 24px;
   color: #181818;
   text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.photo-link:hover {
+  color: #2E6C77;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .contacts-flex {
@@ -1359,6 +1423,8 @@ h2 {
   color: #2E6C77;
   text-decoration: none;
   background-color: inherit;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .contacts-link-ob {
@@ -1367,6 +1433,9 @@ h2 {
 
 .contacts-link:hover {
   outline: none;
+  color: #181818;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .contacts-question {
@@ -1497,6 +1566,7 @@ h2 {
 }
 
 .footer-bottom__links-text {
+  text-decoration: none;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1554,7 +1624,7 @@ h2 {
 .ktsnpl-title {
   text-transform: uppercase;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 128px;
   line-height: 154px;
   letter-spacing: 0.2em;
@@ -1596,6 +1666,7 @@ h2 {
 
 .ktsnpl-block__img {
   margin-right: 110px;
+  pointer-events: none;
 }
 
 .ktsnpl-block__list {
@@ -1673,6 +1744,15 @@ h2 {
   line-height: 22px;
   color: #2E6C77;
   text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contacts-phone__block-num:hover {
+  -webkit-filter: brightness(4%) saturate(0%);
+          filter: brightness(4%) saturate(0%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .contacts-phone__block-social {
@@ -1684,6 +1764,15 @@ h2 {
           justify-content: center;
   margin-bottom: 12px;
   text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contacts-phone__block-social:hover {
+  -webkit-filter: brightness(4%) saturate(0%);
+          filter: brightness(4%) saturate(0%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .contacts-phone__block-name {
@@ -1699,7 +1788,7 @@ h2 {
 
 .socrespons-title {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 128px;
   line-height: 154px;
   letter-spacing: 0.2em;
@@ -1750,7 +1839,7 @@ h2 {
 .licenses-title {
   text-transform: uppercase;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 128px;
   line-height: 154px;
   letter-spacing: 0.2em;
@@ -1919,7 +2008,7 @@ h2 {
 
 .photopage-title {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 128px;
   line-height: 154px;
   letter-spacing: 0.2em;
@@ -1940,6 +2029,7 @@ h2 {
 
 .photopage-button {
   width: 1070px;
+  font-size: 28px;
   background-color: inherit;
   color: #181818;
   padding: 34px 0 34px 0px;
@@ -1971,7 +2061,7 @@ h2 {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 130%;
+  line-height: 150%;
   color: #181818;
   padding: 30px 0 30px 0;
   border-top: 1px solid #D6D6D6;
@@ -2014,6 +2104,7 @@ h2 {
 }
 
 .photopage-load:hover {
+  color: #181818;
   outline: none;
 }
 
@@ -2087,4 +2178,3 @@ h2 {
 .productspage-block {
   margin-bottom: 110px;
 }
-/*# sourceMappingURL=style.css.map */

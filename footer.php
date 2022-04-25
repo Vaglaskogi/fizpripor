@@ -11,7 +11,7 @@
                     <li class="footer-block__list"><a href="projects.php" class="footer-block__link">Реализованные проекты</a></li>
                     <li class="footer-block__list"><a href="#" class="footer-block__link">Системы менеджмента</a></li>
                     <li class="footer-block__list">
-                        <a href="#" class="footer-block__link">Социальная ответственность</a>
+                        <a href="soc-respons.php" class="footer-block__link">Социальная ответственность</a>
                     </li>
                 </ul>
                 <ul class="footer-block__content">
@@ -35,7 +35,7 @@
             <div class="footer-bottom__block">
                 <p class="footer-bottom__copy">© 2022 Московский завод «ФИЗПРИБОР»</p>
                 <div class="footer-bottom__links">
-                    <button class="footer-bottom__links-text">Связаться с нами</button>
+                    <a href="contacts.php" class="footer-bottom__links-text">Связаться с нами</a>
                     <a href="https://www.youtube.com/channel/UCdZOG8MA75s46iCRWPrW-ew" target="_blank" class="footer-bottom__links-link"><img src="img/YTW.svg" alt="" class="footer-bottom__links-img" /></a>
                     <a href="https://rutube.ru/channel/7603214/" target="_blank" class="footer-bottom__links-link">
                         <img src="img/RTW.svg" alt="" class="footer-bottom__links-img" /></a>

@@ -1,5 +1,5 @@
 <?php include ('header.php'); ?>
-        <section class="media media-page" data-aos="fade" data-aos-duration="1500">
+        <section class="media media-page" data-aos="fade" data-aos-duration="1500" data-aos-once='true'>
           <div class="container">
               <h2 class="media-title">Медиа</h2>
               <div class="media-mleft">

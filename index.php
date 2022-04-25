@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<section class="main" data-aos="fade" data-aos-duration="1500">
+<section class="main" data-aos="fade" data-aos-duration="1500" data-aos-once='true'>
     <div class="main-container">
         <img src="img/arr-line.svg" alt="" class="main-arr" />
         <div class="main-info">
@@ -17,14 +17,14 @@
         </div>
     </div>
 </section>
-<section class="video" data-aos="fade-up">
+<section class="video" data-aos="fade-up"  data-aos-once='true'>
     <div class="video-block container">
         <iframe width="1290" height="728" src="https://www.youtube.com/embed/_Q2GOVXnYFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </section>
 <section class="about" id="about">
     <div class="container">
-        <div class="about-mainBlock" data-aos="fade-right" data-aos-duration="1500">
+        <div class="about-mainBlock" data-aos="fade-right" data-aos-duration="1500" data-aos-once='true'>
             <div class="about-left">
                 <h2 class="about-title">Главная</h2>
                 <h3 class="about-subtitle"><span class="accent600">О</span> компании</h3>
@@ -51,7 +51,7 @@
             </div>
             <div class="about-right"><img src="img/aboutimg.svg" alt="" class="about-right__img" /></div>
         </div>
-        <div class="about-advantages" data-aos="flip-up" data-aos-duration="500">
+        <div class="about-advantages" data-aos="flip-up" data-aos-duration="500" data-aos-once='true'>
             <div class="about-advantage">
                 <p class="about-advantage__count">350</p>
                 <p class="about-advantage__text">Сотрудников <br> на заводе</p>
@@ -73,7 +73,7 @@
 </section>
 <section class="specifics">
     <div class="container">
-        <div class="specifics-block" data-aos="fade-left" data-aos-duration="1500">
+        <div class="specifics-block" data-aos="fade-left" data-aos-duration="1500" data-aos-once='true'>
             <div class="specifics-info">
                 <h3 class="specifics-info__subtitle"><span class="accent600">Особенности</span> разработки</h3>
                 <p class="specifics-info__text">
@@ -85,7 +85,7 @@
                 <img src="img/specificsimg.png" alt="" class="" />
             </div>
         </div>
-        <div class="specifics-block" data-aos="fade-right" data-aos-duration="1500">
+        <div class="specifics-block" data-aos="fade-right" data-aos-duration="1500" data-aos-once='true'>
             <div class="specifics-info">
                 <h3 class="specifics-info__subtitle"><span class="accent600">Особенности</span> производства</h3>
                 <p class="specifics-info__text">
@@ -106,7 +106,7 @@
         </div>
     </div>
 </section>
-<section class="advantages" data-aos="fade-left" data-aos-duration="1500">
+<section class="advantages" data-aos="fade-left" data-aos-duration="1500" data-aos-once='true'>
     <div class="container">
         <h3 class="advantages-subtitle"><span class="accent600">Наши</span> преимущества</h3>
         <div class="advatages-block">
@@ -135,7 +135,7 @@
         </div>
     </div>
 </section>
-<section class="products" data-aos="fade-right" data-aos-duration="1500">
+<section class="products" data-aos="fade-right" data-aos-duration="1500" data-aos-once='true'>
     <div class="container">
         <h2 class="products-title">Продукция</h2>
         <div class="products-subtitle__block">
@@ -180,7 +180,7 @@
         </div>
     </div>
 </section>
-<section class="media" data-aos="fade-right" data-aos-duration="1500">
+<section class="media" data-aos="fade-right" data-aos-duration="1500" data-aos-once='true'>
     <div class="container">
         <h2 class="media-title">Медиа</h2>
         <div class="media-mleft">
@@ -245,7 +245,7 @@
         </div>
     </div>
 </section>
-<section class="photo" data-aos="fade-up" data-aos-duration="1500">
+<section class="photo" data-aos="fade-up" data-aos-duration="1500" data-aos-once='true'>
     <div class="container">
         <div class="photo-title__block">
             <h3 class="photo-subtitle"><span class="accent600">Фото </span>завода</h3>
@@ -311,7 +311,7 @@
         </div>
     </div>
 </section>
-<section class="contacts" data-aos="fade-right" data-aos-duration="1500">
+<section class="contacts" data-aos="fade-right" data-aos-duration="1500" data-aos-once='true'>
     <div class="container">
         <h2 class="contacts-title">Контакты</h2>
         <h3 class="contacts-subtitle"><span class="accent600">Где мы</span> находимся?</h3>
