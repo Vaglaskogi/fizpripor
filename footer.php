@@ -36,10 +36,10 @@
                 <p class="footer-bottom__copy">© 2022 Московский завод «ФИЗПРИБОР»</p>
                 <div class="footer-bottom__links">
                     <button class="footer-bottom__links-text">Связаться с нами</button>
-                    <a href="#" class="footer-bottom__links-link"><img src="img/YTW.svg" alt="" class="footer-bottom__links-img" /></a>
-                    <a href="#" class="footer-bottom__links-link">
+                    <a href="https://www.youtube.com/channel/UCdZOG8MA75s46iCRWPrW-ew" target="_blank" class="footer-bottom__links-link"><img src="img/YTW.svg" alt="" class="footer-bottom__links-img" /></a>
+                    <a href="https://rutube.ru/channel/7603214/" target="_blank" class="footer-bottom__links-link">
                         <img src="img/RTW.svg" alt="" class="footer-bottom__links-img" /></a>
-                    <a href="#" class="footer-bottom__links-link"><img src="img/VKW.svg" alt="" class="footer-bottom__links-img" /></a>
+                    <a href="https://vk.com/fizpribor" target="_blank" class="footer-bottom__links-link"><img src="img/VKW.svg" alt="" class="footer-bottom__links-img" /></a>
                 </div>
             </div>
         </div>
@@ -52,6 +52,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="js/lightzoom.js"></script>
 <script src="js/accordeon.js"></script>
+<script src="js/smoothScroll.js"></script>
 <script src="js/main.js"></script>
 
 </body>

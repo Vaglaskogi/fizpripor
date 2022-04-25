@@ -75,7 +75,7 @@
 
     </div>
     <div class="licenses-links">
-      <a href="#" class="licenses-link">Посмотреть Реализованные проекты</a>
+      <a href="projects.php" class="licenses-link">Посмотреть Реализованные проекты</a>
       <a href="#" class="licenses-link">Скачать документ WORD (9мб)</a>
     </div>
   </div>

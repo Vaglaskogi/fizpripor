@@ -12,7 +12,8 @@
                 Московский завод «ФИЗПРИБОР» имеет многолетний опыт в рамках модернизации оборудования на действующих АЭС
                 и поставки оборудования для строящихся АЭС
             </p>
-            <button class="main-info__button">Прочитать о компании</button>
+            <a href="#about" class="main-info__button">Прочитать о компании</a>
+
         </div>
     </div>
 </section>
@@ -21,7 +22,7 @@
         <iframe width="1290" height="728" src="https://www.youtube.com/embed/_Q2GOVXnYFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </section>
-<section class="about" >
+<section class="about" id="about">
     <div class="container">
         <div class="about-mainBlock" data-aos="fade-right" data-aos-duration="1500">
             <div class="about-left">
@@ -70,13 +71,13 @@
         </div>
     </div>
 </section>
-<section class="specifics" >
+<section class="specifics">
     <div class="container">
         <div class="specifics-block" data-aos="fade-left" data-aos-duration="1500">
             <div class="specifics-info">
                 <h3 class="specifics-info__subtitle"><span class="accent600">Особенности</span> разработки</h3>
                 <p class="specifics-info__text">
-                    В <span class="accentBlack">ООО Московский завод «</span><span class="accent">ФИЗПРИБОР</span><span class="accentBlack">»</span> применяются современные и безопасные методы разработки программного обеспечения и систем автоматизации. <br><br> Комплектующие и сырье используется <span class="accentBlack">лучшего</span> качества, что подтверждается входным контролем на предприятии. <br><br>  Персонал предприятия при выполнении разработки руководствуется стандартами предприятия, в которых собраны <span class="accentBlack">лучшие</span> практики и требования ГОСТ и других нормативных документов.
+                    В <span class="accentBlack">ООО Московский завод «</span><span class="accent">ФИЗПРИБОР</span><span class="accentBlack">»</span> применяются современные и безопасные методы разработки программного обеспечения и систем автоматизации. <br><br> Комплектующие и сырье используется <span class="accentBlack">лучшего</span> качества, что подтверждается входным контролем на предприятии. <br><br> Персонал предприятия при выполнении разработки руководствуется стандартами предприятия, в которых собраны <span class="accentBlack">лучшие</span> практики и требования ГОСТ и других нормативных документов.
                     <br><br>Использование <span class="accentBlack">лучшего</span> программного обеспечения, богатый опыт разработки ответственных систем автоматизации, высококлассный инженерно-технический персонал, позволяют создавать надежные и качественные системы.
                 </p>
             </div>
@@ -88,13 +89,15 @@
             <div class="specifics-info">
                 <h3 class="specifics-info__subtitle"><span class="accent600">Особенности</span> производства</h3>
                 <p class="specifics-info__text">
-                    Московский завод «ФИЗПРИБОР» обладает всеми ресурсами, необходимыми для производства радиоэлектронной аппаратуры:
-                    автоматизированные линии SMT монтажа;
-                    автоматизированные линии нанесения влагозащитного покрытия;
-                    токарные и фрезерные обрабатывающие центры с ЧПУ;
-                    лазерный раскрой и порошковая покраска;
-                    собственная испытательная лаборатория (климатические испытания, испытания на ударо- и сейсмостойкость, испытания на ЭМС);
-                    полигон тестирования образцов
+                    <span class="accentBlack">Московский завод «</span><span class="accent">ФИЗПРИБОР</span><span class="accentBlack">»</span> обладает всеми ресурсами, необходимыми для производства радиоэлектронной аппаратуры:
+                <ul class="specifics-text__ul">
+                    <li class="specifics-text__li">Автоматизированные линии SMT монтажа;</li>
+                    <li class="specifics-text__li">Автоматизированные линии нанесения влагозащитного покрытия;</li>
+                    <li class="specifics-text__li">Токарные и фрезерные обрабатывающие центры с ЧПУ;</li>
+                    <li class="specifics-text__li">Лазерный раскрой и порошковая покраска;</li>
+                    <li class="specifics-text__li">Собственная испытательная лаборатория (климатические испытания, испытания на ударо- и сейсмостойкость, испытания на ЭМС); </li>
+                    <li class="specifics-text__li">Полигон тестирования образцов.</li>
+                </ul>
                 </p>
             </div>
             <div class="specifics-img">
@@ -134,7 +137,7 @@
 </section>
 <section class="products" data-aos="fade-right" data-aos-duration="1500">
     <div class="container">
-        <h2 class="products-title" >Продукция</h2>
+        <h2 class="products-title">Продукция</h2>
         <div class="products-subtitle__block">
             <h3 class="products-subtitle"><span class="accent600">Наша</span> продукция</h3> <a href="productspage.php" class="products-subtitle__link">Вся продукция →</a>
         </div>
@@ -169,6 +172,7 @@
                     автоматизированных систем управления технологическими процессами (АСУ ТП), в которых функция
                     управления защищена от программных ошибок и киберугроз. Функция управления реализуется на
                     непрограммируемых средствах – «жёсткой логике».
+
                 </p>
                 <a href="ktsnpl.php" class="product-button">Подробнее</a>
             </div>
@@ -188,13 +192,15 @@
                 <div class="news">
                     <div class="news-left">
                         <p class="news-date">30.07.2019</p>
-                        <a href="https://www.atomic-energy.ru/news/2019/07/30/96533" class="news-title__link"><h4 class="news-title">
-                          «Корус консалтинг» и <span class="accent600">«ФИЗПРИБОР»</span> представили АСУ ТП для критической инфраструктуры
-                      </h4></a>
+                        <a href="https://www.atomic-energy.ru/news/2019/07/30/96533" class="news-title__link">
+                            <h4 class="news-title">
+                                «Корус консалтинг» и <span class="accent600">«ФИЗПРИБОР»</span> представили АСУ ТП для критической инфраструктуры
+                            </h4>
+                        </a>
                         <p class="news-text">
-                          Московский завод «Физприбор» и ГК «Корус консалтинг» заключили партнёрское соглашение. Благодаря сотрудничеству компании планируют вывести на рынок сверхнадёжные платформы для построения автоматизированных систем управления технологическими и производственными процессами (АСУ ТП, АСУ ПП) на объектах критической инфраструктуры (добыча, генерация, транспорт, умные города и др.).
+                            Московский завод «Физприбор» и ГК «Корус консалтинг» заключили партнёрское соглашение. Благодаря сотрудничеству компании планируют вывести на рынок сверхнадёжные платформы для построения автоматизированных систем управления технологическими и производственными процессами (АСУ ТП, АСУ ПП) на объектах критической инфраструктуры (добыча, генерация, транспорт, умные города и др.).
                         </p>
-                        
+
                     </div>
                     <div class="news-right">
                         <a href="https://www.atomic-energy.ru/news/2019/07/30/96533" class="news-img__link"><img src="img/news-4.png" alt="" class="news-img" /></a>
