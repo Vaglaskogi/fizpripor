@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/headermenu.css">
   <link rel="stylesheet" href="/css/styleForMapSwiper.css" />
   <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <title>Официальный сайт Московского завода ФИЗПРИБОР</title>
@@ -20,7 +21,7 @@
     <a href="index.php" class="header-logo__link"><img src="img/Logo.svg" alt="" class="header-logo" /></a>
     <div class="header-container">
       <ul class="header-menu">
-        <li class="header-menu__list"><a href="index.php" class="header-menu__link header-menu__link-active">Главная</a></li>
+        <li class="header-menu__list"><a href="index.php" class="header-menu__link">Главная</a></li>
         <li class="header-menu__list">
           <a href="#" class="header-menu__link">Компания <img src="img/arr.svg" alt="" class="header-menu__arr" /></a>
           <ul class="header-submenu">

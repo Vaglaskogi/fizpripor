@@ -54,6 +54,7 @@
 <script src="js/accordeon.js"></script>
 <script src="js/smoothScroll.js"></script>
 <script src="js/main.js"></script>
+<script src="js/activePage.js"></script>
 
 </body>
 

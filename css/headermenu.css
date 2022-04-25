@@ -123,3 +123,14 @@ body._pc .header-submenu > li:hover .header-subsubmenu {
   margin-left: 34px;
   fill: #181818;
 }
+
+.header-menu__list {
+  position: relative;
+}
+
+.header-menu__activeLine {
+  position: absolute;
+  width: 100%;
+  padding-top: 39px;
+  border-bottom: 3px solid #2e6c77;
+}
