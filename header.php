@@ -29,7 +29,7 @@
             <div class="header-submenu__line"></div>
             <li class="header-submenu__list"><a href="projects.php" class="header-submenu__link">Реализованные проекты</a></li>
             <div class="header-submenu__line"></div>
-            <li class="header-submenu__list"><a href="#" class="header-submenu__link">Системы менеджмента</a></li>
+            <li class="header-submenu__list"><a href="management.php" class="header-submenu__link">Системы менеджмента</a></li>
             <div class="header-submenu__line"></div>
             <li class="header-submenu__list"><a href="soc-respons.php" class="header-submenu__link">Социальная ответственность</a></li>
           </ul>
@@ -63,7 +63,7 @@
                 <li class="header-submenu__list"><a href="#" class="header-submenu__link">ПТК САУ</a></li>
 
 
-                </ul>
+              </ul>
             </li>
             <div class="header-submenu__line"></div>
             <li class="header-submenu__list header-submenu__list-fix">

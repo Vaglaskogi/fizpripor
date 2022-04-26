@@ -17,6 +17,7 @@
           <p class="licenses-card__standarts">Стандарты:</p>
           <p class="licenses-card__standarts-name">ISO 14001:2015
             ISO 45001:2018</p>
+          <button class="licenses-button">Подробнее</button>
         </div>
       </div>
 
@@ -30,6 +31,7 @@
           <p class="licenses-card__standarts">Стандарты:</p>
           <p class="licenses-card__standarts-name">ISO 14001:2015
             ISO 45001:2018</p>
+          <button class="licenses-button">Подробнее</button>
         </div>
       </div>
 
@@ -43,6 +45,7 @@
           <p class="licenses-card__standarts">Стандарты:</p>
           <p class="licenses-card__standarts-name">ISO 14001:2015
             ISO 45001:2018</p>
+          <button class="licenses-button">Подробнее</button>
         </div>
       </div>
 
@@ -56,6 +59,7 @@
           <p class="licenses-card__standarts">Стандарты:</p>
           <p class="licenses-card__standarts-name">ISO 14001:2015
             ISO 45001:2018</p>
+          <button class="licenses-button">Подробнее</button>
         </div>
       </div>
 
@@ -69,6 +73,7 @@
           <p class="licenses-card__standarts">Стандарты:</p>
           <p class="licenses-card__standarts-name">ISO 14001:2015
             ISO 45001:2018</p>
+          <button class="licenses-button">Подробнее</button>
         </div>
       </div>
 

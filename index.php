@@ -17,9 +17,9 @@
         </div>
     </div>
 </section>
-<section class="video" data-aos="fade-up"  data-aos-once='true'>
+<section class="video" data-aos="fade-up" data-aos-once='true'>
     <div class="video-block container">
-        <iframe width="1290" height="728" src="https://www.youtube.com/embed/_Q2GOVXnYFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="video-size" src="https://www.youtube.com/embed/_Q2GOVXnYFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </section>
 <section class="about" id="about">
@@ -65,7 +65,7 @@
                 <p class="about-advantage__text">Поставлено <br> блоков</p>
             </div>
             <div class="about-advantage">
-                <p class="about-advantage__count">2 тыс</p>
+                <p class="about-advantage__count">3 тыс</p>
                 <p class="about-advantage__text">Шкафов <br> АСУ ТП</p>
             </div>
         </div>
@@ -82,7 +82,7 @@
                 </p>
             </div>
             <div class="specifics-img">
-                <img src="img/specificsimg.png" alt="" class="" />
+                <img src="img/specificsimg.png" alt="" class="specifics-img" />
             </div>
         </div>
         <div class="specifics-block" data-aos="fade-right" data-aos-duration="1500" data-aos-once='true'>
@@ -101,7 +101,7 @@
                 </p>
             </div>
             <div class="specifics-img">
-                <img src="img/specificsimg1.png" alt="" class="" />
+                <img src="img/specificsimg1.png" alt="" class="specifics-img" />
             </div>
         </div>
     </div>
@@ -126,7 +126,7 @@
             </div>
             <div class="advantage">
                 <div class="advantage-num">04</div>
-                <p class="advantage-text">Собственная испытательная лабаратория</p>
+                <p class="advantage-text">Собственная испытательная лаборатория</p>
             </div>
             <div class="advantage">
                 <div class="advantage-num">05</div>

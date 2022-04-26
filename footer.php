@@ -9,7 +9,7 @@
                     <li class="footer-block__list-title">Компания</li>
                     <li class="footer-block__list"><a href="licenses.php" class="footer-block__link">Лицензии и сертификаты</a></li>
                     <li class="footer-block__list"><a href="projects.php" class="footer-block__link">Реализованные проекты</a></li>
-                    <li class="footer-block__list"><a href="#" class="footer-block__link">Системы менеджмента</a></li>
+                    <li class="footer-block__list"><a href="management.php" class="footer-block__link">Системы менеджмента</a></li>
                     <li class="footer-block__list">
                         <a href="soc-respons.php" class="footer-block__link">Социальная ответственность</a>
                     </li>
