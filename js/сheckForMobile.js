@@ -1,5 +1,6 @@
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+if (('ontouchstart' in document.documentElement)==true) {
   document.body.classList.add("_mobile");
 } else {
   document.body.classList.add("_pc");
 }
+
