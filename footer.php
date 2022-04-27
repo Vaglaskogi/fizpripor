@@ -53,8 +53,9 @@
 <script src="js/lightzoom.js"></script>
 <script src="js/accordeon.js"></script>
 <script src="js/smoothScroll.js"></script>
-<script src="js/main.js"></script>
 <script src="js/activePage.js"></script>
+<script src="js/mobile-menu.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 

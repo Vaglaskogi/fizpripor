@@ -1,7 +1,10 @@
-const body = document.querySelector('body')
+const body = document.querySelector("body");
 
-bodyClassList = body.classList
+bodyClassList = body.classList;
 
-if (bodyClassList.includes("_mobile")) {
-  let headerContent = 
+console.log(bodyClassList);
+
+if (bodyClassList.contains("_mobile")) {
+  let headerContent = document.querySelector(".header-container");
+  headerContent.remove();
 }
