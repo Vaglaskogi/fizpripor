@@ -34,27 +34,16 @@
       line-height: 22px
       color: #181818
       transition: .3s
-      &:hover
-        filter: invert(37%) sepia(11%) saturate(2107%) hue-rotate(141deg) brightness(94%) contrast(88%);
-        transition: .3s
-      &:hover > img
-         	transform: rotate(-180deg)
-          transition: .3s
+      cursor: default
       &-active
         padding-bottom: 39px
         border-bottom: 3px solid $accent
       &__alt > img
         transition: .3s
       &__alt
-        text-decoration: none
-        font-style: normal
-        font-weight: 500
-        font-size: 18px
-        line-height: 22px
-        color: #181818
-        transition: .3s
-        cursor: default
+        cursor: pointer !important
         &:hover
+          filter: invert(37%) sepia(11%) saturate(2107%) hue-rotate(141deg) brightness(94%) contrast(88%)
           transition: .3s
         &:hover > img
             transform: rotate(-180deg)

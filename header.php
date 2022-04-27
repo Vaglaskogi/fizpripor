@@ -21,9 +21,11 @@
     <a href="index.php" class="header-logo__link"><img src="img/Logo.svg" alt="" class="header-logo" /></a>
     <div class="header-container">
       <ul class="header-menu">
-        <li class="header-menu__list"><a href="index.php" class="header-menu__link">Главная</a></li>
+        <li class="header-menu__list"><a href="index.php" class="header-menu__link header-menu__link__alt">Главная</a></li>
+        <!-- Главная -->
         <li class="header-menu__list">
-          <p class="header-menu__link__alt">Компания <img src="img/arr.svg" alt="" class="header-menu__arr" /></p>
+          <p class="header-menu__link">Компания <img src="img/arr.svg" alt="" class="header-menu__arr" /></p>
+          <!-- Компания -->
           <ul class="header-submenu">
             <li class="header-submenu__list"><a href="licenses.php" class="header-submenu__link">Лицензии и сертификаты</a></li>
             <div class="header-submenu__line"></div>
@@ -35,7 +37,8 @@
           </ul>
         </li>
         <li class="header-menu__list">
-          <a href="productspage.php" class="header-menu__link">Продукция<img src="img/arr.svg" alt="" class="header-menu__arr" /></a>
+          <a href="productspage.php" class="header-menu__link header-menu__link__alt">Продукция<img src="img/arr.svg" alt="" class="header-menu__arr" /></a>
+          <!-- Продукция -->
           <ul class="header-submenu">
             <li class="header-submenu__list">
               <p href="#" class="header-submenu__link">Непрограммируемые <br />
@@ -80,14 +83,16 @@
           </ul>
         </li>
         <li class="header-menu__list">
-          <p class="header-menu__link__alt">Медиа<img src="img/arr.svg" alt="" class="header-menu__arr" /></p>
+          <p class="header-menu__link">Медиа<img src="img/arr.svg" alt="" class="header-menu__arr" /></p>
+          <!-- Медиа -->
           <ul class="header-submenu">
             <li class="header-submenu__list"><a href="news.php" class="header-submenu__link">Новости</a></li>
             <div class="header-submenu__line"></div>
             <li class="header-submenu__list"><a href="photopage.php" class="header-submenu__link">Фотографии</a></li>
           </ul>
         </li>
-        <li class="header-menu__list"><a href="contacts.php" class="header-menu__link">Контакты</a></li>
+        <li class="header-menu__list"><a href="contacts.php" class="header-menu__link header-menu__link__alt">Контакты</a></li>
+        <!-- Контакты -->
       </ul>
       <div class="header-links">
         <a href="tel:+74952286019" class="header-links__number">+7 (495) 228 60-19</a>

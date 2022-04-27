@@ -471,20 +471,7 @@ h2 {
   color: #181818;
   -webkit-transition: .3s;
   transition: .3s;
-}
-
-.header-menu__link:hover {
-  -webkit-filter: invert(37%) sepia(11%) saturate(2107%) hue-rotate(141deg) brightness(94%) contrast(88%);
-          filter: invert(37%) sepia(11%) saturate(2107%) hue-rotate(141deg) brightness(94%) contrast(88%);
-  -webkit-transition: .3s;
-  transition: .3s;
-}
-
-.header-menu__link:hover > img {
-  -webkit-transform: rotate(-180deg);
-          transform: rotate(-180deg);
-  -webkit-transition: .3s;
-  transition: .3s;
+  cursor: default;
 }
 
 .header-menu__link-active {
@@ -498,18 +485,12 @@ h2 {
 }
 
 .header-menu__link__alt {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  color: #181818;
-  -webkit-transition: .3s;
-  transition: .3s;
-  cursor: default;
+  cursor: pointer !important;
 }
 
 .header-menu__link__alt:hover {
+  -webkit-filter: invert(37%) sepia(11%) saturate(2107%) hue-rotate(141deg) brightness(94%) contrast(88%);
+          filter: invert(37%) sepia(11%) saturate(2107%) hue-rotate(141deg) brightness(94%) contrast(88%);
   -webkit-transition: .3s;
   transition: .3s;
 }
@@ -2487,4 +2468,3 @@ h2 {
     width: 570px;
   }
 }
-/*# sourceMappingURL=style.css.map */
