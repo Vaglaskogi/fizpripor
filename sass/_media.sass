@@ -223,6 +223,7 @@
     width: 100%
     &-links
       width: auto
+
       &__social
         display: none
     &-container
@@ -244,3 +245,61 @@
   .header
     &-container
       width: 825px
+
+@media (max-width: 960px)
+  h2
+    font-size: 86px !important
+    line-height: 103px !important
+  .main
+    padding-top: 210px
+    padding-bottom: 110px
+    &-info
+      margin-left: 45px
+      &__title
+        margin-bottom: 25px
+        font-size: 46px
+        line-height: 55px
+        width: 100%
+      &__text
+        width: 451px
+        font-size: 15px
+        margin-bottom: 50px
+    &-container
+      width: 95%
+    &-arr
+      margin-left: 9px
+  .container
+    width: 95%
+
+  .video
+    padding-bottom: 110px
+    &-block
+      width: 100%
+
+  .about
+    &-mainBlock
+      flex-direction: column
+      align-items: start
+    &-left
+      width: 100%
+      height: auto
+      margin-bottom: 50px
+    &-right
+      margin: auto
+      padding-right: 10%
+      margin-bottom: 50px
+      &__text
+        width: 100%
+        padding-left: 30px
+      &__tagline
+        padding-left: 30px
+        width: 100%
+    &-subtitle
+      width: 100%
+    &-advantages
+      display: grid
+      grid-template-columns: 1fr 1fr
+      grid-template-rows: 1fr 1fr
+      grid-gap: 25px
+    &-advantage
+      width: 100%
