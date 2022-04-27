@@ -144,6 +144,11 @@ body._pc .header-submenu > li:hover .header-subsubmenu {
 .header-menu__activeLine {
   position: absolute;
   width: 100%;
-  padding-top: 39px;
+  margin-top: 40px;
   border-bottom: 3px solid #2e6c77;
+}
+
+.header-menu__link {
+  padding: 14px 0px;
+  display: inline;
 }
