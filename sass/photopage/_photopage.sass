@@ -10,36 +10,44 @@
   &-subtitle
     font-style: normal
     font-weight: 600
-    font-size: 64px
-    line-height: 77px
+    font-size: 48px
+    line-height: 58px
     margin-bottom: 30px
     border-bottom: 3px solid $accent
     width: 1180px
     margin-left: 110px
     padding-bottom: 20px
+    &-alt
+      font-style: normal
+      font-weight: 600
+      font-size: 48px
+      line-height: 58px
+      margin-bottom: 30px
+      border-bottom: 3px solid $accent
+      width: 100%
+      margin-left: 110px
+      padding-bottom: 20px
+      margin-left: 0
   &-button
-
+    display: flex
+    align-items: center
+    background-color: #fff
+    font-weight: 600
     font-size: 28px
-    background-color: inherit
     color: $text
-    padding: 34px 25px 34px 0px
-    background-image: url(../img/accord-arr-act.svg)
-    background-repeat: no-repeat
-    background-position: right
-    background-size: 14px
+    width: 100%
+    padding: 34px 0px 34px 110px
     text-align: left
-    margin-left: 110px
     &:hover
       outline: none
       color: inherit
     &__active
-      background-image: url(../img/accord-arr.svg)
-      background-repeat: no-repeat
-      background-position: right
-
-      background-size: 14px
+    &-arrow
+      margin-left: 12px
   &-accordeon
     box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15)
+    width: 100%
+    box-sizing: border-box
 
   &-sub
     font-style: normal

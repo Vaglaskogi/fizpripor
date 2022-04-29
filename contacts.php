@@ -2,8 +2,9 @@
 <section class="contacts contacts-page" data-aos="fade" data-aos-duration="1500">
     <div class="container">
         <h2 class="contacts-title">Контакты</h2>
-        <h3 class="contacts-subtitle"><span class="accent600">Связаться</span> с нами</h3>
-
+        <div class="contacts-subtitle__block">
+            <h3 class="contacts-subtitle"><span class="accent600">Связаться</span> с нами</h3>
+        </div>
         <div class="contacts-cards">
             <div class="contacts-card">
                 <img src="img/contactsPage/call.svg" alt="" class="contacts-card__img" />
@@ -33,7 +34,7 @@
             <div class="contacts-card">
                 <img src="img/contactsPage/social.svg" alt="" class="contacts-card__img" />
                 <p class="contacts-card__title">Мы в соцсетях</p>
-                <p class="contacts-card__subtitle">Актуальная <br />информация о заводе.!</p>
+                <p class="contacts-card__subtitle">Актуальная <br />информация о заводе!</p>
                 <div class="contacts-phone__block">
                     <a href="https://www.youtube.com/channel/UCdZOG8MA75s46iCRWPrW-ew" target="_blank" class="contacts-phone__block-social">
                         <img src="img/yt.svg" alt="" class="contacts-phone__block-img" />
@@ -52,7 +53,9 @@
             </div>
         </div>
 
-        <h3 class="contacts-subtitle"><span class="accent600">Где мы</span> находимся?</h3>
+        <div class="contacts-subtitle__block">
+            <h3 class="contacts-subtitle"><span class="accent600">Где мы</span> находимся?</h3>
+        </div>
         <div id="slideBlock" class="maps-block">
             <div class="contacts-block">
                 <div class="contacts-address">
@@ -68,9 +71,9 @@
                     </div>
                 </div>
             </div>
-            <div class="contacts-maps">
-                <iframe class="contacts-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2263.808588715092!2d37.51689762365147!3d55.431131718087734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414aa8330f9ff045%3A0x45eca8cacd987226!2z0J7QntCeICLQnNC-0YHQutC-0LLRgdC60LjQuSDQt9Cw0LLQvtC0ICLQpNCY0JfQn9Cg0JjQkdCe0KAi!5e0!3m2!1sru!2sru!4v1649699938590!5m2!1sru!2sru" width="1070" height="654" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+
+            <iframe class="contacts-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2263.808588715092!2d37.51689762365147!3d55.431131718087734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414aa8330f9ff045%3A0x45eca8cacd987226!2z0J7QntCeICLQnNC-0YHQutC-0LLRgdC60LjQuSDQt9Cw0LLQvtC0ICLQpNCY0JfQn9Cg0JjQkdCe0KAi!5e0!3m2!1sru!2sru!4v1649699938590!5m2!1sru!2sru" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
         </div>
         <div id="slideBlock2" class="maps-block hidden">
             <div class="contacts-block">
@@ -88,9 +91,9 @@
                     </div>
                 </div>
             </div>
-            <div class="contacts-maps">
-                <iframe class="contacts-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1122.052935036229!2d37.670998497359435!3d55.77403308938115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a8026721307%3A0x5eefce44c820a7a9!2z0J3QuNC20L3Rj9GPINCa0YDQsNGB0L3QvtGB0LXQu9GM0YHQutCw0Y8g0YPQuy4sIDQwLzEyLCDQutC-0YDQv9GD0YEgMjAsIDcg0Y3RgtCw0LYsINC-0YTQuNGBIDcyOSwg0JzQvtGB0LrQstCwLCAxMDUwNjY!5e0!3m2!1sru!2sru!4v1649774615701!5m2!1sru!2sru" width="1070" height="654" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
-            </div>
+
+            <iframe class="contacts-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1122.052935036229!2d37.670998497359435!3d55.77403308938115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a8026721307%3A0x5eefce44c820a7a9!2z0J3QuNC20L3Rj9GPINCa0YDQsNGB0L3QvtGB0LXQu9GM0YHQutCw0Y8g0YPQuy4sIDQwLzEyLCDQutC-0YDQv9GD0YEgMjAsIDcg0Y3RgtCw0LYsINC-0YTQuNGBIDcyOSwg0JzQvtGB0LrQstCwLCAxMDUwNjY!5e0!3m2!1sru!2sru!4v1649774615701!5m2!1sru!2sru" width="1070" height="654" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
+
         </div>
     </div>
     </div>

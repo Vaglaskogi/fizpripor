@@ -2,9 +2,9 @@
 <section class="photopage" data-aos="fade" data-aos-duration="1500" data-aos-once='true'>
   <div class="container">
     <h2 class="photopage-title">МЕДИА</h2>
-    <h3 class="photopage-subtitle"><span class="accent600">Фото</span> завода</h3>
+    <h3 class="photopage-subtitle-alt"><span class="accent600">Фото</span> завода</h3>
     <div class="photopage-accordeon">
-      <button class="photopage-button photopage-button__active"><span class="accent">PRO//ДВИЖЕНИЕ.ЭКСПО</span> 2019</button>
+      <button class="photopage-button photopage-button__active"><span class="accent600">PRO//ДВИЖЕНИЕ.ЭКСПО</span> 2019<img class="photopage-button-arrow" src="img/accord-arr-act.svg" alt=""></button>
       <p class="photopage-sub hidden">Масштабный железнодорожный салон техники и технологий на пространстве колеи 1520. Единственный в Европе, имеющий стратегическое значение в развитии железнодорожной отрасли России и усилении международного сотрудничества.</p>
     </div>
     <div class="photopage-block">
@@ -20,7 +20,7 @@
     <button class="photopage-load">Загрузить больше ↓</button>
     <hr class="photopage-line">
     <div class="photopage-accordeon">
-      <button class="photopage-button photopage-button__active"><span class="accent">АТОМЭКСПО</span> 2016</button>
+      <button class="photopage-button photopage-button__active"><span class="accent600">АТОМЭКСПО</span> 2016</button>
       <p class="photopage-sub hidden">Международный Форум «АТОМЭКСПО» – это крупнейшая выставочная и деловая площадка для проведения встреч и переговоров мировых лидеров атомной энергетики.</p>
     </div>
 

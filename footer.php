@@ -45,7 +45,22 @@
         </div>
     </div>
 </footer>
+
+
+
+<script>
+  document.addEventListener( 'DOMContentLoaded', function() {
+    var splide = new Splide( '.splide', {
+  perPage: 1,
+  rewind : true,
+  
+} );
+
+splide.mount();    
+  } );
+</script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="/js/splide.min.js"></script>
 <script src="/js/scriptForSwipeCard.js"></script>
 <script src="js/swiper-bundle.min.js"></script>
 <script src="js/сheckForMobile.js"></script>

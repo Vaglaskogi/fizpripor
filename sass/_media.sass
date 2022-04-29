@@ -13,6 +13,8 @@
       display: none
     &-links
       margin-left: 50px
+  .footer-bg
+    margin-left: -184px
 
 @media (max-width: 1300px)
   h3
@@ -32,6 +34,9 @@
       margin-left: 0px
   .container
     width: 930px
+  .photo
+    &-container
+      width: 930px
   .video
     &-size
       height: 525px
@@ -48,7 +53,7 @@
         font-size: 16px
         width: 485px
         line-height: 130%
-        margin-bottom: 73px
+        margin-bottom: 50px
       &__button
         font-size: 18px
         padding: 21px 36px
@@ -223,13 +228,17 @@
     width: 100%
     &-links
       width: auto
-
       &__social
         display: none
     &-container
       width: 900px
       margin-left: auto
       margin-right: 0
+
+@media (max-width: 1210px)
+  .header
+    &-container
+      width: 850px
 
 @media (max-width: 1168px)
   .header
@@ -244,15 +253,17 @@
 @media (max-width: 1030px)
   .header
     &-container
-      width: 825px
+      width: 820px
+  .footer-bg
+    margin-left: -184px
 
 @media (max-width: 960px)
   h2
     font-size: 86px !important
     line-height: 103px !important
   .main
-    padding-top: 210px
-    padding-bottom: 110px
+    padding-top: 150px
+    padding-bottom: 80px
     &-info
       margin-left: 45px
       &__title
@@ -272,11 +283,12 @@
     width: 95%
 
   .video
-    padding-bottom: 110px
+    padding-bottom: 80px
     &-block
       width: 100%
 
   .about
+    padding-bottom: 80px
     &-mainBlock
       flex-direction: column
       align-items: start
@@ -291,6 +303,7 @@
       &__text
         width: 100%
         padding-left: 30px
+        margin-bottom: 40px
       &__tagline
         padding-left: 30px
         width: 100%
@@ -303,3 +316,95 @@
       grid-gap: 25px
     &-advantage
       width: 100%
+    
+  .specifics
+    margin-bottom: 110px
+    &-block
+      flex-direction: column
+      margin-bottom: 80px
+      &__reverse
+        flex-direction: column
+        margin-bottom: 80px
+    &-img
+      margin-top: 60px
+      width: 100%
+      object-fit: cover
+      max-height: 600px
+    &-info
+      width: 100%
+      &__subtitle
+        width: 100%
+      &__text
+        width: 100%
+
+  .advantages
+    padding-bottom: 80px
+    &-subtitle
+      max-width: 960px
+      width: auto
+
+  .products
+    padding-bottom: 80px
+
+  .contacts
+    &-block
+      &__title
+        margin-left: 50px
+        &-off
+          margin-right: 40px
+    &-address
+      &__block
+        margin-left: 0
+        &-off
+          margin-right: 0
+  .photo
+    margin-top: 80px
+
+  .footer
+    margin-top: 80px
+  .footer-bg
+    margin-left: -186px
+  .footer-block
+    width: 610px
+
+@media (max-width: 960px)
+  .media
+    &-subtitle
+      &__block
+        margin-bottom: 30px
+  .news
+    flex-direction: column-reverse
+    height: 100%
+    margin-bottom: 0
+    &-img
+      width: 100%
+      height: 100%
+      min-height: 300px
+    &-block
+      display: grid
+      grid-template-columns: 1fr 1fr
+      grid-gap: 30px
+      grid-row-gap: 40px
+    &-left
+      width: 100%
+      border-bottom: none
+      margin-right: 0
+      border-bottom: 1px solid #d6d6d6
+      padding-bottom: 30px
+    &-title
+      height: fit-content
+      font-size: 22px
+    &-text
+      width: 100%
+      margin-bottom: 0
+      font-size: 14px
+      -webkit-line-clamp: 5
+      height: 110px
+      
+    &-date
+      margin-top: 20px
+      width: 100%
+
+  .news-block > .news:nth-last-child(2) .news-left
+    border-bottom: none
+    padding-bottom: 0
