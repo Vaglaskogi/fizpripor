@@ -16,6 +16,16 @@
   .footer-bg
     margin-left: -184px
 
+@media (max-width: 1440px)
+  .main
+    padding-top: 195px
+
+@media (max-width: 1366px)
+  .main
+    padding-top: 150px
+  .main-info__text
+    margin-bottom: 40px
+
 @media (max-width: 1300px)
   h3
     font-size: 40px !important
@@ -53,7 +63,7 @@
         font-size: 16px
         width: 485px
         line-height: 130%
-        margin-bottom: 50px
+        margin-bottom: 40px
       &__button
         font-size: 18px
         padding: 21px 36px
@@ -224,6 +234,8 @@
     line-height: 22px
 
 @media (max-width: 1280px)
+  .main
+    padding-top: 185px
   .header
     width: 100%
     &-links
@@ -262,7 +274,7 @@
     font-size: 86px !important
     line-height: 103px !important
   .main
-    padding-top: 150px
+    padding-top: 140px
     padding-bottom: 80px
     &-info
       margin-left: 45px
@@ -271,10 +283,11 @@
         font-size: 46px
         line-height: 55px
         width: 100%
+        max-width: 740px
       &__text
         width: 451px
         font-size: 15px
-        margin-bottom: 50px
+        margin-bottom: 40px
     &-container
       width: 95%
     &-arr
@@ -318,7 +331,7 @@
       width: 100%
     
   .specifics
-    margin-bottom: 110px
+    margin-bottom: 80px
     &-block
       flex-direction: column
       margin-bottom: 80px
@@ -326,10 +339,10 @@
         flex-direction: column
         margin-bottom: 80px
     &-img
-      margin-top: 60px
+      margin-top: 40px
       width: 100%
       object-fit: cover
-      max-height: 600px
+      height: 400px
     &-info
       width: 100%
       &__subtitle
@@ -359,6 +372,12 @@
           margin-right: 0
   .photo
     margin-top: 80px
+    margin-bottom: 80px
+    &-container
+      width: 100%
+    &-title
+      &__block
+        margin-bottom: 30px
 
   .footer
     margin-top: 80px
@@ -367,7 +386,6 @@
   .footer-block
     width: 610px
 
-@media (max-width: 960px)
   .media
     &-subtitle
       &__block
@@ -408,3 +426,177 @@
   .news-block > .news:nth-last-child(2) .news-left
     border-bottom: none
     padding-bottom: 0
+
+@media (max-width: 930px)
+  .footer
+    &-bg
+      margin-left: 300px
+      margin-top: 18px
+      height: 664px
+    &-top
+      flex-direction: column
+    &-block
+      margin-top: 30px
+      flex-direction: column
+      min-height: 520px
+    &-bottom
+      margin-top: 50px
+
+
+@media (max-width: 800px)
+  .product
+    &-img
+      width: 100%
+    &-text
+      font-size: 13px
+      margin-bottom: 30px
+
+@media (max-width: 720px)
+  h2
+    display: none
+  .products-block > .product:last-child
+    display: none
+  .product
+    &-name
+      font-size: 18px
+    &-text
+      font-size: 14px
+      margin-bottom: 40px
+  
+  .contacts
+    &-block__title
+      margin-left: 42px
+    &-flex
+    &-link
+      width: 100%
+    &-address
+      &__text
+        margin-left: 20px
+        width: 100%
+      &__block
+        width: 240%
+        &__title
+
+  .footer-bg
+    margin-left: 250px
+
+@media (max-width: 480px)
+  h1
+    font-size: 32px !important
+    line-height: 38px !important
+  h3
+    font-size: 32px !important
+    line-height: 38px !important
+
+  .main
+    padding-top: 160px
+    &-info
+      &__text
+        width: 100%
+        font-size: 14px
+        margin-bottom: 35px
+        max-width: 370px
+      &__button
+        padding: 18px 30px
+        font-size: 18px
+      &__title
+        max-width: 370px
+    
+  .about
+    padding-bottom: 70px
+    &-block
+      flex-direction: column
+    &-subtitle
+      padding-left: 0
+      margin-bottom: 20px
+    &-left
+      &__text
+        width: 100%
+        margin-bottom: 15px
+        font-size: 12px
+    &-right
+      padding-right: 15%
+      margin-bottom: 40px
+      &__text
+        padding-left: 0
+        margin-bottom: 30px
+      &__tagline
+        padding-left: 0
+
+  .specifics-info__subtitle
+    margin-bottom: 20px
+  .specifics-info__text
+    margin-top: 20px
+  .specifics-block
+    margin-bottom: 70px
+  .specifics
+    margin-bottom: 70px
+
+  .advantage
+    &-text
+      padding: 45px 0px
+      font-size: 16px
+      line-height: 19px
+      margin-left: 25px
+  .advantages-subtitle
+    margin-left: 75px
+  .advantages
+    padding-bottom: 70px 
+
+  .title-link
+    font-size: 17px
+    line-height: 19px
+    margin-top: 8px
+
+  .products
+    padding-bottom: 70px
+    &__block
+      margin-top: 20px
+    &-subtitle__block
+      align-items: center
+
+
+  .product-block > .product:nth-child(3) //ЧЕК
+    display: none
+
+  .news
+    &-block
+      grid-template-columns: 1fr
+  .news-block > .news:nth-last-child(2)
+    display: none
+  .news-block > .news:nth-last-child(3)
+    display: none
+
+  .media-subtitle__block
+    align-items: center
+
+  .photo
+    margin: 70px 0px
+  
+  .contacts
+    &-subtitle
+      width: 65%
+  .contacts-subtitle__link
+    font-size: 16px
+    line-height: 19px
+  .contacts-address__text
+    font-size: 16px
+    line-height: 19px
+    margin-left: 0
+  .contacts-block__title
+    margin-left: 0
+  .contacts-address__img
+    display: none
+  .contacts-link
+    font-size: 16px
+    line-height: 19px
+    width: 150px
+  .contacts-block__title-off
+    margin-right: 0
+  .contacts-address__text-sep
+    width: 300px
+    margin-right: 0
+    font-size: 16px
+    line-height: 19px
+  .contacts-address__block
+    width: 350px
