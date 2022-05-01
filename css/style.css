@@ -1670,22 +1670,22 @@ h2 {
   color: #FFFFFF;
 }
 
-.ktsnpl {
+.productPage {
   padding-top: 230px;
 }
 
-.ktsnpl-text {
+.productPage-text {
   padding-bottom: 60px;
   border-bottom: 1px solid #CDCDCD;
   margin-left: 110px;
   margin-top: 40px;
 }
 
-.ktsnpl-text-nb {
+.productPage-text-nb {
   border: none;
 }
 
-.ktsnpl-title {
+.productPage-title {
   text-transform: uppercase;
   font-style: normal;
   font-weight: 700;
@@ -1695,7 +1695,7 @@ h2 {
   color: #F3F3F3;
 }
 
-.ktsnpl-subtitle {
+.productPage-subtitle {
   font-family: 'Golos';
   font-style: normal;
   font-weight: 600;
@@ -1707,7 +1707,7 @@ h2 {
   width: 1070px;
 }
 
-.ktsnpl-block {
+.productPage-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1719,29 +1719,32 @@ h2 {
           justify-content: space-between;
 }
 
-.ktsnpl-block__text {
+.productPage-block__text {
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 150%;
   color: #181818;
   width: 639px;
 }
 
-.ktsnpl-block__img {
+.productPage-block__img {
   margin-right: 110px;
   pointer-events: none;
+  max-width: 330px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.ktsnpl-block__list {
+.productPage-block__list {
   margin-left: 25px;
   width: 630px;
 }
 
-.ktsnpl-block__item {
+.productPage-block__item {
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 150%;
   color: #181818;
 }
@@ -2006,6 +2009,12 @@ h2 {
   line-height: 22px;
   color: #181818;
   margin-top: 15px;
+  max-height: 110px;
+  min-height: 110px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
 }
 
 .licenses-card__standarts {
@@ -2024,6 +2033,7 @@ h2 {
   line-height: 22px;
   color: #181818;
   margin-top: 15px;
+  min-height: 66px;
 }
 
 .licenses-links {
@@ -2064,6 +2074,20 @@ h2 {
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
+}
+
+.licenses-card__title-name:hover::after {
+  content: attr(data-title);
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  z-index: 1;
+  font-size: 13px;
+  font-family: "Golos";
+  font-weight: 400;
+  background: #ffffff;
+  padding: 5px 10px;
+  border: 1px solid #727272;
 }
 
 .photopage {
@@ -2978,6 +3002,12 @@ h2 {
   }
 }
 
+@media (max-width: 540px) {
+  .product-block > .product:nth-child(3) {
+    display: none;
+  }
+}
+
 @media (max-width: 480px) {
   h1 {
     font-size: 32px !important;
@@ -3071,9 +3101,6 @@ h2 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-  .product-block > .product:nth-child(3) {
-    display: none;
   }
   .news-block {
     -ms-grid-columns: 1fr;
