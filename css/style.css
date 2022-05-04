@@ -1011,6 +1011,7 @@ h2 {
   padding-bottom: 25px;
   border-bottom: 1px solid #CDCDCD;
   margin-bottom: 25px;
+  max-width: 270px;
 }
 
 .product-name {
@@ -1030,6 +1031,7 @@ h2 {
   margin-top: 20px;
   margin-bottom: 40px;
   line-height: 130%;
+  height: 270px;
 }
 
 .product-button {
