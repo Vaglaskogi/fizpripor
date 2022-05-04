@@ -1032,6 +1032,10 @@ h2 {
   margin-bottom: 40px;
   line-height: 130%;
   height: 270px;
+  display: -webkit-box;
+  -webkit-line-clamp: 13;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .product-button {
