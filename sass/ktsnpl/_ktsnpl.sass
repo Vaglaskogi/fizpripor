@@ -32,26 +32,29 @@
     align-items: center
     justify-content: space-between
 
-    &__text
-      font-style: normal
-      font-weight: 400
-      font-size: 18px
-      line-height: 150%
-      color: $text
-      width: 639px
-
     &__img
       margin-right: 110px
       pointer-events: none
       max-width: 330px
+      width: 100%
       object-fit: cover
 
-    &__list
-      margin-left: 25px
-      width: 630px
-    &__item
-      font-style: normal
-      font-weight: 400
-      font-size: 18px
-      line-height: 150%
-      color: $text
+
+.productPage-text > p
+  font-style: normal
+  font-weight: 400
+  font-size: 18px
+  line-height: 150%
+  color: $text
+  width: 639px
+
+.productPage-text > ul
+  margin-left: 25px
+  width: 630px
+
+.productPage-text ul > li
+  font-style: normal
+  font-weight: 400
+  font-size: 18px
+  line-height: 150%
+  color: $text

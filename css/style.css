@@ -1726,7 +1726,16 @@ h2 {
           justify-content: space-between;
 }
 
-.productPage-block__text {
+.productPage-block__img {
+  margin-right: 110px;
+  pointer-events: none;
+  max-width: 330px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.productPage-text > p {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1735,20 +1744,12 @@ h2 {
   width: 639px;
 }
 
-.productPage-block__img {
-  margin-right: 110px;
-  pointer-events: none;
-  max-width: 330px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.productPage-block__list {
+.productPage-text > ul {
   margin-left: 25px;
   width: 630px;
 }
 
-.productPage-block__item {
+.productPage-text ul > li {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
