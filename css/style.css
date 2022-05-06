@@ -1757,6 +1757,10 @@ h2 {
   color: #181818;
 }
 
+.productContainer .productPage-block:last-child > .productPage-text {
+  border: none;
+}
+
 .contacts-page {
   padding-top: 230px;
 }
