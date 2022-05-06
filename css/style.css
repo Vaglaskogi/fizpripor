@@ -996,12 +996,15 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 40px;
-  padding-left: 110px;
-  padding-right: 110px;
+  margin-left: 110px;
+  margin-right: 110px;
 }
 
 .product {
   width: 330px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   padding: 30px;
   -webkit-box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
           box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
@@ -1020,7 +1023,9 @@ h2 {
   font-size: 18px;
   line-height: 22px;
   color: #181818;
-  min-height: 66px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .product-text {
@@ -1032,9 +1037,11 @@ h2 {
   margin-top: 20px;
   margin-bottom: 40px;
   line-height: 130%;
-  height: 270px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   display: -webkit-box;
-  -webkit-line-clamp: 13;
+  -webkit-line-clamp: 14;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -1067,6 +1074,11 @@ h2 {
   padding: 19px 46px;
   margin-top: 60px;
   margin-left: 110px;
+}
+
+.productContainer .productspage-block:last-child {
+  border: none;
+  padding-bottom: 0;
 }
 
 .media-page {
@@ -2265,6 +2277,7 @@ h2 {
           box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
   margin-left: 110px;
   width: 1070px;
+  margin-top: 60px;
 }
 
 .productspage-button {
@@ -2290,7 +2303,8 @@ h2 {
 }
 
 .productspage-block {
-  margin-bottom: 110px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #D6D6D6;
 }
 
 .management {

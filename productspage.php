@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 <section class="productspage" data-aos="fade" data-aos-duration="1500" data-aos-once='true'>
-  <div class="container">
+  <div class="container productContainer">
     <h2 class="productspage-title">Продукция</h2>
     <h3 class="productspage-subtitle"><span class="accent600">Наша </span>продукция</h3>
     <div class="productspage-accordeon">
