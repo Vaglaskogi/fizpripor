@@ -18,9 +18,9 @@
                     <li class="footer-block__list-title">Продукция</li>
                     <li class="footer-block__list"><a href="#" class="footer-block__link">Непрограммируемые
                             средства автоматизации</a></li>
-                    <li class="footer-block__list"><a href="#" class="footer-block__link">Программируемые <br>
+                    <li class="footer-block__list"><a href="productsPage.php#programm" class="footer-block__link">Программируемые <br>
                             средства автоматизации</a></li>
-                    <li class="footer-block__list"><a href="#" class="footer-block__link">Малая автоматизация</a></li>
+                    <li class="footer-block__list"><a href="productsPage.php#smallAuto" class="footer-block__link">Малая автоматизация</a></li>
                 </ul>
                 <ul class="footer-block__content" style="width: 67px;">
                     <li class="footer-block__list-title">Медиа</li>

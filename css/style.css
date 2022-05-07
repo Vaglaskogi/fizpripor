@@ -660,6 +660,7 @@ h2 {
 
 .about {
   padding-bottom: 130px;
+  scroll-margin-top: 105px;
 }
 
 .about-block {
@@ -779,6 +780,10 @@ h2 {
   font-size: 24px;
   line-height: 29px;
   color: #FFFFFF;
+}
+
+#about {
+  scroll-margin-top: 200px;
 }
 
 .specifics-block {
@@ -2362,6 +2367,14 @@ h2 {
 .productspage-block {
   padding-bottom: 60px;
   border-bottom: 1px solid #D6D6D6;
+}
+
+#programm {
+  scroll-margin-top: 150px;
+}
+
+#smallAuto {
+  scroll-margin-top: 150px;
 }
 
 .management {
