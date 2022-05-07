@@ -2114,6 +2114,63 @@ h2 {
   border: 1px solid #727272;
 }
 
+.licensesPhotos-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 40px 0px 40px;
+  margin-bottom: 130px;
+}
+
+.licensesPhotos-img {
+  max-width: 330px;
+}
+
+.licensesPhotos-block {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 40px;
+  margin-left: 110px;
+  margin-right: 110px;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 38px;
+  margin-bottom: 90px;
+}
+
+.licensesPhotos-button {
+  padding: 22px 22px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #2E6C77;
+  font-family: Golos;
+  font-weight: 600;
+  font-size: 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  line-height: 100%;
+  text-decoration: none;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: block;
+  width: 420px;
+}
+
+.licensesPhotos-button:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+  background-color: #fff;
+  color: #2E6C77;
+  outline: 1px solid #2E6C77;
+}
+
 .photopage {
   padding-top: 230px;
 }
