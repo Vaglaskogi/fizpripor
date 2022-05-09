@@ -142,7 +142,35 @@
                 <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
                 <div class="product__right">
                     <a href="productspage.php"><p class="product__right-tag">Непрограммируемые средства автоматизации </p></a>
-                    <p class="product__right-name">Комплекс технических средств непрограммируемой логики</p>
+                    <a href="#"><p class="product__right-name">Комплекс технических средств непрограммируемой логики</p></a>
+                    <p class="product__right-text">
+                        Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
+                        автоматизированных систем управления технологическими процессами (АСУ ТП), в которых функция
+                        управления защищена от программных ошибок и киберугроз. Функция управления реализуется на
+                        непрограммируемых средствах – «жёсткой логике».
+                    </p>
+                    <a href="ktsnpl.php" class="product__right-button">Подробнее</a>
+                </div>
+            </div>
+            <div class="product">
+                <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+                <div class="product__right">
+                    <a href="productspage.php"><p class="product__right-tag">Непрограммируемые средства автоматизации </p></a>
+                    <a href="#"><p class="product__right-name">Комплекс технических средств непрограммируемой логики</p></a>
+                    <p class="product__right-text">
+                        Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
+                        автоматизированных систем управления технологическими процессами (АСУ ТП), в которых функция
+                        управления защищена от программных ошибок и киберугроз. Функция управления реализуется на
+                        непрограммируемых средствах – «жёсткой логике».
+                    </p>
+                    <a href="ktsnpl.php" class="product__right-button">Подробнее</a>
+                </div>
+            </div>
+            <div class="product">
+                <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+                <div class="product__right">
+                    <a href="productspage.php"><p class="product__right-tag">Непрограммируемые средства автоматизации </p></a>
+                    <a href="#"><p class="product__right-name">Комплекс технических средств непрограммируемой логики</p></a>
                     <p class="product__right-text">
                         Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
                         автоматизированных систем управления технологическими процессами (АСУ ТП), в которых функция

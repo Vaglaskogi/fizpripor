@@ -136,20 +136,18 @@
       padding: 0
       margin-top: 30px
       width: 100%
+      margin-left: 0
   .product
     width: auto
-    padding: 20px
+    padding: 25px
     &-img
-      width: 250px
-    &-name
-      font-size: 16px
-      line-height: 19px
-    &-text
-      font-size: 14px
-      line-height: 130%
-    &-button
-      font-size: 16px
-      padding: 13px 28px
+      max-width: 260px
+      max-height: 301px
+    &__right
+      &-name
+        font-size: 24px
+      &-text
+        margin-bottom: 25px
   .media
     &-subtitle
       &__block
@@ -202,7 +200,8 @@
 
   .contacts
     &-subtitle
-
+      &__link
+        font-size: 18px
       &__block
         width: 100%
         margin-left: 0
@@ -260,12 +259,24 @@
         overflow: hidden
         width: 71px
 
+@media (max-width: 1070px)
+  .splide__arrow--prev
+    left: 0em !important
+    background: linear-gradient(to right, #000000, transparent) !important
+  .splide__arrow--next
+    right: 0em !important
+    background: linear-gradient(to left, #000000, transparent) !important
+  .splide__arrow svg
+    fill: #fff !important
 @media (max-width: 1030px)
   .header
     &-container
       width: 820px
   .footer-bg
     margin-left: -184px
+  .contacts-address__block
+    margin-left: -35px
+    width: 515px
 
 @media (max-width: 960px)
   h2
@@ -382,7 +393,7 @@
   .footer-bg
     margin-left: -186px
   .footer-block
-    width: 610px
+    width: 100%
 
   .media
     &-subtitle
@@ -424,13 +435,13 @@
   .news-block > .news:nth-last-child(2) .news-left
     border-bottom: none
     padding-bottom: 0
+    margin-bottom: 0
+
 
 @media (max-width: 930px)
   .footer
     &-bg
-      margin-left: 300px
-      margin-top: 18px
-      height: 664px
+      display: none
     &-top
       flex-direction: column
     &-block
@@ -451,8 +462,6 @@
 
 @media (max-width: 720px)
   h2
-    display: none
-  .products-block > .product:last-child
     display: none
   .product
     &-name
@@ -478,9 +487,24 @@
   .footer-bg
     margin-left: 250px
 
-@media (max-width: 540px)
-  .product-block > .product:nth-child(3) //ЧЕК
-    display: none
+@media (max-width: 640px)
+  .product
+    flex-direction: column !important
+    &-img
+      
+      
+      &__link
+        width: 100%
+        display: flex
+        justify-content: center
+        padding-bottom: 20px
+        border-bottom: 1px solid #CDCDCD  
+    &__right
+      margin-left: 0
+      padding-left: 0
+      border: none
+      margin-top: 20px
+
 
 
 @media (max-width: 480px)
@@ -493,6 +517,8 @@
 
   .main
     padding-top: 160px
+    &-arr
+      display: none
     &-info
       &__text
         width: 100%
@@ -536,6 +562,7 @@
     margin-bottom: 70px
 
   .advantage
+    
     &-text
       padding: 45px 0px
       font-size: 16px
@@ -544,7 +571,9 @@
   .advantages-subtitle
     margin-left: 75px
   .advantages
-    padding-bottom: 70px 
+    padding-bottom: 70px
+  .about-advantages
+    grid-template-columns: 1fr
 
   .title-link
     font-size: 17px
@@ -557,9 +586,10 @@
       margin-top: 20px
     &-subtitle__block
       align-items: center
-
-
   
+  .product-img
+    max-width: 480px
+    max-height: 552px
 
   .news
     &-block

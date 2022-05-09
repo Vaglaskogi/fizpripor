@@ -36,10 +36,14 @@
                 <p class="footer-bottom__copy">© 2022 Московский завод «ФИЗПРИБОР»</p>
                 <div class="footer-bottom__links">
                     <a href="contacts.php" class="footer-bottom__links-text">Связаться с нами</a>
-                    <a href="https://www.youtube.com/channel/UCdZOG8MA75s46iCRWPrW-ew" target="_blank" class="footer-bottom__links-link"><img src="img/YTW.svg" alt="" class="footer-bottom__links-img" /></a>
+                    <a href="https://www.youtube.com/channel/UCdZOG8MA75s46iCRWPrW-ew" target="_blank" class="footer-bottom__links-link">
+                        <img src="img/YTW.svg" alt="" class="footer-bottom__links-img" />
+                    </a>
                     <a href="https://rutube.ru/channel/7603214/" target="_blank" class="footer-bottom__links-link">
                         <img src="img/RTW.svg" alt="" class="footer-bottom__links-img" /></a>
-                    <a href="https://vk.com/fizpribor" target="_blank" class="footer-bottom__links-link"><img src="img/VKW.svg" alt="" class="footer-bottom__links-img" /></a>
+                    <a href="https://vk.com/fizpribor" target="_blank" class="footer-bottom__links-link">
+                        <img src="img/VKW.svg" alt="" class="footer-bottom__links-img" />
+                    </a>
                 </div>
             </div>
         </div>
