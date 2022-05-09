@@ -140,39 +140,18 @@
         <div class="products-block">
             <div class="product">
                 <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
-                <p class="product-name">Комплекс технических средств непрограммируемой логики</p>
-                <p class="product-text">
-                    Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
-                    автоматизированных систем управления технологическими процессами (АСУ ТП), в которых функция
-                    управления защищена от программных ошибок и киберугроз. Функция управления реализуется на
-                    непрограммируемых средствах – «жёсткой логике».
-                </p>
-                <a href="ktsnpl.php" class="product-button">Подробнее</a>
+                <div class="product__right">
+                    <a href="productspage.php"><p class="product__right-tag">Непрограммируемые средства автоматизации </p></a>
+                    <p class="product__right-name">Комплекс технических средств непрограммируемой логики</p>
+                    <p class="product__right-text">
+                        Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
+                        автоматизированных систем управления технологическими процессами (АСУ ТП), в которых функция
+                        управления защищена от программных ошибок и киберугроз. Функция управления реализуется на
+                        непрограммируемых средствах – «жёсткой логике».
+                    </p>
+                    <a href="ktsnpl.php" class="product__right-button">Подробнее</a>
+                </div>
             </div>
-            <div class="product">
-                <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
-                <p class="product-name">Комплекс технических средств непрограммируемой логики</p>
-                <p class="product-text">
-                    Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
-                    автоматизированных систем управления технологическими процессами (АСУ ТП), в которых функция
-                    управления защищена от программных ошибок и киберугроз. Функция управления реализуется на
-                    непрограммируемых средствах – «жёсткой логике».
-                </p>
-                <a href="ktsnpl.php" class="product-button">Подробнее</a>
-            </div>
-            <div class="product">
-                <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
-                <p class="product-name">Комплекс технических средств непрограммируемой логики</p>
-                <p class="product-text">
-                    Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
-                    автоматизированных систем управления технологическими процессами (АСУ ТП), в которых функция
-                    управления защищена от программных ошибок и киберугроз. Функция управления реализуется на
-                    непрограммируемых средствах – «жёсткой логике».
-
-                </p>
-                <a href="ktsnpl.php" class="product-button">Подробнее</a>
-            </div>
-
         </div>
     </div>
 </section>
@@ -268,14 +247,14 @@
             </div>
             <section class="splide" aria-label="Splide Basic HTML Example">
                 <div class="splide__track">
-                        <ul class="splide__list">
-                            <li class="splide__slide"><img src="img/slider-img/1.jpg" alt="" class="photo-block__img"></li>
-                            <li class="splide__slide"><img src="img/slider-img/2.jpg" alt="" class="photo-block__img"></li>
-                            <li class="splide__slide"><img src="img/slider-img/3.jpg" alt="" class="photo-block__img"></li>
-                            <li class="splide__slide"><img src="img/slider-img/4.jpg" alt="" class="photo-block__img"></li>
-                            <li class="splide__slide"><img src="img/slider-img/5.jpg" alt="" class="photo-block__img"></li>
-                            <li class="splide__slide"><img src="img/slider-img/6.jpg" alt="" class="photo-block__img"></li>
-                        </ul>
+                     <ul class="splide__list">
+                        <li class="splide__slide"><img src="img/slider-img/1.jpg" alt="" class="photo-block__img"></li>
+                        <li class="splide__slide"><img src="img/slider-img/2.jpg" alt="" class="photo-block__img"></li>
+                        <li class="splide__slide"><img src="img/slider-img/3.jpg" alt="" class="photo-block__img"></li>
+                        <li class="splide__slide"><img src="img/slider-img/4.jpg" alt="" class="photo-block__img"></li>
+                        <li class="splide__slide"><img src="img/slider-img/5.jpg" alt="" class="photo-block__img"></li>
+                        <li class="splide__slide"><img src="img/slider-img/6.jpg" alt="" class="photo-block__img"></li>
+                    </ul>
                 </div>
             </section>
         </div>

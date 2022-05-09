@@ -53,7 +53,6 @@
     var splide = new Splide( '.splide', {
   perPage: 1,
   rewind : true,
-  
 } );
 
 splide.mount();    
