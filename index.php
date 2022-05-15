@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<section class="main" data-aos="fade" data-aos-duration="1500" data-aos-once='true'>
+<section class="main air" data-aos="fade" data-aos-duration="1500" data-aos-once='true'>
     <div class="main-container">
         <img src="img/arr-line.svg" alt="" class="main-arr" />
         <div class="main-info">
@@ -17,16 +17,16 @@
         </div>
     </div>
 </section>
-<section class="video" data-aos="fade-up" data-aos-once='true'>
+<section class="video air" data-aos="fade-up" data-aos-once='true'>
     <div class="video-block container">
         <iframe class="video-size" src="https://www.youtube.com/embed/_Q2GOVXnYFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </section>
-<section class="about" id="about">
+<section class="about air" id="about">
     <div class="container">
         <div class="about-mainBlock" data-aos="fade-right" data-aos-duration="1500" data-aos-once='true'>
             <div class="about-left">
-                <h2 class="about-title">Главная</h2>
+                <h2 class="grayTitle">Главная</h2>
                 <h3 class="about-subtitle"><span class="accent600">О</span> компании</h3>
                 <div class="about-block">
                     <div class="about-block__left">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </div>
-            <div class="about-right"><img src="img/aboutimg.svg" alt="" class="about-right__img" /></div>
+            <img src="img/aboutimg.svg" alt="" class="about-right__img" />
         </div>
         <div class="about-advantages" data-aos="flip-up" data-aos-duration="500" data-aos-once='true'>
             <div class="about-advantage">
@@ -71,10 +71,10 @@
         </div>
     </div>
 </section>
-<section class="specifics">
+<section class="specifics air">
     <div class="container">
         <div class="specifics-block" data-aos="fade-left" data-aos-duration="1500" data-aos-once='true'>
-            <div class="specifics-info">
+            <div class="specifics-info specifics-info-right">
                 <h3 class="specifics-info__subtitle"><span class="accent600">Особенности</span> разработки</h3>
                 <p class="specifics-info__text">
                     В <span class="accentBlack">ООО Московский завод «</span><span class="accent">ФИЗПРИБОР</span><span class="accentBlack">»</span> применяются современные и безопасные методы разработки программного обеспечения и систем автоматизации. <br><br> Комплектующие и сырье используется <span class="accentBlack">лучшего</span> качества, что подтверждается входным контролем на предприятии. <br><br> Персонал предприятия при выполнении разработки руководствуется стандартами предприятия, в которых собраны <span class="accentBlack">лучшие</span> практики и требования ГОСТ и других нормативных документов.
@@ -84,7 +84,7 @@
             <img src="img/specificsimg.png" alt="" class="specifics-img" />
         </div>
         <div class="specifics-block__reverse" data-aos="fade-right" data-aos-duration="1500" data-aos-once='true'>
-            <div class="specifics-info">
+            <div class="specifics-info specifics-info-left">
                 <h3 class="specifics-info__subtitle"><span class="accent600">Особенности</span> производства</h3>
                 <p class="specifics-info__text">
                     <span class="accentBlack">Московский завод «</span><span class="accent">ФИЗПРИБОР</span><span class="accentBlack">»</span> обладает всеми ресурсами, необходимыми для производства радиоэлектронной аппаратуры:
@@ -102,7 +102,7 @@
         </div>
     </div>
 </section>
-<section class="advantages" data-aos="fade-left" data-aos-duration="1500" data-aos-once='true'>
+<section class="advantages air" data-aos="fade-left" data-aos-duration="1500" data-aos-once='true'>
     <div class="container">
         <h3 class="advantages-subtitle"><span class="accent600">Наши</span> преимущества</h3>
         <div class="advatages-block">
@@ -131,15 +131,15 @@
         </div>
     </div>
 </section>
-<section class="products" data-aos="fade-right" data-aos-duration="1500" data-aos-once='true'>
+<section class="products air" data-aos="fade-right" data-aos-duration="1500" data-aos-once='true'>
     <div class="container">
-        <h2 class="products-title">Продукция</h2>
+        <h2 class="grayTitle">Продукция</h2>
         <div class="products-subtitle__block">
             <h3 class="products-subtitle"><span class="accent600">Наша</span> продукция</h3> <a href="productspage.php" class="title-link products-subtitle__link">Вся продукция →</a>
         </div>
         <div class="products-block">
             <div class="product">
-                <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+                <a href="ktsnpl.php" class="product-img__link"><img src="img/product.svg" alt="" class="product-img" /></a>
                 <div class="product__right">
                     <a href="productspage.php"><p class="product__right-tag">Непрограммируемые средства автоматизации </p></a>
                     <a href="#"><p class="product__right-name">Комплекс технических средств непрограммируемой логики</p></a>
@@ -153,7 +153,7 @@
                 </div>
             </div>
             <div class="product">
-                <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+                <a href="ktsnpl.php" class="product-img__link"><img src="img/product.svg" alt="" class="product-img" /></a>
                 <div class="product__right">
                     <a href="productspage.php"><p class="product__right-tag">Непрограммируемые средства автоматизации </p></a>
                     <a href="#"><p class="product__right-name">Комплекс технических средств непрограммируемой логики</p></a>
@@ -167,7 +167,7 @@
                 </div>
             </div>
             <div class="product">
-                <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+                <a href="ktsnpl.php" class="product-img__link"><img src="img/product.svg" alt="" class="product-img" /></a>
                 <div class="product__right">
                     <a href="productspage.php"><p class="product__right-tag">Непрограммируемые средства автоматизации </p></a>
                     <a href="#"><p class="product__right-name">Комплекс технических средств непрограммируемой логики</p></a>
@@ -183,9 +183,9 @@
         </div>
     </div>
 </section>
-<section class="media" data-aos="fade-right" data-aos-duration="1500" data-aos-once='true'>
+<section class="media air" data-aos="fade-right" data-aos-duration="1500" data-aos-once='true'>
     <div class="container">
-        <h2 class="media-title">Медиа</h2>
+        <h2 class="grayTitle">Медиа</h2>
         <div class="media-mleft">
             <div class="media-subtitle__block">
                 <h3 class="media-subtitle"><span class="accent600">Новости</span> завода</h3>
@@ -244,28 +244,12 @@
                         <a href="https://minpromtorg.gov.ru/press-centre/news/#!na_ploshhadke_zavoda_fizpribor_obsudili_razvitie_neftegazovogo_mashinostroeniya" class="news-img__link"><img src="img/news-3.png" alt="" class="news-img" /></a>
                     </div>
                 </div>
-                <div class="news">
-                <div class="news-left">
-                    <p class="news-date">08.09.2020</p>
-                    <a href="https://podolskriamo.ru/article/zavod-fizpribor-sovershenstvuet-proizvodstvo-blagodarya-novomu-oborudovaniyu-455943" class="news-title__link"><h4 class="news-title">
-                      Завод <span class="accent600">«ФИЗПРИБОР»</span> совершенствует производство благодаря новому оборудованию
-                  </h4></a>
-                    <p class="news-text">
-                      Современное оборудование и перспективные технологии позволили ООО «Московский завод «ФИЗПРИБОР» в Подольске достигнуть высоких результатов и занять лидирующие позиции среди разработчиков и производителей аппаратно-программных средств промышленной автоматизации, сообщил депутат Мособлдумы Павел Максимович.
-
-                    </p>
-                    
-                </div>
-                <div class="news-right">
-                    <a href="https://podolskriamo.ru/article/zavod-fizpribor-sovershenstvuet-proizvodstvo-blagodarya-novomu-oborudovaniyu-455943" class="news-img__link"><img src="img/news-6.png" alt="" class="news-img" /></a>
-                </div>
-                </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="photo" data-aos="fade-up" data-aos-duration="1500" data-aos-once='true'>
+<section class="photo air" data-aos="fade-up" data-aos-duration="1500" data-aos-once='true'>
     <div class="container">
 
         <div class="photo-container">
@@ -289,9 +273,9 @@
     </div>
 </section>
 
-<section class="contacts" data-aos="fade-right" data-aos-duration="1500" data-aos-once='true'>
+<section class="contacts air" data-aos="fade-right" data-aos-duration="1500" data-aos-once='true'>
     <div class="container">
-        <h2 class="contacts-title">Контакты</h2>
+        <h2 class="grayTitle">Контакты</h2>
         <div class="contacts-subtitle__block">
             <h3 class="contacts-subtitle"><span class="accent600">Где мы</span> находимся?</h3>
             <a href="contacts.php" class="contacts-subtitle__link subtitile-link">Наши контакты →</a>

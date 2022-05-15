@@ -1,16 +1,16 @@
-.hidden
-
 .contacts
   &-flex
     display: flex
     justify-content: space-between
-    width: 1122px
+    max-width: 1122px
+    width: 100%
     align-items: end
     &__off
       align-items: end
       display: flex
       justify-content: space-between
-      width: 1122px
+      max-width: 1122px
+      width: 100%
       flex-direction: row-reverse
   &-maps
     border-radius: 10px
@@ -19,23 +19,13 @@
     height: 654px
     max-width: 1070px
     margin-left: 110px
-  &-title
-    font-style: normal
-    font-weight: 700
-    font-size: 128px
-    line-height: 154px
-    letter-spacing: 0.2em
-    color: #F3F3F3
-    text-transform: uppercase
-
   &-subtitle
     font-style: normal
     font-weight: 600
     font-size: 48px
-    line-height: 58px
-
     &__block
-      width: 1070px
+      max-width: 1070px
+      width: 100%
       border-bottom: 3px solid $accent
       padding-bottom: 15px
       display: flex
@@ -46,7 +36,6 @@
       font-style: normal
       font-weight: 600
       font-size: 20px
-      line-height: 22px
       text-decoration: none
       color: $text
       transition: .3s
@@ -56,28 +45,26 @@
   &-block
     margin-top: 40px
     margin-left: 58px
+    
     display: flex
     &__title
       font-style: normal
       font-weight: 500
       font-size: 18px
-      line-height: 22px
       color: $accent
       margin-left: 50px
       margin-bottom: 10px
       &-off
-
         font-style: normal
         font-weight: 500
         font-size: 18px
-        line-height: 22px
         color: $accent
         margin-left: 50px
         margin-bottom: 10px
         text-align: right
         right: 0
   &-address
-
+    width: 100%
     &__img
       width: 22px
       height: 31px
@@ -85,7 +72,8 @@
       display: flex
       align-items: center
       justify-content: space-between
-      width: 530px
+      max-width: 530px
+      width: 100%
       &-off
         flex-direction: row-reverse
         margin-right: -40px
@@ -93,10 +81,9 @@
       font-style: normal
       font-weight: 400
       font-size: 18px
-      line-height: 22px
       color: $text
-      width: 480px
-
+      max-width: 480px
+      width: 100%
       &-sep
         margin-right: 20px
         text-align: right
@@ -104,7 +91,6 @@
     font-style: normal
     font-weight: 500
     font-size: 18px
-    line-height: 22px
     color: $accent
     text-decoration: none
     background-color: inherit
@@ -119,7 +105,6 @@
     font-style: normal
     font-weight: 500
     font-size: 18px
-    line-height: 22px
     color: #181818
     margin-top: 60px
     margin-left: 110px

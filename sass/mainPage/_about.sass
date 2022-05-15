@@ -1,5 +1,4 @@
 .about
-  padding-bottom: 130px
   scroll-margin-top: 105px
   &-block
     display: flex
@@ -9,53 +8,49 @@
     display: flex
     align-items: center
     justify-content: space-between
-  &-title
-    font-style: normal
-    font-weight: 700
-    font-size: 100px
-    line-height: 120px
-    letter-spacing: 0.2em
-    color: #F3F3F3
-    text-transform: uppercase
+    margin-bottom: 90px
   &-subtitle
     font-style: normal
     font-weight: 600
     font-size: 48px
-    line-height: 58px
     color: $text
     width: 660px
     padding-left: 207px
     border-bottom: 3px solid $accent
     padding-bottom: 15px
-    margin-bottom: 40px
+    margin-bottom: 30px
   &-left
-    height: 740px
+    max-width: 660px
+    width: 100%
     &__text
       font-style: normal
       font-weight: 500
       font-size: 14px
       line-height: 150%
       color: #878787
-      width: 190px
-
+      max-width: 190px
+      width: 100%
   &-right
     &__text
       font-style: normal
       font-weight: 400
       font-size: 18px
       line-height: 150%
-      width: 453px
+      max-width: 453px
+      width: 100%
       color: $text
       margin-bottom: 60px
     &__tagline
       font-style: normal
       font-weight: 700
       font-size: 32px
-      line-height: 38px
       color: $text
-      width: 453px
+      max-width: 453px
+      width: 100%
+      text-transform: uppercase
     &__img
       pointer-events: none
+      margin-top: 100px
   &-advantages
     display: flex
     align-items: center
@@ -69,15 +64,13 @@
       font-style: normal
       font-weight: 600
       font-size: 64px
-      line-height: 77px
       color: #fff
       margin-bottom: 35px
     &__text
       font-style: normal
       font-weight: 400
       font-size: 24px
-      line-height: 29px
       color: #FFFFFF
 
-#about
+#about 
   scroll-margin-top: 200px

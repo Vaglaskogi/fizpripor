@@ -11,7 +11,7 @@
     </div>
     <div class="products-block productspage-block">
       <div class="product">
-        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.svg" alt="" class="product-img" /></a>
         <p class="product-name">Комплекс технических средств непрограммируемой логики</p>
         <p class="product-text">
           Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
@@ -22,7 +22,7 @@
         <a href="ktsnpl.php" class="product-button">Подробнее</a>
       </div>
       <div class="product">
-        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.svg" alt="" class="product-img" /></a>
         <p class="product-name">Комплекс технических средств непрограммируемой логики</p>
         <p class="product-text">
           Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
@@ -33,7 +33,7 @@
         <a href="ktsnpl.php" class="product-button">Подробнее</a>
       </div>
       <div class="product">
-        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.svg" alt="" class="product-img" /></a>
         <p class="product-name">Комплекс технических средств непрограммируемой логики</p>
         <p class="product-text">
           Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
@@ -55,7 +55,7 @@
     </div>
     <div class="products-block productspage-block">
       <div class="product">
-        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.svg" alt="" class="product-img" /></a>
         <p class="product-name">Комплекс технических средств непрограммируемой логики</p>
         <p class="product-text">
           Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
@@ -66,7 +66,7 @@
         <a href="ktsnpl.php" class="product-button">Подробнее</a>
       </div>
       <div class="product">
-        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.svg" alt="" class="product-img" /></a>
         <p class="product-name">Комплекс технических средств непрограммируемой логики</p>
         <p class="product-text">
           Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
@@ -77,7 +77,7 @@
         <a href="ktsnpl.php" class="product-button">Подробнее</a>
       </div>
       <div class="product">
-        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.svg" alt="" class="product-img" /></a>
         <p class="product-name">Комплекс технических средств непрограммируемой логики</p>
         <p class="product-text">
           Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
@@ -99,7 +99,7 @@
     </div>
     <div class="products-block productspage-block">
       <div class="product">
-        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.svg" alt="" class="product-img" /></a>
         <p class="product-name">Комплекс технических средств непрограммируемой логики</p>
         <p class="product-text">
           Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
@@ -110,7 +110,7 @@
         <a href="ktsnpl.php" class="product-button">Подробнее</a>
       </div>
       <div class="product">
-        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.svg" alt="" class="product-img" /></a>
         <p class="product-name">Комплекс технических средств непрограммируемой логики</p>
         <p class="product-text">
           Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения
@@ -121,7 +121,7 @@
         <a href="ktsnpl.php" class="product-button">Подробнее</a>
       </div>
       <div class="product">
-        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.png" alt="" class="product-img" /></a>
+        <a href="ktsnpl.php" class="product-img__link"><img src="img/product.svg" alt="" class="product-img" /></a>
         <p class="product-name">Комплекс технических средств непрограммируемой логики</p>
         <p class="product-text">
           Комплекс технических средств непрограммируемой логики (КТС НПЛ) предназначен для построения

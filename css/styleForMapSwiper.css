@@ -1,59 +1,59 @@
 body {
-    overflow-x: hidden;
+   overflow-x: hidden;
 }
 
 .hidden {
-    display: none;
+   display: none;
 }
 
 @keyframes blockLeft {
-    from {
-        transform: translate(0px, 0px);
-    }
-    to {
-        transform: translate(-1500px, 0px);
-    }
+   from {
+      transform: translate(0px, 0px);
+   }
+   to {
+      transform: translate(-1500px, 0px);
+   }
 }
 
 @keyframes blockRight {
-    from {
-        transform: translate(0px, 0px);
-    }
-    to {
-        transform: translate(1500px, 0px);
-    }
+   from {
+      transform: translate(0px, 0px);
+   }
+   to {
+      transform: translate(1500px, 0px);
+   }
 }
 
 @keyframes blockRightToLeft {
-    from {
-        transform: translate(1500px, 0px);
-    }
-    to {
-        transform: translate(0px, 0px);
-    }
+   from {
+      transform: translate(1500px, 0px);
+   }
+   to {
+      transform: translate(0px, 0px);
+   }
 }
 
 @keyframes blockLeftToRight {
-    from {
-        transform: translate(-1500px, 0px);
-    }
-    to {
-        transform: translate(0px, 0px);
-    }
+   from {
+      transform: translate(-1500px, 0px);
+   }
+   to {
+      transform: translate(0px, 0px);
+   }
 }
 
 .animationLeft {
-    animation: blockLeft 1s 1;
+   animation: blockLeft 1s 1;
 }
 
 .animationRight {
-    animation: blockRight 1s 1;
+   animation: blockRight 1s 1;
 }
 
 .animationRightToLeft {
-    animation: blockRightToLeft 1s 1;
+   animation: blockRightToLeft 1s 1;
 }
 
 .animationLeftToRight {
-    animation: blockLeftToRight 1s 1;
+   animation: blockLeftToRight 1s 1;
 }

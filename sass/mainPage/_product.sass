@@ -1,33 +1,22 @@
 .products
-  padding-bottom: 130px
-  &-title
-    font-style: normal
-    font-weight: 700
-    font-size: 128px
-    line-height: 154px
-    letter-spacing: 0.2em
-    color: #F3F3F3
-    text-transform: uppercase
   &-subtitle
     font-style: normal
     font-weight: 600
     font-size: 48px
-    line-height: 58px
     color: $text
-
     &__block
       display: flex
       justify-content: space-between
       align-items: end
       border-bottom: 3px solid $accent
-      width: 1070px
+      max-width: 1070px
+      width: 100%
       padding-bottom: 15px
       margin-left: 110px
     &__link
       font-style: normal
       font-weight: 600
       font-size: 20px
-      line-height: 24px
       color: $text
       text-decoration: none
       transition: 0.2s
@@ -74,11 +63,13 @@
       font-style: normal
       font-weight: 700
       font-size: 26px
-      line-height: 31px
       color: $text
       margin-bottom: 15px
       height: fit-content
       transition: 0.3s
+      -moz-hyphens: auto
+      -webkit-hyphens: auto
+      -ms-hyphens: auto
       &:hover
         transition: 0.3s
         color: $accent
@@ -86,7 +77,6 @@
       font-style: normal
       font-weight: 400
       font-size: 16px
-      line-height: 17px
       color: #878787
       margin-bottom: 30px
       line-height: 130%

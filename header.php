@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/headermenu.css">
@@ -20,6 +20,9 @@
 <body>
   <header class="header">
     <a href="index.php" class="header-logo__link"><img src="img/Logo.svg" alt="" class="header-logo" /></a>
+    <div class="header__burger">
+      <span></span>
+    </div>
     <div class="header-container">
       <ul class="header-menu">
         <li class="header-menu__list"><a href="index.php" class="header-menu__link header-menu__link__alt">Главная</a></li>
@@ -104,6 +107,6 @@
         </div>
       </div>
     </div>
-    <form action="contacts.php"><button class="header-button">Связаться с нами</button></form>
+    <form class="header-button-form" action="contacts.php"><button class="header-button">Связаться с нами</button></form>
 
   </header>

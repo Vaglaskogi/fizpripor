@@ -1,31 +1,30 @@
 .main
   padding-top: 220px
-  padding-bottom: 130px
-
   &-container
     width: 1062px
     margin: 0 auto
     display: flex
     align-items: center
   &-info
-    margin-left: 68px
+    margin-left: 45px
     &__title
       display: block
-      width: 990px
+      max-width: 990px
+      width: 100%
       font-style: normal
       font-weight: 600
       font-size: 64px
-      line-height: 77px
       color: $text
       margin-bottom: 30px
+      
       &-accent
         color: $accent
     &__text
-      width: 550px
+      max-width: 550px
+      width: 100%
       font-style: normal
       font-weight: 400
       font-size: 18px
-      line-height: 22px
       color: #878787
       margin-bottom: 60px
     &__button
@@ -43,10 +42,20 @@
       text-decoration: none
       display: block
       width: 301px
-
       &:hover
         transition: .3s
         background-color: #fff
         color: $accent
         outline: 1px solid $accent
   &-arr
+    pointer-events: none
+    margin-bottom: 30px
+    animation: arrowJumping 1.5s infinite
+
+@keyframes arrowJumping
+  0%
+    transform: translate(0px, 15%)
+  50%
+    transform: translate(0px, 30%)
+  0%
+    transform: translate(0px, 0%)
