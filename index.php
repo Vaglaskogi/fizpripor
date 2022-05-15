@@ -73,7 +73,7 @@
 </section>
 <section class="specifics air">
     <div class="container">
-        <div class="specifics-block" data-aos="fade-left" data-aos-duration="1500" data-aos-once='true'>
+        <div class="specifics-block air" data-aos="fade-left" data-aos-duration="1500" data-aos-once='true'>
             <div class="specifics-info specifics-info-right">
                 <h3 class="specifics-info__subtitle"><span class="accent600">Особенности</span> разработки</h3>
                 <p class="specifics-info__text">

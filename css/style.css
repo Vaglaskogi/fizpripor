@@ -430,7 +430,7 @@ h2 {
 }
 
 .air {
-  margin-bottom: 120px;
+  margin-bottom: 130px;
 }
 
 .header {
@@ -853,7 +853,6 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-bottom: 120px;
 }
 
 .specifics-block:nth-child(even) {
@@ -2855,6 +2854,10 @@ h2 {
   }
   .container {
     width: 90%;
+  }
+  .contacts-link-ob {
+    margin-left: 0px !important;
+    text-align: right !important;
   }
   .main-container {
     width: 90%;
