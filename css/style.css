@@ -2061,7 +2061,8 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 520px;
+  max-width: 520px;
+  width: 100%;
   -webkit-box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
           box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
   margin-bottom: 32px;
@@ -2072,8 +2073,9 @@ h2 {
 }
 
 .licenses-card__img {
-  width: 280px;
-  height: 397px;
+  min-width: 280px;
+  max-width: 280px;
+  max-height: 397px;
   -webkit-filter: drop-shadow(0px 8px 24px rgba(129, 135, 189, 0.15));
           filter: drop-shadow(0px 8px 24px rgba(129, 135, 189, 0.15));
 }
@@ -2270,12 +2272,6 @@ h2 {
 }
 
 .photopage-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background-color: #fff;
   font-weight: 600;
   font-size: 28px;
@@ -2398,6 +2394,7 @@ h2 {
 }
 
 .productspage-button {
+  display: block;
   background-color: inherit;
   color: #181818;
   padding: 34px 25px 34px 0px;
@@ -2669,6 +2666,7 @@ h2 {
     top: 105px;
     right: -100%;
     width: 100%;
+    max-width: 100%;
     height: 100%;
     background: #ffffff;
     display: -webkit-box;
@@ -2741,7 +2739,7 @@ h2 {
     z-index: 3;
   }
   .header-container.activeMenu {
-    right: 0px;
+    right: 0%;
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
   }
