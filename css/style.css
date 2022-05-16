@@ -3148,6 +3148,7 @@ h2 {
   .main-info__button {
     width: 100%;
     text-align: center;
+    font-size: 18px;
   }
 }
 
@@ -3176,6 +3177,12 @@ h2 {
     -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
   }
+  .main-info__button {
+    font-size: 18px;
+  }
+  .main-info__text {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -3199,11 +3206,5 @@ h2 {
 @media (max-width: 320px) {
   .main-info__title {
     font-size: 28px !important;
-  }
-  .main-info__button {
-    font-size: 16px;
-  }
-  .main-info__text {
-    font-size: 15px;
   }
 }
