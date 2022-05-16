@@ -1050,7 +1050,7 @@ h2 {
 
 .product-img {
   max-width: 270px;
-  max-width: 330px !important;
+  max-height: 325px;
   min-width: 240px;
 }
 
@@ -1825,7 +1825,7 @@ h2 {
 .productPage-block__img {
   margin-right: 110px;
   pointer-events: none;
-  max-width: 330px;
+  max-width: 330px !important;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
