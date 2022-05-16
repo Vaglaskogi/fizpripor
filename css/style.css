@@ -2444,6 +2444,10 @@ h2 {
   border-bottom: 1px solid #D6D6D6;
 }
 
+.productspage-block__img {
+  max-width: 330px;
+}
+
 #programm {
   scroll-margin-top: 150px;
 }
