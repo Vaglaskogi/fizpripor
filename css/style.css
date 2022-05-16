@@ -1050,7 +1050,7 @@ h2 {
 
 .product-img {
   max-width: 270px;
-  max-height: 325px;
+  max-width: 330px !important;
   min-width: 240px;
 }
 
@@ -2442,10 +2442,6 @@ h2 {
 .productspage-block {
   padding-bottom: 60px;
   border-bottom: 1px solid #D6D6D6;
-}
-
-.productspage-block__img {
-  max-width: 330px !important;
 }
 
 #programm {
