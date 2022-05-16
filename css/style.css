@@ -1179,7 +1179,7 @@ h2 {
 .post-categories > li > a:hover {
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  color: #2E6C77;
+  color: #7a7a7a;
 }
 
 .post-categories > li {
@@ -2445,7 +2445,7 @@ h2 {
 }
 
 .productspage-block__img {
-  max-width: 330px;
+  max-width: 330px !important;
 }
 
 #programm {
