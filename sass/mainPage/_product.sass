@@ -24,9 +24,6 @@
         color: $accent
         transition: 0.2s
   &-block
-    display: grid
-    grid-template-rows: 1fr 1fr 1fr
-    grid-gap: 30px
     margin-top: 40px
     margin-left: 110px
     margin-right: 110px
@@ -38,6 +35,7 @@
   padding: 30px
   // box-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15)\
   box-shadow: 3px 3px 20px -7px rgba(0, 0, 0, 0.1)
+  margin-bottom: 30px
   &-img
     max-width: 270px
     max-height: 325px
@@ -112,3 +110,20 @@
 .productContainer .productspage-block:last-child
   border: none
   padding-bottom: 0
+
+.product:last-child
+  margin-bottom: 0
+
+.post-categories
+  margin-bottom: 10px
+
+.post-categories > li > a
+  color: $accent
+  font-weight: 500
+  font-size: 16px
+  transition: 0.3s
+  width: 100%
+
+.post-categories > li
+  list-style-type: none
+  
