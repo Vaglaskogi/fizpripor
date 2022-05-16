@@ -1176,6 +1176,12 @@ h2 {
   width: 100%;
 }
 
+.post-categories > li > a:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #2E6C77;
+}
+
 .post-categories > li {
   list-style-type: none;
 }
