@@ -1,18 +1,9 @@
 .licenses
   padding-top: 230px
-  &-title
-    text-transform: uppercase
-    font-style: normal
-    font-weight: 700
-    font-size: 128px
-    line-height: 154px
-    letter-spacing: 0.2em
-    color: #F3F3F3
   &-subtitle
     font-style: normal
     font-weight: 600
     font-size: 48px
-    line-height: 58px
     color: $text
     padding-bottom: 20px
     &__block
@@ -20,8 +11,10 @@
       display: flex
       align-items: end
       justify-content: space-between
-      width: 1070px
+      max-width: 1070px
+      width: 100%
       border-bottom: 3px solid $accent
+      margin-bottom: 30px
     &__link
       font-weight: 600
       font-size: 18px
@@ -42,8 +35,8 @@
     display: flex
     flex-wrap: wrap
     justify-content: space-between
-    width: 1070px
-    margin-top: 40px
+    max-width: 1070px
+    width: 100%
   &-card
     position: relative
     display: flex
@@ -65,13 +58,11 @@
       font-style: normal
       font-weight: 600
       font-size: 20px
-      line-height: 24px
       color: $accent
       &-name
         font-style: normal
         font-weight: 400
         font-size: 18px
-        line-height: 22px
         color: $text
         margin-top: 15px
         max-height: 110px
@@ -86,14 +77,12 @@
       font-style: normal
       font-weight: 600
       font-size: 20px
-      line-height: 24px
       color: $accent
       margin-top: 20px
       &-name
         font-style: normal
         font-weight: 400
         font-size: 18px
-        line-height: 22px
         color: $text
         margin-top: 15px
         min-height: 66px
@@ -169,7 +158,8 @@
     text-decoration: none
     height: fit-content
     display: block
-    width: 420px
+    max-width: 420px
+    width: 100%
     &:hover
       transition: .3s
       background-color: #fff

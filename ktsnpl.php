@@ -1,7 +1,7 @@
 <?php include ('header.php'); ?>
       <section class="productPage" data-aos="fade" data-aos-duration="1500" data-aos-once='true'>
          <div class="container productContainer">
-            <h2 class="productPage-title">КТС НПЛ</h2>
+            <h2 class="grayTitle">КТС НПЛ</h2>
             <h3 class="productPage-subtitle">Комплекс технических средств <span class="accent600">непрограммируемой логики</span></h3>
             <div class="productPage-block">
                <div class="productPage-text">

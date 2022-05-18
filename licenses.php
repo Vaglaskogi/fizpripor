@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
-<section class="licenses" data-aos="fade" data-aos-duration="1500" data-aos-once='true'>
+<section class="licenses air" data-aos="fade" data-aos-duration="1500" data-aos-once='true'>
   <div class="container">
-    <h2 class="licenses-title">Компания</h2>
+    <h2 class="grayTitle">Компания</h2>
     <div class="licenses-subtitle__block">
       <h3 class="licenses-subtitle"><span class="accent600">Лицензии</span> и сертификаты</h3>
       <a href="#" class="licenses-subtitle__link">Скачать WORD</a>

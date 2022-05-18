@@ -1,7 +1,7 @@
 <?php include ('header.php'); ?>
-  <section class="socrespons" data-aos="fade" data-aos-duration="1500" data-aos-once='true'>
+  <section class="socrespons air" data-aos="fade" data-aos-duration="1500" data-aos-once='true'>
     <div class="container">
-      <h2 class="socrespons-title">Компания</h2>
+      <h2 class="grayTitle">Компания</h2>
       <h3 class="socrespons-subtitle"><span class="accent600">Социальная</span> ответственность</h3>
       <div class="socrespons-block">
         <p class="socrespons-block__text"><span class="accentBlack">Система управления охраной труда –</span> комплекс взаимосвязанных и взаимодействующих между собой элементов, устанавливающих политику и цели в области охраны труда у конкретного работодателя и процедуры по достижению этих целей.

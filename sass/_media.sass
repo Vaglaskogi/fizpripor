@@ -18,7 +18,7 @@
   .header-container
     max-width: 980px
 
-@media (max-width: 1300px)
+@media (max-width: 1320px)
   h3
     font-size: 40px !important
   h2
@@ -41,6 +41,9 @@
   .about-advantage
     width: 100%
   
+  .productPage-block__img
+    margin-right: 0
+
   .specifics-info-right
     margin-right: 30px
   .specifics-info-left
@@ -67,6 +70,33 @@
     margin-left: 0
   .contacts-maps
     margin-left: 0
+
+  .socrespons
+    &-subtitle
+      margin-left: 0
+    &-block
+      margin-left: 0
+  
+  .management
+    &-block
+      margin-left: 0
+    &-subtitle
+      margin-left: 0
+
+  .licenses-subtitle__block
+    margin-left: 0
+  .licenses-links
+    margin-left: 0
+
+  .licenses-block
+    margin-left: 0
+  
+  .productPage-subtitle
+    margin-left: 0
+  .productPage-text
+    margin-left: 0
+
+  // ОТСУПЫ СЛЕВА
   
 @media (max-width: 1280px)
   .main
@@ -200,13 +230,15 @@
     background: linear-gradient(to left, #000000, transparent) !important
   .splide__arrow svg
     fill: #fff !important
+
+
 @media (max-width: 1030px)
   .header
     &-container
   .footer-bg
     margin-left: -184px
 
-@media (max-width: 1000px)
+@media (max-width: 1100px)
   h1
     font-size: 56px !important
   h2
@@ -244,6 +276,16 @@
     &-info
       margin-left: 0
 
+  .productPage-text
+    border-bottom: none
+    padding-bottom: 0
+
+  .productPage-block__img
+    margin-top: 40px
+
+  .productPage-block
+    margin-bottom: 80px
+
   .about
     &-mainBlock
       flex-direction: column
@@ -252,6 +294,17 @@
     &-left
       max-width: 100%
     &-block__
+
+  .productPage-block
+    flex-direction: column
+  
+  .licenses-card__right
+    width: 100%
+  .licenses-card
+    max-width: 100%
+
+  .productPage-text > p
+    max-width: 100%
 
   .specifics-info-right
     margin-right: 0px
@@ -318,6 +371,16 @@
   .contacts-address__block-off
     margin-right: 0
 
+  .socrespons
+    &-block
+      flex-direction: column
+      &__text
+        max-width: 100%
+        margin-bottom: 40px
+
+  .productPage-text > ul
+    max-width: 100%
+
 // 1000 конец
 
 @media (max-width: 800px)
@@ -371,6 +434,14 @@
   .news-text
     max-width: 100%
 
+  .licenses-subtitle__link
+    display: none
+  
+  // ОТСТУП СВЕРХУ
+  .socrespons, .management, .licenses, .productPage
+    padding-top: 185px
+  // СВЕРХУ
+
 @media (max-width: 680px)
   h2
     font-size: 36px !important
@@ -408,6 +479,26 @@
   .header-links__social
     margin-left: 0
     margin-top: 15px
+
+  .about-subtitle
+    margin-bottom: 15px
+
+  .productPage-block
+    margin-bottom: 40px
+
+  // МИКРО ОТСТУП
+  .socrespons-block, .management-block, .productPage-subtitle, .management-subtitle,
+  .socrespons-subtitle, .licenses-subtitle__block, .licenses-subtitle__block, .productPage-subtitle
+    margin-bottom: 15px
+  // МИКРО
+
+@media (max-width: 570px)
+  .licenses-card
+    flex-direction: column
+  .licenses-card__img
+    max-height: 710px !important
+  .licenses-card__right
+    padding-bottom: 30px
 
 @media (max-width: 480px)
   .main-info__title
@@ -460,9 +551,8 @@
 
   .product
     padding: 15px
-
   
-
-@media (max-width: 320px)
-  
+  // размеры
+  .socrespons-subtitle, .licenses-subtitle
+    font-size: 34px !important
   

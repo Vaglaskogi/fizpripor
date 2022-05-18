@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
-<section class="management">
+<section class="management air">
   <div class="container">
-    <h2 class="management-title">КОМПАНИЯ</h2>
+    <h2 class="grayTitle">КОМПАНИЯ</h2>
     <h3 class="management-subtitle"><span class="accent600">Системы</span> менеджмента</h3>
     <div class="management-block">
       <p class="management-text">В <span class="accentBlack">ООО Московский завод «<span class="accent">ФИЗПРИБОР</span>»</span> внедрена и функционирует интегрированная система менеджмента (ИСМ), включающая: </p>
