@@ -41,7 +41,7 @@
           </ul>
         </li>
         <li class="header-menu__list">
-          <a href="productspage.php" class="header-menu__link header-menu__link__alt">Продукция<img src="img/arr.svg" alt="" class="header-menu__arr" /></a>
+          <p class="header-menu__link">Продукция<img src="img/arr.svg" alt="" class="header-menu__arr" /></p>
           <!-- Продукция -->
           <ul class="header-submenu">
             <li class="header-submenu__list">
@@ -84,6 +84,8 @@
 
               </ul>
             </li>
+            <div class="header-submenu__line"></div>
+            <li class="header-submenu__list"><a href="productspage.php" class="header-submenu__link">Вся продукция</a></li>
           </ul>
         </li>
         <li class="header-menu__list">

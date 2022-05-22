@@ -71,6 +71,19 @@
   .contacts-maps
     margin-left: 0
 
+  .productspage-subtitle
+    margin-left: 0
+  .productspage-accordeon
+    margin-left: 0  
+  .productspage-block
+    margin-left: 0
+    margin-right: 0
+
+  .productspage-button
+    padding-left: 60px
+  .photopage-sub
+    margin-left: 60px
+
   .socrespons
     &-subtitle
       margin-left: 0
@@ -264,6 +277,19 @@
   .container
     width: 90%
 
+  .productspage-button
+    padding-left: 10%
+  .photopage-sub
+    margin-left: 10%
+  .productspage-sub
+    width: 80%
+  .photopage-sub
+    padding-top: 25px
+  .productspage-button
+    padding-top: 25px
+    padding-bottom: 25px 
+  
+
   .contacts-link-ob
     margin-left: 0px !important
     text-align: right !important
@@ -293,7 +319,6 @@
       margin-left: 0
     &-left
       max-width: 100%
-    &-block__
 
   .productPage-block
     flex-direction: column
@@ -387,6 +412,9 @@
   .air
     margin-bottom: 80px
 
+  h3
+    font-size: 32px !important
+
   .grayTitle
     display: none
 
@@ -438,9 +466,17 @@
     display: none
   
   // ОТСТУП СВЕРХУ
-  .socrespons, .management, .licenses, .productPage
+  .socrespons, .management, .licenses, .productPage, .contacts-page
     padding-top: 185px
   // СВЕРХУ
+
+@media (max-width: 735px)
+  .contacts-cards
+    flex-direction: column
+  .contacts-card
+    margin-bottom: 60px
+    &:last-child
+      margin-bottom: 0
 
 @media (max-width: 680px)
   h2
@@ -457,6 +493,9 @@
 
   .advantage-text
     margin-left: 25px
+
+  .photopage-button
+    font-size: 22px
 
   .footer-bottom__block
     flex-direction: column-reverse
@@ -489,6 +528,7 @@
   // МИКРО ОТСТУП
   .socrespons-block, .management-block, .productPage-subtitle, .management-subtitle,
   .socrespons-subtitle, .licenses-subtitle__block, .licenses-subtitle__block, .productPage-subtitle
+  .specifics-info__subtitle, .products-subtitle__block, .media-subtitle__block, .photo-title__block, .contacts-subtitle__block
     margin-bottom: 15px
   // МИКРО
 
@@ -500,6 +540,9 @@
   .licenses-card__right
     padding-bottom: 30px
 
+  .advantage-text
+    font-size: 18px
+
 @media (max-width: 480px)
   .main-info__title
     font-size: 38px !important
@@ -507,7 +550,7 @@
     font-size: 16px
 
   .about-right__tagline
-    font-size: 28px
+    font-size: 24px
   
   .main-info__button
     width: 100%
@@ -533,6 +576,8 @@
     font-size: 18px
   .main-info__text
     font-size: 15px
+  .news-img
+    min-width: 300px !important
     
 
 @media (max-width: 400px)
@@ -551,7 +596,13 @@
 
   .product
     padding: 15px
+
+  .about-right__text
+    margin-bottom: 40px
   
+  .about-right__tagline
+    font-size: 20px
+
   // размеры
   .socrespons-subtitle, .licenses-subtitle
     font-size: 34px !important
