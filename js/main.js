@@ -1,4 +1,4 @@
-AOS.init();
+AOS.init({ disable: "mobile" });
 
 const swiper = new Swiper(".swiper", {
   autoplay: {

@@ -1,15 +1,15 @@
 const body = document.querySelector("body");
-let animate = document.querySelectorAll(".aos-animate");
+const animates = document.querySelectorAll(".aos-init");
 
 bodyClassList = body.classList;
 
-console.log(bodyClassList);
+console.log(animates);
 
 if (bodyClassList.contains("_mobile")) {
-   for (let i = 0; i < 10; i++) {
-      classList.remove("aos-animate");
-      console.log(animate);
-   }
-   let headerOld = document.querySelector(".header");
-   headerOld.remove();
+  for (let i = 0; i < 10; i++) {
+    body.classList.remove("aos-init");
+    console.log(animates);
+  }
+  let headerOld = document.querySelector(".header");
+  headerOld.remove();
 }
