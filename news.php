@@ -1,7 +1,7 @@
 <?php include ('header.php'); ?>
-        <section class="media media-page" data-aos="fade" data-aos-duration="1500" data-aos-once='true'>
+        <section class="media media-page air" data-aos="fade" data-aos-duration="1500" data-aos-once='true'>
           <div class="container">
-              <h2 class="media-title">Медиа</h2>
+              <h2 class="grayTitle">Медиа</h2>
               <div class="media-mleft">
                   <div class="media-subtitle__block">
                       <h3 class="media-subtitle"><span class="accent600">Новости</span> завода</h3>

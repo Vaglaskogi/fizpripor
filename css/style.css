@@ -1186,6 +1186,10 @@ h2 {
   list-style-type: none;
 }
 
+.media-page {
+  padding-top: 220px;
+}
+
 .media-mleft {
   margin-left: 110px;
 }
@@ -1781,7 +1785,8 @@ h2 {
 }
 
 .productPage-text {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
   border-bottom: 1px solid #CDCDCD;
   margin-left: 110px;
 }
@@ -1805,7 +1810,7 @@ h2 {
   font-weight: 600;
   font-size: 48px;
   border-bottom: 3px solid #2E6C77;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
   margin-left: 110px;
   max-width: 1070px;
   width: 100%;
@@ -1845,6 +1850,7 @@ h2 {
 
 .productPage-text > ul {
   margin-left: 25px;
+  padding-right: 25px;
   max-width: 630px;
   width: 100%;
 }
@@ -1855,6 +1861,7 @@ h2 {
   font-size: 18px;
   line-height: 150%;
   color: #181818;
+  width: 100%;
 }
 
 .productContainer .productPage-block:last-child > .productPage-text {
@@ -1968,7 +1975,7 @@ h2 {
   font-weight: 600;
   font-size: 48px;
   color: #181818;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   max-width: 1070px;
   width: 100%;
   border-bottom: 3px solid #2E6C77;
@@ -2010,7 +2017,7 @@ h2 {
   font-weight: 600;
   font-size: 48px;
   color: #181818;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .licenses-subtitle__block {
@@ -2437,7 +2444,7 @@ h2 {
   color: #181818;
   max-width: 1070px;
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   border-bottom: 3px solid #2E6C77;
   margin-left: 110px;
   margin-bottom: 30px;
@@ -2688,7 +2695,7 @@ h2 {
 
 @media (max-width: 1210px) {
   .header-container {
-    width: 850px;
+    width: 830px;
   }
 }
 
@@ -3142,7 +3149,7 @@ h2 {
   .licenses-subtitle__link {
     display: none;
   }
-  .socrespons, .management, .licenses, .productPage, .contacts-page {
+  .socrespons, .management, .licenses, .productPage, .contacts-page, .media-page {
     padding-top: 185px;
   }
 }
@@ -3203,7 +3210,7 @@ h2 {
         -ms-flex-align: start;
             align-items: start;
   }
-  .products-subtitle, .media-subtitle, .photo-subtitle, .contacts-subtitle {
+  .products-subtitle, .photo-subtitle, .contacts-subtitle__block, .management-subtitle {
     margin-bottom: 15px;
   }
   .contacts-address__text {
@@ -3228,7 +3235,8 @@ h2 {
   .productPage-block {
     margin-bottom: 40px;
   }
-  .specifics-info__subtitle, .products-subtitle__block, .media-subtitle__block, .photo-title__block, .contacts-subtitle__block {
+  .specifics-info__subtitle, .products-subtitle__block, .media-subtitle__block, .photo-title__block, .contacts-subtitle__block,
+  .licenses-subtitle__block, .socrespons-subtitle, .productPage-subtitle {
     margin-bottom: 15px;
   }
 }
@@ -3300,7 +3308,7 @@ h2 {
     font-size: 15px;
   }
   .news-img {
-    min-width: 300px !important;
+    min-width: 270px !important;
   }
 }
 
