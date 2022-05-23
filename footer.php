@@ -22,7 +22,7 @@
                             средства автоматизации</a></li>
                     <li class="footer-block__list"><a href="productsPage.php#smallAuto" class="footer-block__link">Малая автоматизация</a></li>
                 </ul>
-                <ul class="footer-block__content" style="width: 67px;">
+                <ul class="footer-block__content">
                     <li class="footer-block__list-title">Медиа</li>
                     <li class="footer-block__list"><a href="news.php" class="footer-block__link">Новости</a></li>
                     <li class="footer-block__list"><a href="photopage.php" class="footer-block__link">Фото</a></li>
