@@ -151,6 +151,8 @@
       padding: 30px
       padding-left: 0
       margin-right: 0px
+    &-links
+      display: flex
 
   .header-submenu
     display: block
@@ -358,6 +360,15 @@
     &-bottom
       margin-top: 50px
 
+  .licensesPhotos-block
+    margin: 0px
+  .licensesPhotos-header
+    padding-left: 0px
+    padding-right: 0px
+    width: 90%
+    margin: 0 auto
+    margin-bottom: 130px
+
   .container
     width: 90%
 
@@ -504,6 +515,9 @@
   
   .err-text
     font-size: 26px
+  
+  .licensesPhotos-block
+    grid-template-columns: 1fr 1fr
 
   #about
     scroll-margin-top: 150px
@@ -573,6 +587,11 @@
     margin-bottom: 60px
     &:last-child
       margin-bottom: 0
+  .licensesPhotos-header
+    flex-direction: column
+    margin-bottom: 80px
+  .header-logo__link
+    margin-bottom: 30px
 
 @media (max-width: 680px)
   h2
@@ -625,7 +644,7 @@
   .socrespons-block, .management-block, .productPage-subtitle, .management-subtitle,
   .socrespons-subtitle, .licenses-subtitle__block, .licenses-subtitle__block, .productPage-subtitle
   .specifics-info__subtitle, .products-subtitle__block, .media-subtitle__block, .photo-title__block, .contacts-subtitle__block,
-  .licenses-subtitle__block, .socrespons-subtitle, .productPage-subtitle
+  .licenses-subtitle__block, .socrespons-subtitle, .productPage-subtitle, .licenses-subtitle__block
     margin-bottom: 15px
   // МИКРО
 
@@ -636,12 +655,22 @@
     max-height: 710px !important
   .licenses-card__right
     padding-bottom: 30px
+  .licenses-card__title-name
+    height: fit-content
+    display: block
 
   .advantage-text
     font-size: 18px
   
   .about-right__tagline
     font-size: 28px
+  
+  .licensesPhotos-block
+    grid-template-columns: 1fr
+
+  .licensesPhotos-button
+    font-size: 18px
+
 
 @media (max-width: 480px)
   .main-info__title

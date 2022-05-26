@@ -2208,7 +2208,6 @@ h2 {
 .licensesPhotos-block {
   display: -ms-grid;
   display: grid;
-  margin-top: 40px;
   margin-left: 110px;
   margin-right: 110px;
   display: grid;
@@ -2238,6 +2237,7 @@ h2 {
   display: block;
   max-width: 420px;
   width: 100%;
+  text-align: center;
 }
 
 .licensesPhotos-button:hover {
@@ -2734,6 +2734,11 @@ h2 {
     padding-left: 0;
     margin-right: 0px;
   }
+  .header-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .header-submenu {
     display: block;
     position: absolute;
@@ -2996,6 +3001,16 @@ h2 {
   .footer-bottom {
     margin-top: 50px;
   }
+  .licensesPhotos-block {
+    margin: 0px;
+  }
+  .licensesPhotos-header {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 130px;
+  }
   .container {
     width: 90%;
   }
@@ -3193,6 +3208,10 @@ h2 {
   .err-text {
     font-size: 26px;
   }
+  .licensesPhotos-block {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
   #about {
     scroll-margin-top: 150px;
   }
@@ -3286,6 +3305,16 @@ h2 {
   .contacts-card:last-child {
     margin-bottom: 0;
   }
+  .licensesPhotos-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 80px;
+  }
+  .header-logo__link {
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 680px) {
@@ -3355,7 +3384,7 @@ h2 {
     margin-bottom: 40px;
   }
   .specifics-info__subtitle, .products-subtitle__block, .media-subtitle__block, .photo-title__block, .contacts-subtitle__block,
-  .licenses-subtitle__block, .socrespons-subtitle, .productPage-subtitle {
+  .licenses-subtitle__block, .socrespons-subtitle, .productPage-subtitle, .licenses-subtitle__block {
     margin-bottom: 15px;
   }
 }
@@ -3373,11 +3402,24 @@ h2 {
   .licenses-card__right {
     padding-bottom: 30px;
   }
+  .licenses-card__title-name {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+  }
   .advantage-text {
     font-size: 18px;
   }
   .about-right__tagline {
     font-size: 28px;
+  }
+  .licensesPhotos-block {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .licensesPhotos-button {
+    font-size: 18px;
   }
 }
 
