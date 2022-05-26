@@ -2529,7 +2529,8 @@ h2 {
   font-size: 32px;
   color: #181818;
   margin-top: 40px;
-  width: 440px;
+  max-width: 440px;
+  width: 100%;
 }
 
 .err-button {
@@ -2697,11 +2698,15 @@ h2 {
 
 @media (max-width: 1210px) {
   .header-container {
-    width: 830px;
+    width: 610px;
+    margin-right: 7%;
+  }
+  .header-links {
+    display: none;
   }
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1000px) {
   .header-container {
     position: fixed;
     top: 105px;
@@ -2727,6 +2732,7 @@ h2 {
     transition: all 0.3s ease 0s;
     padding: 30px;
     padding-left: 0;
+    margin-right: 0px;
   }
   .header-submenu {
     display: block;
@@ -3181,8 +3187,17 @@ h2 {
   h3 {
     font-size: 36px !important;
   }
+  .err-title {
+    font-size: 72px !important;
+  }
+  .err-text {
+    font-size: 26px;
+  }
   #about {
     scroll-margin-top: 150px;
+  }
+  .err-img {
+    display: none;
   }
   .grayTitle {
     display: none;
