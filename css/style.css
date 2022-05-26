@@ -1080,12 +1080,6 @@ h2 {
   margin-bottom: 10px;
 }
 
-.product__right-tag:hover {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  color: #7a7a7a;
-}
-
 .product__right-name {
   font-style: normal;
   font-weight: 700;
@@ -1174,12 +1168,6 @@ h2 {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   width: 100%;
-}
-
-.post-categories > li > a:hover {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  color: #7a7a7a;
 }
 
 .post-categories > li {
@@ -2578,6 +2566,9 @@ h2 {
   .container {
     width: 1000px;
   }
+  .licenses-card {
+    max-width: 100%;
+  }
   .photo-container {
     width: 1000px;
   }
@@ -3073,9 +3064,6 @@ h2 {
   }
   .licenses-card__right {
     width: 100%;
-  }
-  .licenses-card {
-    max-width: 100%;
   }
   .productPage-text > p {
     max-width: 100%;
