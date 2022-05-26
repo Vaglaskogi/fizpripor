@@ -1390,6 +1390,7 @@ h2 {
 .photo-container {
   width: 1070px;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 .photo-subtitle {
@@ -2111,8 +2112,7 @@ h2 {
   font-size: 18px;
   color: #181818;
   margin-top: 15px;
-  max-height: 110px;
-  min-height: 110px;
+  height: 103px;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 5;
