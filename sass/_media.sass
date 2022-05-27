@@ -141,7 +141,7 @@
       position: fixed
       top: 105px
       right: -100%
-      width: 100%
+      width: 85%
       max-width: 100%
       height: 100%
       background: #ffffff
@@ -150,36 +150,60 @@
       justify-content: start
       align-items: end
       transition: all 0.3s ease 0s
-      padding: 30px
       padding-left: 0
       margin-right: 0px
+      border-left: 1px solid #cdcdcd
     &-links
       display: flex
 
   .header-submenu
     display: block
-    position: absolute
-    left: 0
     padding: 0
     transition: none
+    opacity: 1
+    visibility: visible
+    position: absolute
+    top: 0
+    border: none
+    transition: 0.3s
+    box-shadow: none
+    margin-top: 0
+    height: 100%
+    width: 100%
+    border-radius: 0px
+    left: 100%
   
   .header-subsubmenu
     border: none
     transition: none
     box-shadow: none
-    padding-left: 20px
-    padding-top: 20px
     margin-left: 0
     width: 100% !important
+    height: 100% !important
+    transition: .3s
+    opacity: 1
+    visibility: visible
+    padding: 0
+    left: 100%
+    top: 0
+
+  .activeSub > .header-subsubmenu
+    transition: .3s
+    left: 0%
+
 
   .header-submenu li
-    padding-right: 0px
+    padding: 0px
 
   .header-submenu__line
     width: 100%
 
-  .header-menu__link > img
+  .header-menu__link > svg
     transition: none
+
+  .header__svgSmall
+    width: 9px
+    height: 12px
 
   .header-submenu__link > svg
     transform: rotate(90deg)
@@ -190,9 +214,13 @@
     transition: none
 
   .header-submenu li > a
-    font-size: 17px
+    font-size: 19px
   .header-submenu li > p
-    font-size: 17px
+    font-size: 19px
+
+  .header-menu__link > svg
+    transform: rotate(-90deg)
+    transition: none
 
   .activeSub .header-menu__link > img
     transform: rotate(-180deg)
@@ -203,35 +231,56 @@
     flex-direction: column
     align-items: start
     width: 100% !important
-    padding-right: 0px
+    border-bottom: 1px solid #cdcdcd !important
+    white-space: normal
+    padding-right: 0 !important
+    &:active
+      background: #f3f3f3
+
+  .header-submenu__link
+    justify-content: start
+    padding: 20px 0px 20px 30px
+
+  .header__svgSmall
+    transform: rotate(0deg) !important
   
   .header-submenu__list-fix
     width: fit-content !important
 
-  .activeSub > .header-submenu
-    position: relative
-    opacity: 1
-    visibility: visible
-    border: none
+  .header-submenu__line
+    display: none
+
+  .header-submenu__textMobile
+    display: block
+    font-size: 24px
+    font-weight: 500
+    padding: 20px 0px 20px 30px
+    border-bottom: 1px solid #cdcdcd
+  
+  .header-submenu__backButton
+    display: block
+    background: #ffffff
+    width: 100%
+    text-align: left
+    color: $accent
+    padding: 20px 0px 20px 30px
     transition: none
-    box-shadow: none
-    margin-top: 0
-    padding-top: 20px
-    padding-left: 10px
+    border-bottom: 1px solid #cdcdcd
+    &:active
+      background: #f3f3f3
+      transition: none
+    &:hover
+      outline: none
+
+  .activeSub > .header-submenu
+    left: 0%
+    
 
   .header-submenu li:last-child
     padding-bottom: 0px
     padding-right: 0px
 
-  .activeSub > .header-subsubmenu
-    position: relative
-    opacity: 1
-    visibility: visible
-    border: none
-    transition: none
-
-  .header-subsubmenu
-    left: 0
+  
 
 
   .header-links__social
@@ -244,17 +293,21 @@
     align-items: start
     margin-right: 0
     height: fit-content
-    padding-left: 30px
   
   .header-menu__link
     font-size: 19px !important
+    display: flex
+    align-items: center
+    padding: 20px 0px 20px 30px
     &:hover
       cursor: pointer
   .header-menu__list
     border-bottom: 1px solid #cdcdcd
-    padding-bottom: 20px
-    padding-top: 20px
     width: 100%
+    position: static
+    height: fit-content
+    &:active
+      background: #f3f3f3
 
   .header-menu__activeLine
     display: none
@@ -271,12 +324,15 @@
     width: 30px
     height: 20px
     z-index: 3
+
+  .header-submenu__list:last-child
+   padding-bottom: 0px
+  .header-submenu__list:nth-last-child(2)
+   padding-bottom: 0px
   
   .header-container.activeMenu
     right: 0%
     transition: all 0.4s ease 0s
-    height: 100%
-    overflow-y: scroll
 
   .header__burger span
     position: absolute
@@ -358,7 +414,7 @@
     &-block
       margin-top: 30px
       flex-direction: column
-      min-height: 520px
+      min-height: 530px
     &-bottom
       margin-top: 50px
 
@@ -591,8 +647,6 @@
   .licensesPhotos-header
     flex-direction: column
     margin-bottom: 80px
-  .header-logo__link
-    margin-bottom: 30px
 
 @media (max-width: 680px)
   h2
@@ -645,7 +699,7 @@
   .socrespons-block, .management-block, .productPage-subtitle, .management-subtitle,
   .socrespons-subtitle, .licenses-subtitle__block, .licenses-subtitle__block, .productPage-subtitle
   .specifics-info__subtitle, .products-subtitle__block, .media-subtitle__block, .photo-title__block, .contacts-subtitle__block,
-  .licenses-subtitle__block, .socrespons-subtitle, .productPage-subtitle, .licenses-subtitle__block
+  .licenses-subtitle__block, .socrespons-subtitle, .productPage-subtitle, .licenses-subtitle__block, .management-subtitle
     margin-bottom: 15px
   // МИКРО
 

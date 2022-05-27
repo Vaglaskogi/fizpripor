@@ -1,5 +1,6 @@
 .header
   width: 100%
+  max-height: 105.2px
   position: fixed
   left: 0
   right: 0
@@ -29,8 +30,6 @@
       margin-left: 10px
     &__list
       list-style-type: none
-    &__link > img
-      transition: .3s
     &__link
       text-decoration: none
       font-style: normal
@@ -39,19 +38,10 @@
       color: #181818
       transition: .3s
       cursor: default
+      line-height: 100%
       &-active
         padding-bottom: 39px
         border-bottom: 3px solid $accent
-      &__alt > img
-        transition: .3s
-      &__alt
-        cursor: pointer !important
-        &:hover
-          filter: invert(37%) sepia(11%) saturate(2107%) hue-rotate(141deg) brightness(94%) contrast(88%)
-          transition: .3s
-        &:hover > img
-            transform: rotate(-180deg)
-            transition: .3s  
   &-links
     display: flex
     align-items: center
@@ -76,3 +66,13 @@
       &:hover
         transform: scale(1.4)
         transition: .3s
+
+.header-menu__link > .header__svg
+  transition: .3s
+.header-menu__link:hover > .header__svg
+  transition: .3s
+  transform: rotate(-180deg)
+.header-menu > li:hover .header__svg
+   transform: rotate(-180deg)
+   transition: 0.3s
+
