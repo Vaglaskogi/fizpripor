@@ -2397,14 +2397,6 @@ button:hover {
   outline: none;
 }
 
-.photopage-photo {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100% !important;
-  height: 100% !important;
-  max-width: 100% !important;
-}
-
 .photopage-line {
   background-color: #D6D6D6;
   height: 1px;
@@ -2412,6 +2404,14 @@ button:hover {
   margin: 40px 0px;
   outline: none;
   border: none;
+}
+
+.photopage-photos > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
 }
 
 .productspage {

@@ -11,14 +11,14 @@
     </div>
     <div class="photopage-block">
       <div class="photopage-photos">
-        <img src="img/photo/photo2.png" alt="" class="photopage-photo">
-        <img src="img/photo/photo2.png" alt="" class="photopage-photo">
-        <img src="img/photo/photo3.png" alt="" class="photopage-photo">
-        <img src="img/photo/photo3.png" alt="" class="photopage-photo">
-        <img src="img/photo/photo1.png" alt="" class="photopage-photo">
-        <img src="img/photo/photo1.png" alt="" class="photopage-photo">
-        <img src="img/photo/photo4.png" alt="" class="photopage-photo">
-        <img src="img/photo/photo4.png" alt="" class="photopage-photo">
+        <img src="img/photo/photo2.png" alt="">
+        <img src="img/photo/photo2.png" alt="">
+        <img src="img/photo/photo3.png" alt="">
+        <img src="img/photo/photo3.png" alt="">
+        <img src="img/photo/photo1.png" alt="">
+        <img src="img/photo/photo1.png" alt="">
+        <img src="img/photo/photo4.png" alt="">
+        <img src="img/photo/photo4.png" alt="">
       </div>
     </div>
     <button class="photopage-load">Загрузить больше ↓</button>
