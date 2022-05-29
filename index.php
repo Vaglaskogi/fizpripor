@@ -275,7 +275,7 @@
     </div>
 </section>
 
-<section class="contacts air" data-aos="fade-right" data-aos-duration="1500" data-aos-once='true'>
+<section class="contacts air">
     <div class="container">
         <h2 class="grayTitle">Контакты</h2>
         <div class="contacts-subtitle__block">

@@ -518,7 +518,8 @@ button:hover {
   width: 100px;
   height: 100px;
   text-align: center;
-  /* animation: preloader-rotate 2s infinite linear; */
+  -webkit-animation: preloader-rotate 2s infinite linear;
+          animation: preloader-rotate 2s infinite linear;
 }
 
 @-webkit-keyframes preloader-rotate {

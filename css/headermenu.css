@@ -159,7 +159,7 @@ body._pc .header-submenu > li:hover .header-subsubmenu {
 .header-menu__activeLine {
    position: absolute;
    width: 100%;
-   margin-top: 40px;
+   margin-top: 41px;
    border-bottom: 3px solid #2e6c77;
 }
 
