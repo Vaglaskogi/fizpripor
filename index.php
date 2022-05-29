@@ -140,7 +140,7 @@
             <h3 class="products-subtitle"><span class="accent600">Наша</span> продукция</h3> <a href="productspage.php" class="title-link products-subtitle__link">Вся продукция →</a>
         </div>
         <div class="products-block">
-            <div class="product">
+            <div class="product hideCardMainPage">
                 <a href="ktsnpl.php" class="product-img__link"><img src="img/product.svg" alt="" class="product-img" /></a>
                 <div class="product__right">
                     <a href="productspage.php"><p class="product__right-tag">Непрограммируемые средства автоматизации </p></a>
@@ -154,7 +154,7 @@
                     <a href="ktsnpl.php" class="product__right-button">Подробнее</a>
                 </div>
             </div>
-            <div class="product">
+            <div class="product hideCardMainPage">
                 <a href="ktsnpl.php" class="product-img__link"><img src="img/product.svg" alt="" class="product-img" /></a>
                 <div class="product__right">
                     <a href="productspage.php"><p class="product__right-tag">Непрограммируемые средства автоматизации </p></a>
@@ -168,7 +168,7 @@
                     <a href="ktsnpl.php" class="product__right-button">Подробнее</a>
                 </div>
             </div>
-            <div class="product">
+            <div class="product hideCardMainPage">
                 <a href="ktsnpl.php" class="product-img__link"><img src="img/product.svg" alt="" class="product-img" /></a>
                 <div class="product__right">
                     <a href="productspage.php"><p class="product__right-tag">Непрограммируемые средства автоматизации </p></a>
@@ -194,7 +194,7 @@
                 <a href="news.php" class="title-link media-subtitle__link">Читать все новости →</a>
             </div>
             <div class="news-block">
-                <div class="news">
+                <div class="news hideCardMainPage">
                     <div class="news-left">
                         <p class="news-date">30.07.2019</p>
                         <a href="https://www.atomic-energy.ru/news/2019/07/30/96533" class="news-title__link">
@@ -211,7 +211,7 @@
                         <a href="https://www.atomic-energy.ru/news/2019/07/30/96533" class="news-img__link"><img src="img/news-4.png" alt="" class="news-img" /></a>
                     </div>
                 </div>
-                <div class="news">
+                <div class="news hideCardMainPage">
                     <div class="news-left">
                         <p class="news-date">16.01.2020</p>
                         <a href="http://xn----8sbancyabljpnebm2aiit6frfsd.xn--p1ai/na-ploshhadke-zavoda-fizpribor-v-gorodskom-okruge-podolsk-obsudili-razvitie-neftegazovogo-mashinostroeniya/amp/" class="news-title__link">
@@ -229,7 +229,7 @@
                     </div>
                 </div>
 
-                <div class="news">
+                <div class="news hideCardMainPage">
                     <div class="news-left">
                         <p class="news-date">14.01.2020</p>
                         <a href="https://minpromtorg.gov.ru/press-centre/news/#!na_ploshhadke_zavoda_fizpribor_obsudili_razvitie_neftegazovogo_mashinostroeniya" class="news-title__link">

@@ -3,13 +3,11 @@
   <div class="container">
     <h2 class="grayTitle">МЕДИА</h2>
     <h3 class="photopage-subtitle-alt"><span class="accent600">Фото</span> завода</h3>
-    <div class="photopage-accordeon">
     <div id="accordeon">
-        <button class="headAcord">ЗАГОЛОВОК АККОРДЕОНА ↓</button>
-        <p class="hiddenAcord">
-          ТЕКСТ АККОРДЕОНА
-        </p>
-    </div>
+      <button class="headAcord">ЗАГОЛОВОК АККОРДЕОНА ↓</button>
+      <p class="hiddenAcord">
+        ТЕКСТ АККОРДЕОНА
+      </p>
     </div>
     <div class="photopage-block">
       <div class="photopage-photos">
