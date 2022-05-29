@@ -347,6 +347,7 @@ template {
   font-family: "Golos";
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 
 h1 {
@@ -359,7 +360,6 @@ h2 {
 
 a {
   text-decoration: none;
-  -webkit-tap-highlight-color: transparent;
 }
 
 img {
