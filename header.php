@@ -32,7 +32,7 @@
     <div class="header-container">
       <ul class="header-menu">
         <!-- Главная -->
-        <li class="header-menu__list"><a href="index.php" class="header-menu__link">Главная</a></li>
+        <li class="header-menu__list"><a href="index.php" class="header-menu__link header-menu__link__alt">Главная</a></li>
         <!-- Компания -->
         <li class="header-menu__list">
           <p class="header-menu__link">Компания <svg class="header__svg" width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +47,7 @@
             <li class="header-submenu__list"><a href="management.php" class="header-submenu__link">Системы менеджмента</a></li>
             <div class="header-submenu__line"></div>
             <li class="header-submenu__list"><a href="soc-respons.php" class="header-submenu__link">Социальная ответственность</a></li>
-            <button class="header-submenu__backButton">🠔 Назад</button>
+            <button class="header-submenu__backButton">← Назад</button>
           </ul>
         </li>
         <!-- Продукция -->
@@ -71,7 +71,7 @@
                 <li class="header-submenu__list"><a href="#" class="header-submenu__link">УКТС</a></li>
                 <div class="header-submenu__line"></div>
                 <li class="header-submenu__list"><a href="#" class="header-submenu__link">УДУ</a></li>
-                <button class="header-submenu__backButton">🠔 Назад</button>
+                <button class="header-submenu__backButton">← Назад</button>
               </ul>
             </li>
             <div class="header-submenu__line"></div>
@@ -84,7 +84,7 @@
                 <h4 class="header-submenu__textMobile">Программируемые <br />
                 средства автоматизации </h4>
                 <li class="header-submenu__list"><a href="#" class="header-submenu__link">ПТК САУ</a></li>
-                <button class="header-submenu__backButton">🠔 Назад</button>
+                <button class="header-submenu__backButton">← Назад</button>
               </ul>
             </li>
             <div class="header-submenu__line"></div>
@@ -97,12 +97,12 @@
               <ul class="header-subsubmenu">
                 <h4 class="header-submenu__textMobile">Малая автоматизация</h4>
                 <li class="header-submenu__list"><a href="#" class="header-submenu__link">fimatic-c</a></li>
-                <button class="header-submenu__backButton">🠔 Назад</button>
+                <button class="header-submenu__backButton">← Назад</button>
               </ul>
             </li>
             <div class="header-submenu__line"></div>
             <li class="header-submenu__list"><a href="productspage.php" class="header-submenu__link">Вся продукция</a></li>
-            <button class="header-submenu__backButton">🠔 Назад</button>
+            <button class="header-submenu__backButton">← Назад</button>
           </ul>
         </li>
         <!-- Медиа -->
@@ -117,7 +117,7 @@
             <li class="header-submenu__list"><a href="news.php" class="header-submenu__link">Новости</a></li>
             <div class="header-submenu__line"></div>
             <li class="header-submenu__list"><a href="photopage.php" class="header-submenu__link">Фотографии</a></li>
-            <button class="header-submenu__backButton">🠔 Назад</button>
+            <button class="header-submenu__backButton">← Назад</button>
           </ul>
         </li>
         <!-- Контакты -->

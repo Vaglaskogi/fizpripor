@@ -641,6 +641,13 @@ button:hover {
   border-bottom: 3px solid #2E6C77;
 }
 
+.header-menu__link__alt:hover {
+  color: #2E6C77;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
 .header-links {
   display: -webkit-box;
   display: -ms-flexbox;

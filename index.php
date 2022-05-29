@@ -251,7 +251,7 @@
     </div>
 </section>
 
-<section class="photo air" data-aos="fade-up" data-aos-duration="1500" data-aos-once='true'>
+<section class="photo air"  >
     <div class="container">
 
         <div class="photo-container">
@@ -306,6 +306,3 @@
     </div>
 </section>
 <?php include('footer.php'); ?>
-
-</div>
-</div>
