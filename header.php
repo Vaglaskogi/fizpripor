@@ -13,7 +13,7 @@
   <!-- Стили для хедера -->
   <link rel="stylesheet" href="css/headermenu.css">
   <!-- Шрифты -->
-  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="preload" href="css/fonts.css" as="font" type="font/woff2" crossorigin/>
   <!-- Основные стили -->
   <link rel="stylesheet" href="css/style.css" />
   <title>Официальный сайт Московского завода ФИЗПРИБОР</title>
