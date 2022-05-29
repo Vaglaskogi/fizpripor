@@ -13,9 +13,10 @@
   <!-- Стили для хедера -->
   <link rel="stylesheet" href="css/headermenu.css">
   <!-- Шрифты -->
-  <link rel="preload" href="css/fonts.css" as="font" type="font/woff2" crossorigin/>
+  <link rel="preload" href="fonts/Golos-Text_Regular.woff2" as="font" type="font/woff2" crossorigin/>
+  <link rel="stylesheet" type="text/css" href="css/fonts.css" as="style"/>
   <!-- Основные стили -->
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css" as="style"/>
   <title>Официальный сайт Московского завода ФИЗПРИБОР</title>
 </head>
 <body>
