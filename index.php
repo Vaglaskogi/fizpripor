@@ -1,3 +1,5 @@
+
+
 <?php include('header.php'); ?>
 
 <section class="main air" data-aos="fade" data-aos-duration="1500" data-aos-once='true'>
@@ -278,48 +280,32 @@
         <h2 class="grayTitle">Контакты</h2>
         <div class="contacts-subtitle__block">
             <h3 class="contacts-subtitle"><span class="accent600">Где мы</span> находимся?</h3>
-            <a href="contacts.php" class="contacts-subtitle__link subtitile-link">Наши контакты →</a>
+            <a href="contacts.php" class="contacts-subtitle__link subtitile-link title-link">Наши контакты →</a>
         </div>
-        <div id="slideBlock" class="maps-block">
+        <div class="contacts-mapsBlock">
             <div class="contacts-block">
-                <div class="contacts-address">
-                    <p class="contacts-block__title contacts-block__title">Обособленное подразделение:</p>
-                    <div class="contacts-flex">
-                        <div class="contacts-address__block">
-                            <img src="img/point.png" alt="" class="contacts-address__img" />
-                            <p class="contacts-address__text">
-                                Россия, Московская область, г. Подольск, ул. Парковая 2, Индекс: 142110
-                            </p>
-                        </div>
-                        <button id="right" class="contacts-link">Юридический адрес →</button>
-                    </div>
-                </div>
+               <div class="contacts-block__adress">
+                   <p class="contacts-block__adress-title">Обособленное подразделение:</p>
+                   <p class="contacts-block__adress-text">
+                   <svg class="contacts-block__adress-svg"  viewBox="0 0 22 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.99413 0.151043C6.54996 0.686094 4.54243 1.78277 2.98115 3.43593C0.902346 5.63704 -0.297066 9.06314 0.0636415 11.7696C0.519307 15.1876 3.77703 21.3554 8.96617 28.6243C10.7192 31.0801 10.9156 31.256 11.3981 30.8032C11.9917 30.2461 16.0693 24.2595 17.6333 21.6486C18.7682 19.7542 20.4166 16.5606 20.9408 15.2407C21.8663 12.9102 22.1388 11.4087 21.9374 9.74919C21.3584 4.97659 17.9161 1.19128 13.253 0.199243C12.1043 -0.0450558 9.99877 -0.0689135 8.99413 0.151043ZM12.4782 5.40855C14.5257 6.06716 15.8369 8.31996 15.4348 10.4886C15.2184 11.6565 14.3686 12.8732 13.323 13.5124C11.8509 14.4124 9.72321 14.2992 8.31291 13.2459C6.81853 12.1299 6.14605 10.1557 6.67162 8.42761C7.43624 5.91296 9.96275 4.59933 12.4782 5.40855Z" fill="#2E6C77"/>
+                    </svg>Россия, Московская область, г. Подольск,<br>ул. Парковая 2, Индекс: 142110 </p>
+               </div>
+               <div class="contacts-block__adress">
+                   <p class="contacts-block__adress-title">Юридический адрес:</p>
+                   <p class="contacts-block__adress-text">
+                   <svg class="contacts-block__adress-svg"  viewBox="0 0 22 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.99413 0.151043C6.54996 0.686094 4.54243 1.78277 2.98115 3.43593C0.902346 5.63704 -0.297066 9.06314 0.0636415 11.7696C0.519307 15.1876 3.77703 21.3554 8.96617 28.6243C10.7192 31.0801 10.9156 31.256 11.3981 30.8032C11.9917 30.2461 16.0693 24.2595 17.6333 21.6486C18.7682 19.7542 20.4166 16.5606 20.9408 15.2407C21.8663 12.9102 22.1388 11.4087 21.9374 9.74919C21.3584 4.97659 17.9161 1.19128 13.253 0.199243C12.1043 -0.0450558 9.99877 -0.0689135 8.99413 0.151043ZM12.4782 5.40855C14.5257 6.06716 15.8369 8.31996 15.4348 10.4886C15.2184 11.6565 14.3686 12.8732 13.323 13.5124C11.8509 14.4124 9.72321 14.2992 8.31291 13.2459C6.81853 12.1299 6.14605 10.1557 6.67162 8.42761C7.43624 5.91296 9.96275 4.59933 12.4782 5.40855Z" fill="#2E6C77"/>
+                    </svg>
+                   Россия, Москва, ул. Нижняя Красносельская, д. 40/12, корпус 20, 7 этаж, офис 729, Индекс: 105066</p>
+               </div>
             </div>
-
-            <iframe class="contacts-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2263.808588715092!2d37.51689762365147!3d55.431131718087734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414aa8330f9ff045%3A0x45eca8cacd987226!2z0J7QntCeICLQnNC-0YHQutC-0LLRgdC60LjQuSDQt9Cw0LLQvtC0ICLQpNCY0JfQn9Cg0JjQkdCe0KAi!5e0!3m2!1sru!2sru!4v1649699938590!5m2!1sru!2sru" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        </div>
-        <div id="slideBlock2" class="maps-block hidden">
-            <div class="contacts-block">
-                <div class="contacts-address">
-                    <p class="contacts-block__title-off">Юридический адрес:</p>
-                    <div class="contacts-flex__off">
-                        <div class="contacts-address__block contacts-address__block-off">
-                            <img src="img/point.png" alt="" class="contacts-address__img" />
-                            <p class="contacts-address__text-sep">
-                                Россия, Москва, ул. Нижняя Красносельская, д. 40/12, корпус 20, 7 этаж, офис 729, Индекс:
-                                105066
-                            </p>
-                        </div>
-                        <button id="left" class="contacts-link contacts-link-ob">← Обособленное подразделение</button>
-                    </div>
-                </div>
-            </div>
-
-            <iframe class="contacts-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1122.052935036229!2d37.670998497359435!3d55.77403308938115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a8026721307%3A0x5eefce44c820a7a9!2z0J3QuNC20L3Rj9GPINCa0YDQsNGB0L3QvtGB0LXQu9GM0YHQutCw0Y8g0YPQuy4sIDQwLzEyLCDQutC-0YDQv9GD0YEgMjAsIDcg0Y3RgtCw0LYsINC-0YTQuNGBIDcyOSwg0JzQvtGB0LrQstCwLCAxMDUwNjY!5e0!3m2!1sru!2sru!4v1649774615701!5m2!1sru!2sru" width="1070" height="654" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
-
+            <iframe class="contacts-maps"  src="https://yandex.ru/map-widget/v1/?um=constructor%3A4b3881684a2989b166657b1440ee044d0d4f71a4659c6779d42c1080736161b5&amp;source=constructor" width="1070" height="654" frameborder="0"></iframe>
         </div>
     </div>
     </div>
 </section>
 <?php include('footer.php'); ?>
+
+</div>
+</div>

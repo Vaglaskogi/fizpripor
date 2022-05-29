@@ -2,7 +2,7 @@
   &-flex
     display: flex
     justify-content: space-between
-    max-width: 1122px
+    max-width: 1070px
     width: 100%
     align-items: end
     &__off
@@ -12,13 +12,36 @@
       max-width: 1122px
       width: 100%
       flex-direction: row-reverse
+  &-block
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 20px
+    &__adress
+      max-width: 50%
+      width: 100%
+      &-title
+        color: $accent
+        font-weight: 500
+        font-size: 20px
+        margin-bottom: 10px
+      &-svg
+        min-width: 22px
+        height: 31px
+        margin-right: 15px
+      &-text
+        font-weight: 400
+        font-size: 18px
+        display: flex
+        align-items: center
   &-maps
     border-radius: 10px
-    margin-top: 20px
     width: 100%
-    height: 654px
+    height: 650px
     max-width: 1070px
+  &-mapsBlock
     margin-left: 110px
+    margin-right: 110px
   &-subtitle
     font-style: normal
     font-weight: 600
@@ -43,73 +66,3 @@
       &:hover
         color: $accent
         transition: .3s
-  &-block
-    margin-left: 58px
-    
-    display: flex
-    &__title
-      font-style: normal
-      font-weight: 500
-      font-size: 18px
-      color: $accent
-      margin-left: 50px
-      margin-bottom: 10px
-      &-off
-        font-style: normal
-        margin-right: 110px
-        font-weight: 500
-        font-size: 18px
-        color: $accent
-        margin-left: 50px
-        margin-bottom: 10px
-        text-align: right
-        right: 0
-  &-address
-    width: 100%
-    &__img
-      width: 22px
-      height: 31px
-    &__block
-      display: flex
-      align-items: center
-      justify-content: space-between
-      max-width: 530px
-      width: 100%
-      &-off
-        flex-direction: row-reverse
-        margin-right: -40px
-    &__text
-      font-style: normal
-      font-weight: 400
-      font-size: 18px
-      color: $text
-      max-width: 480px
-      width: 100%
-      &-sep
-        margin-right: 20px
-        text-align: right
-  &-link
-    font-style: normal
-    font-weight: 500
-    font-size: 18px
-    color: $accent
-    text-decoration: none
-    background-color: inherit
-    transition: 0.3s
-    &-ob
-      margin-left: 55px
-    &:hover
-      outline: none
-      color: #7a7a7a
-      transition: 0.3s
-  &-question
-    font-style: normal
-    font-weight: 500
-    font-size: 18px
-    color: #181818
-    margin-top: 60px
-    margin-left: 110px
-  &-button
-    padding: 12px 25px
-    margin-top: 20px
-    margin-left: 110px

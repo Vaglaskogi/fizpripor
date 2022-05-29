@@ -50,33 +50,20 @@
     </div>
 </footer>
 
-
-
-<script>
-  document.addEventListener( 'DOMContentLoaded', function() {
-    var splide = new Splide( '.splide', {
-  perPage: 1,
-  rewind : true,
-} );
-
-splide.mount();    
-  } );
-</script>
-<script src="js/burgerMenu.js"></script>
+<!-- Анимации при скролле. Обязательно сверху -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="/js/splide.min.js"></script>
-<script src="/js/scriptForSwipeCard.js"></script>
-<script src="js/swiper-bundle.min.js"></script>
-<script src="js/сheckForMobile.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<!-- Слайдер фото -->
+<script src="js/splide.min.js"></script>
+<!-- Прочее -->
+<script src="js/scriptForSwipeCard.js"></script>
 <script src="js/lightzoom.js"></script>
-<script src="js/accordeon.js"></script>
-<script src="js/smoothScroll.js"></script>
 <script src="js/activePage.js"></script>
-<script src="js/mobile-menu.js"></script>
-<script src="js/main.js"></script>
-
-
+<script src="js/smoothScroll.js"></script>
+<!-- Адаптив меню -->
+<script src="js/burgerMenu.js"></script>
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<!-- Основные скрипты -->
+<script src="js/main.js"></script> 
 </body>
-
 </html>

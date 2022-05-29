@@ -3,6 +3,7 @@
     display: none
     &-form
       display: none
+
 @media (max-width: 1540px)
   .footer-bg
     margin-left: -184px
@@ -43,6 +44,9 @@
   .about-advantage
     width: 100%
   
+  .photopage-photos
+    grid-auto-rows: 435px
+
   .productPage-block__img
     margin-right: 0
 
@@ -70,8 +74,9 @@
     margin-left: 0
   .contacts-block
     margin-left: 0
-  .contacts-maps
+  .contacts-mapsBlock
     margin-left: 0
+    margin-right: 0
 
   .productspage-subtitle
     margin-left: 0
@@ -98,6 +103,8 @@
     &-subtitle
       margin-left: 0
 
+  .licensesPhotos-block
+    margin: 0
   .licenses-subtitle__block
     margin-left: 0
   .licenses-links
@@ -135,7 +142,8 @@
     &-links
       display: none
 
-@media (max-width: 1000px)
+// МОБИЛЬНОЕ МЕНЮ
+@media (max-width: 1100px)
   .header
     &-container
       position: fixed
@@ -191,6 +199,12 @@
     transition: .3s
     left: 0%
 
+  .header-menu__link:hover > .header__svg
+    transform: rotate(180deg)
+  .header-menu > li:hover .header__svg
+    transform: rotate(-90deg)
+  body._pc .header-submenu > li:hover .header__svgSmall
+   transform: rotate(0deg)
 
   .header-submenu li
     padding: 0px
@@ -226,7 +240,6 @@
     transform: rotate(-180deg)
     transition: none
 
-  
   .header-submenu__list
     flex-direction: column
     align-items: start
@@ -240,6 +253,9 @@
   .header-submenu__link
     justify-content: start
     padding: 20px 0px 20px 30px
+  
+  .header-submenu li > p
+    cursor: pointer
 
   .header__svgSmall
     transform: rotate(0deg) !important
@@ -274,14 +290,10 @@
 
   .activeSub > .header-submenu
     left: 0%
-    
-
+  
   .header-submenu li:last-child
     padding-bottom: 0px
     padding-right: 0px
-
-  
-
 
   .header-links__social
     display: flex
@@ -324,6 +336,7 @@
     width: 30px
     height: 20px
     z-index: 3
+    cursor: pointer
 
   .header-submenu__list:last-child
    padding-bottom: 0px
@@ -394,6 +407,14 @@
     &-container
   .footer-bg
     margin-left: -184px
+  .contacts-block
+    flex-direction: column
+    align-items: start
+  .contacts-block__adress
+    margin-bottom: 15px
+    max-width: 100%
+    &:last-child
+      margin-bottom: 0
 
 @media (max-width: 1100px)
   h1
@@ -404,6 +425,9 @@
   .photo
     &-container
       width: 100%
+
+  .photopage-photos
+    grid-template-columns: 1fr 1fr
 
   .footer
     padding-top: 50px
@@ -441,11 +465,6 @@
   .productspage-button
     padding-top: 25px
     padding-bottom: 25px 
-  
-
-  .contacts-link-ob
-    margin-left: 0px !important
-    text-align: right !important
 
   .main
     &-container
@@ -531,22 +550,6 @@
     max-height: 600px !important
   .contacts-block__title
     margin-left: 0
-  .contacts-flex
-    flex-direction: column
-    align-items: start
-  .contacts-address__block
-    margin-left: 0
-  .contacts-link
-    margin-top: 30px
-  .contacts-flex__off
-    flex-direction: column
-    align-items: end
-  .contacts-address__block__off
-    margin-left: 0
-  .contacts-link__off
-    margin-top: 30px
-  .contacts-address__block-off
-    margin-right: 0
 
   .socrespons
     &-block
@@ -567,6 +570,9 @@
   h3
     font-size: 36px !important
 
+  .photopage-photos
+    grid-auto-rows: 355px
+
   .err-title
     font-size: 72px !important
   
@@ -582,6 +588,9 @@
   .err-img
     display: none
 
+  .photopage-photos
+    grid-template-columns: 1fr
+
   .grayTitle
     display: none
 
@@ -591,6 +600,9 @@
     margin-left: 0
     padding-left: 0
     border: none
+
+  .headAcord
+    font-size: 26px
   
   .news-img
     width: 300px !important
@@ -647,6 +659,8 @@
   .licensesPhotos-header
     flex-direction: column
     margin-bottom: 80px
+  .licensesPhotos-button
+    margin-top: 30px
 
 @media (max-width: 680px)
   h2
@@ -679,8 +693,6 @@
 
   .title-link
     margin-top: 15px
-  .contacts-address__text
-    margin-left: 10px
   
   .header-links
     flex-direction: column
@@ -694,12 +706,19 @@
 
   .productPage-block
     margin-bottom: 40px
+  
+  .photopage-photos
+    margin-top: 15px
+
+  .photopage-photos
+    grid-gap: 15px
 
   // МИКРО ОТСТУП
   .socrespons-block, .management-block, .productPage-subtitle, .management-subtitle,
   .socrespons-subtitle, .licenses-subtitle__block, .licenses-subtitle__block, .productPage-subtitle
   .specifics-info__subtitle, .products-subtitle__block, .media-subtitle__block, .photo-title__block, .contacts-subtitle__block,
-  .licenses-subtitle__block, .socrespons-subtitle, .productPage-subtitle, .licenses-subtitle__block, .management-subtitle
+  .licenses-subtitle__block, .socrespons-subtitle, .productPage-subtitle, .licenses-subtitle__block, .management-subtitle,
+  .photopage-subtitle-alt
     margin-bottom: 15px
   // МИКРО
 
@@ -725,6 +744,20 @@
 
   .licensesPhotos-button
     font-size: 18px
+  
+
+  .headAcord > svg
+    margin-left: 15px
+    width: 16px
+    height: 11px
+    margin-top: 3px
+  
+  .headAcord
+    padding-left: 7%
+    font-size: 20px
+  .hiddenAcord
+    margin: 0px 7%
+    font-size: 16px
 
 
 @media (max-width: 480px)

@@ -1,14 +1,19 @@
-let header__burger = document.querySelector(".header__burger");
-let header_menu = document.querySelector(".header-container");
+let header__burger = document.querySelector(".header__burger"); // Кнопка меню
+let header_menu = document.querySelector(".header-container"); // Содержимое хедера
+let header_submenu = document.querySelectorAll(".header-submenu"); // Элементы содержимого
+let header_subsubmenu = document.querySelectorAll(".header-subsubmenu"); // Подэлементы содержимого
+let header_menu__link = document.querySelectorAll(".header-menu__link"); // Ссылки
+let backButtons = document.getElementsByClassName("header-submenu__backButton"); // Кнопка возврата
+let back = document.querySelector("body"); //
 
-let header_submenu = document.querySelectorAll(".header-submenu");
-let header_subsubmenu = document.querySelectorAll(".header-subsubmenu");
-let header_menu__link = document.querySelectorAll(".header-menu__link");
+// Скрипт для кнопки меню и блок body
+header__burger.onclick = function () {
+   header__burger.classList.toggle("activeMenu");
+   header_menu.classList.toggle("activeMenu");
+   back.classList.toggle("lock");
+};
 
-let backButtons = document.getElementsByClassName("header-submenu__backButton");
-
-let back = document.querySelector("body");
-
+// Скрипт для кнопок хедера
 const listArray = [...document.querySelectorAll(".header-menu__link")];
 listArray.shift(1);
 listArray.pop(1);
@@ -18,22 +23,17 @@ for (let i = 0; i < listArray.length; i++) {
    };
 }
 
+// Скрипт для кнопок подэлементов хедера
 const listArraySub = [...document.querySelectorAll(".header-menu__list")];
 let productChild = listArraySub[2].lastElementChild;
 let subMenuSubList = productChild.querySelectorAll("p");
-console.log(subMenuSubList);
 for (let i = 0; i < subMenuSubList.length; i++) {
    subMenuSubList[i].onclick = function () {
       header_subsubmenu[i].parentElement.classList.toggle("activeSub");
    };
 }
 
-header__burger.onclick = function () {
-   header__burger.classList.toggle("activeMenu");
-   header_menu.classList.toggle("activeMenu");
-   back.classList.toggle("lock");
-};
-
+// Скрипт для кнопки Назад
 for (let i = 0; i < backButtons.length; i++) {
    backButtons[i].onclick = function () {
       let backButtonsParent = backButtons[i].parentElement.parentElement;
