@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/headermenu.css">
   <!-- Шрифты -->
   <link rel="preload" href="fonts/Golos-Text_Regular.woff2" as="font" type="font/woff2" crossorigin/>
-  <link rel="stylesheet" type="text/css" href="css/fonts.css" as="font"/>
+  <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
   <!-- Основные стили -->
   <link rel="stylesheet" href="css/style.css" as="style"/>
   <title>Официальный сайт Московского завода ФИЗПРИБОР</title>
