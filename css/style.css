@@ -1952,7 +1952,7 @@ button:hover {
 }
 
 .contacts-card__img {
-  height: 161px;
+  min-height: 161px;
 }
 
 .contacts-card__title {
