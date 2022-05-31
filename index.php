@@ -21,7 +21,12 @@
 </section>
 <section class="video air" data-aos="fade-up" data-aos-once='true'>
     <div class="video-block container">
-        <iframe class="video-size" src="https://www.youtube.com/embed/_Q2GOVXnYFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <video class="video-size" autoplay="" loop="" muted="muted" playsinline="" controlslist="nodownload">
+                <source src="videos/Video.webm" type='video/webm; codecs="vp8, vorbis"'>
+                <source src="videos/Video.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                <source src="videos/Video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                Тег video не поддерживается вашим браузером.
+        </video>
     </div>
 </section>
 <section class="about air" id="about">
